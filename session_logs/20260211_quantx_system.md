@@ -52,22 +52,31 @@ Slimmed from ~850 lines to ~180 lines. Historical content moved to `PROJECT_ARCH
 - SSH test: `Hi jaszzzsg! You've successfully authenticated`
 - First push complete: `git push -u origin main` → `github.com/jaszzzsg/quantx-vps` ✅
 
+### [DONE] 2021 DIX fetch — diagnosed crash + restarted
+**Problem:** PID 2610294 died Feb 10 ~22:45 UTC — IBKR gateway (port 4002) was DOWN. chunk_2021.csv has 49 clean days (20210104→20210311, 96.6% coverage ✅) but last day 20210312 has only 21.3% coverage ❌ (135/635 tickers — fetch died mid-day).
+**Action:** Started new part file from 20210312 using Client ID 83.
+**New PID:** 2675397
+**Output file:** `data/dix/history/chunk_2021_part2_20210312_20211231.csv`
+**Coverage at start:** Day 1/211 processing cleanly (635 syms, gateway connected ✅)
+
 ---
 
 ## Next Steps
-- [ ] Monitor tomorrow's 1:30 PM ET run — Bear Call should now pass RF gate (prob=0.373 > thr=0.10) and attempt IB connection
+- [ ] Monitor 2021 Part 2 fetch: PID 2675397 — covers 20210312→20211231 (211 days)
+- [ ] When Part 2 completes: verify ≥80% close coverage → merge Part 1 + Part 2 → start 2022 fetch (Client ID 84)
+- [ ] Monitor tomorrow's 1:30 PM ET strategy run — Bear Call should now pass RF gate
 - [ ] If SPX snapshot still returns NaN, check paper account market data subscription in TWS
-- [ ] 2021 DIX fetch: check if PID 2610294 still running (`ps -p 2610294`)
-- [ ] After each session: run `cd /root/projects && ./git-sync.sh "session summary"` to push to GitHub
+- [ ] After each session: `cd /root/projects && ./git-sync.sh "session summary"`
 
 ---
 
 ## Active Processes to Check Next Session
 | Process | PID | Command |
 |---------|-----|---------|
-| 2021 DIX fetch | 2610294 | Client ID 82, 20210104→20211231 |
+| 2021 DIX fetch Part 2 | 2675397 | Client ID 83, 20210312→20211231, chunk_2021_part2_*.csv |
 
 ## Key Numbers This Session
 - RF prob today: 0.373 (regime R4)
 - Strategy RF threshold: 0.10 (trial mode)
 - Paper account: DUP148773
+- 2021 Part 1: 49 days, 20210104→20210311, 96.6% coverage

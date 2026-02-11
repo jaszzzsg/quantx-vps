@@ -27,7 +27,8 @@
 |-------|------------|--------|-------|
 | 2020 Apr–Dec | 20200417→20201231 | ✅ COMPLETE | 129,251 rows, 97.77% coverage |
 | **2020 Jan–Apr** | **20200101→20200416** | **⚠️ MUST REFETCH** | **Overwritten — fetch after 2021 done. New part file, Client ID 83+** |
-| 2021 | 20210104→20211231 | 🚀 RUNNING | PID 2610294, Client ID 82, started Feb 10 17:10 UTC |
+| 2021 Part 1 | 20210104→20210311 | ✅ PARTIAL | 49 days, 96.6% coverage — PID 2610294 died Feb 10 (gateway down) |
+| 2021 Part 2 | 20210312→20211231 | 🚀 RUNNING | PID 2675397, Client ID 83, started Feb 11 UTC |
 | 2022 | 20220103→20221230 | ⏳ PENDING | Start after 2021 complete, Client ID 83 |
 | 2023–2025 | TBD | ⏳ PENDING | Lower priority |
 
