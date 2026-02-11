@@ -1,31 +1,35 @@
 # QuantX Project Archive
-**Historical reference — not required reading every session. Read when you need deep context.**
-*For current status and rules, see PROJECT_OVERVIEW.md*
+**Living roadmap + detailed reference. Read when you need deep context on a specific component.**
+*For current status, rules, and session start instructions, see PROJECT_OVERVIEW.md*
+*Last roadmap update: 2026-02-11*
 
 ---
 
 # ROADMAP
+**Keep this current — mark ✅ DONE (with date) as items complete. Add new items as they arise.**
 
 ## Priority 1: ARM Regime Validation (Target: Before Aug 2026)
 | Task | Status |
 |------|--------|
 | ARM Backtest (1,533 days) | ✅ DONE 2026-02-08 |
 | Fix Regime Definitions V2 | ✅ DONE 2026-02-08 |
-| Bear Call RF Threshold backtest | 🔵 NEXT |
+| Strategy bug fixes (rf_prob, SPX NaN, subscription leak) | ✅ DONE 2026-02-11 |
+| Bear Call RF Threshold backtest per regime | 🔵 NEXT |
 | R4 Bull Put RF Threshold backtest | 🔵 NEXT |
-| VIX Speed Signal (day-over-day change) | 🔴 NOT STARTED — target before Feb 2027 |
+| VIX Speed Signal (day-over-day change as secondary panic detector) | 🔴 NOT STARTED — target before Feb 2027 |
 
 ## Priority 2: DIX Ratio Per Regime (Target: Before Aug 2026)
 - Calculate DIX ratio behavior per ARM regime
-- Need full 6Y DIX data first (2020–2025)
+- Needs full 6Y DIX data first (2020–2025)
 
 ## Priority 3: 6Y Historical Data Completion (Target: Before Mar 2026)
-| Chunk | Status |
-|-------|--------|
-| 2020 | ✅ COMPLETE — 129,251 rows, 97.77% coverage |
-| 2021 | 🚀 RUNNING — PID 2610294, Client ID 82 |
-| 2022 | ⏳ PENDING — start after 2021 complete, Client ID 83 |
-| 2023–2025 | ⏳ PENDING |
+| Chunk | Date Range | Status | Notes |
+|-------|------------|--------|-------|
+| 2020 Apr–Dec | 20200417→20201231 | ✅ COMPLETE | 129,251 rows, 97.77% coverage |
+| **2020 Jan–Apr** | **20200101→20200416** | **⚠️ MUST REFETCH** | **Overwritten — fetch after 2021 done. New part file, Client ID 83+** |
+| 2021 | 20210104→20211231 | 🚀 RUNNING | PID 2610294, Client ID 82, started Feb 10 17:10 UTC |
+| 2022 | 20220103→20221230 | ⏳ PENDING | Start after 2021 complete, Client ID 83 |
+| 2023–2025 | TBD | ⏳ PENDING | Lower priority |
 
 ### 6Y Fetch Commands
 ```bash

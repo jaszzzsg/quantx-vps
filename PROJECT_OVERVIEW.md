@@ -10,11 +10,18 @@
 4. Ask user what to work on (or continue from session log's Next Steps)
 
 ## Session Log System
-- **Location:** `/root/projects/session_logs/YYYYMMDD_quantx.md`
-- **One file per day** — append if multiple sessions on same day
-- **At session start:** read latest log for full context on what was done and what's next
+- **Location:** `/root/projects/session_logs/YYYYMMDD_<project>.md`
+- **Naming:** `<project>` = the component being worked on that session:
+  - `quantx_dix` — DIX pipeline work
+  - `quantx_arm` — ARM regime work
+  - `quantx_strategies` — 0DTE strategy work
+  - `quantx_system` — cross-cutting (git, infra, multi-component)
+  - Same day + same project = append to existing file
+- **At session start:** run `ls -t /root/projects/session_logs/ | head -3` to see recent logs, read the most relevant one
 - **During session:** update the log as each task completes (so crashes/context limits don't lose progress)
-- **At session end:** mark completed items, write Next Steps, note any active PIDs
+- **At session end (MANDATORY — both steps):**
+  1. Mark all completed items, write Next Steps, note any active PIDs in session log
+  2. `cd /root/projects && ./git-sync.sh "YYYYMMDD <project>: brief summary"` — push to GitHub
 
 ---
 
@@ -125,16 +132,34 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ---
 
 ## Critical Reminders
-- **Restore RF_THRESHOLD to 0.60** in Bear Call after paper trade validation complete
-- **After 2021 fetch complete:** verify ≥80% close coverage, then start 2022 fetch (Client ID 83)
-- **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite)
-- **ARM future:** VIX speed signal (vix day-over-day change) — target before Feb 2027
+- **⚠️ Jan–May 2020 DIX data MISSING** — 20200101→20200416 was overwritten. Must refetch after 2021 chunk completes. Use NEW part file, Client ID 83+. Verify ≥80% close coverage before merging.
+- **Restore RF_THRESHOLD to 0.60** in Bear Call (`001_alpha...bear_call.py` line ~51) after paper trade validation complete
+- **After 2021 fetch complete:** verify ≥80% close coverage → start 2022 fetch (Client ID 83) → then refetch Jan–May 2020
+- **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite existing)
+- **ARM future:** VIX speed signal (day-over-day change) — target before Feb 2027
 - **DIX ratio per regime backtest** — target before Aug 2026
 
 ---
 
+## What to Update in PROJECT_ARCHIVE.md
+Update the archive whenever any of these change — keep it current, not just historical:
+
+| Change Type | What to Update in Archive |
+|-------------|--------------------------|
+| New component added (script, timer, strategy) | Add to relevant component doc section |
+| Architecture change (new path, new file, renamed) | Update component docs + diagnostic commands |
+| Roadmap item completed or added | Update the Roadmap table (status + date) |
+| Data fetch completed (chunk, backtest) | Update 6Y Fetch Status table |
+| Bug fixed with systemic lesson | Add to Session Log History with root cause |
+| New scheduled timer or cron job | Add to timer list in component docs |
+| Sector classification batch added | Update classification totals |
+
+**Roadmap must stay current** — mark items ✅ DONE (with date) as they complete, add new items as they arise. The archive roadmap IS the living project roadmap.
+
+---
+
 ## Detailed Reference
-For historical session logs, old roadmap, data quality tables, fetch recovery procedures:
+For historical sessions, roadmap, data quality tables, fetch procedures, diagnostic commands:
 → `/root/projects/PROJECT_ARCHIVE.md`
 
 **Last Updated:** 2026-02-11
