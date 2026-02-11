@@ -1,69 +1,69 @@
-# === SECRETS — never commit ===
-*.env
-*.env.*
-.env.*
-.env_*
-env_*
-telegram.env
-credentials*
-secrets*
+# === ROOT-LEVEL SYSTEM FILES (never commit) ===
+.bash_history
+.bashrc
+.profile
+.lesshst
+.wget-hsts
+.hwid
+.gitconfig
+.claude.json*
 
-# === LARGE DATA FILES ===
-# DIX raw/fetched data (large, regeneratable)
-quantx_dix/data/dix/history/
-quantx_dix/data/dix/details/
-quantx_dix/data/dix/summary/
-quantx_dix/data/finra_cache/
-quantx_dix/data/finra_raw/
-# RF/strategy fetched data
-odte_strategy/data/*.csv
-odte_strategy/data/*.joblib
-odte_strategy/data/*.json
-# KEEP: classification CSVs (manually built reference data)
-!quantx_dix/data/etf_classification_master.csv
-!quantx_dix/data/ibkr_symbol_profile_cache.csv
-# KEEP: backtest scripts
+# === SENSITIVE / CREDENTIALS ===
+.ssh/
+.claude/
+
+# === IBKR GATEWAY INSTALLS (large, binary) ===
+IBG1019/
+IBG1019_LIVE/
+IB_Settings/
+IB_Settings_DIX/
+IB_Settings_LIVE/
+Jts
+Jts/
+Jts.BAK*/
+ibc/
+ibg/
+*.jts
+
+# === SYSTEM RUNTIME ===
+.cache/
+.config/
+.dotnet/
+.ipython/
+.jupyter/
+.java/
+.local/
+.streamlit/
+.vscode-server/
+
+# === VSCODE / CLAUDE INSIDE SUBDIRS ===
+**/.vscode/
+**/.claude/
+
+# === ODTE STRATEGY — runtime data ===
+odte_strategy/venv/
+odte_strategy/state/
+odte_strategy/logs/
+odte_strategy/.env*
+odte_strategy/data/**/*.csv
+odte_strategy/data/**/*.joblib
+odte_strategy/data/**/*.json
+odte_strategy/data/**/*.bak*
+odte_strategy/data/**/*.txt
+odte_strategy/webhook/*.log
+# KEEP: backtest scripts and features
 !odte_strategy/data/backtest_results/*.py
-
-# === LOGS ===
-*.log
-logs/
-strategies_runner/logs/
+!odte_strategy/data/rf_build_features.py
+!odte_strategy/data/rf_build_labels.py
 
 # === PYTHON ===
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-.Python
-venv/
-.venv/
-env/
-*.egg-info/
 
-# === RUNTIME STATE ===
-odte_strategy/state/
-quantx_arm/state/
-
-# === BACKUPS / TEMP ===
+# === TEMP / BACKUP ===
 *.bak
 *.bak_*
 *.BAK
 *.BAK_*
-data.BAK*/
-*_UPDATE.txt
-*_BACKUP*
-
-# === OS / IDE ===
-.DS_Store
-*.swp
-*.swo
-.idea/
-.vscode/
-
-# === VPS VENV (large, not needed in git) ===
-vps_trading_env/
-
-# === IBC / IBKR gateway ===
-ibc/
-*.jts
+NEW_CHAT_TEMPLATE.txt

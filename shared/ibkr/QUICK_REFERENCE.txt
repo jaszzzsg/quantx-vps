@@ -1,0 +1,30 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           IBKR CLIENT ID QUICK REFERENCE CARD                    ║
+╚══════════════════════════════════════════════════════════════════╝
+
+🔴 ACTIVE NOW (DO NOT USE):
+   22  = Daily DIX fetch (1am UTC)
+   80  = Chunk 2020 (running background)
+   991 = ARM VIX fetch (10:45pm SGT)
+
+🟡 RESERVED (Hardcoded in scripts):
+   20, 21, 23, 24, 26
+
+🟢 AUTO-ASSIGN RANGES:
+   Port 4001 (LIVE):  100-199
+   Port 4002 (Paper): 200-299
+   Port 7497 (TWS):   300-399
+
+📋 FULL REGISTRY:
+   /root/shared/ibkr/CLIENT_ID_REGISTRY.md
+
+📊 VIEW LOGS:
+   python -c "import sys; sys.path.insert(0, '/root/shared/ibkr'); \
+   from client_id_manager import view_log; print(view_log())"
+
+🆕 GET NEW ID (auto):
+   python -c "import sys; sys.path.insert(0, '/root/shared/ibkr'); \
+   from client_id_manager import get_client_id; \
+   print(get_client_id('127.0.0.1', 4002, 'my_purpose', 'my_project'))"
+
+╚══════════════════════════════════════════════════════════════════╝
