@@ -98,7 +98,10 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 | Port | Type | Client IDs in use |
 |------|------|-------------------|
 | 4001 | LIVE | — |
-| 4002 | PAPER | 22 (DIX daily), 82 (6Y fetch), 991 (ARM VIX) |
+| 4002 | PAPER | 22 (DIX daily), 83 (6Y fetch active), 991 (ARM VIX) |
+
+**Client ID registry:** `/root/shared/ibkr/CLIENT_ID_REGISTRY.md` — check before assigning any new ID.
+**Reuse rule:** An ID is free as soon as its PID is dead. Run `ps -p <PID>` to confirm, then reuse the same ID. Only increment if the process is still alive.
 
 ### Scheduled Timers
 | Timer | Schedule | Purpose |
