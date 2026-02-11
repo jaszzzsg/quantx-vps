@@ -21,7 +21,7 @@
 - **During session:** update the log as each task completes (so crashes/context limits don't lose progress)
 - **At session end (MANDATORY — both steps):**
   1. Mark all completed items, write Next Steps, note any active PIDs in session log
-  2. `cd /root/projects && ./git-sync.sh "YYYYMMDD <project>: brief summary"` — push to GitHub
+  2. `cd /root/projects && ./git-sync.sh "YYYYMMDD <project>: brief summary"` — push to GitHub (repo root is `/root/`)
 
 ---
 
