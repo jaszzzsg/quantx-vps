@@ -1,0 +1,785 @@
+symbol,query_symbol,industry,category,subcategory,longName,exchange,primaryExchange
+A,A,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Equipment,AGILENT TECHNOLOGIES INC,SMART,NYSE
+AAPL,AAPL,Technology,Computers,Computers,APPLE INC,SMART,NASDAQ
+ABBV,ABBV,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,ABBVIE INC,SMART,NYSE
+ABNB,ABNB,Communications,Internet,E-Commerce/Services,AIRBNB INC-CLASS A,SMART,NASDAQ
+ABT,ABT,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,ABBOTT LABORATORIES .,SMART,NYSE
+ACGL,ACGL,Financial,Insurance,Property/Casualty Ins,ARCH CAPITAL GROUP LTD,SMART,NASDAQ
+ACN,ACN,Technology,Computers,Computer Services,ACCENTURE PLC-CL A,SMART,NYSE
+ADBE,ADBE,Technology,Software,Electronic Forms,ADOBE INC,SMART,NASDAQ
+ADI,ADI,Technology,Semiconductors,Electronic Compo-Semicon,ANALOG DEVICES INC,SMART,NASDAQ
+ADM,ADM,"Consumer, Non-cyclical",Agriculture,Agricultural Operations,ARCHER-DANIELS-MIDLAND CO,SMART,NYSE
+ADP,ADP,"Consumer, Non-cyclical",Commercial Services,Commercial Services,AUTOMATIC DATA PROCESSING,SMART,NASDAQ
+ADSK,ADSK,Technology,Software,Computer Aided Design,AUTODESK INC,SMART,NASDAQ
+AEE,AEE,Utilities,Electric,Electric-Integrated,AMEREN CORP,SMART,NYSE
+AEP,AEP,Utilities,Electric,Electric-Integrated,AMERICAN ELECTRIC POWER,SMART,NASDAQ
+AES,AES,Utilities,Electric,Electric-Integrated,AES CORP,SMART,NYSE
+AFL,AFL,Financial,Insurance,Life/Health Insurance,AFLAC INC,SMART,NYSE
+AIG,AIG,Financial,Insurance,Multi-line Insurance,AMERICAN INTERNATIONAL GROUP,SMART,NYSE
+AIZ,AIZ,Financial,Insurance,Property/Casualty Ins,ASSURANT INC,SMART,NYSE
+AJG,AJG,Financial,Insurance,Insurance Brokers,ARTHUR J GALLAGHER & CO,SMART,NYSE
+AKAM,AKAM,Technology,Software,Computer Software,AKAMAI TECHNOLOGIES INC,SMART,NASDAQ
+ALB,ALB,Basic Materials,Chemicals,Chemicals-Specialty,ALBEMARLE CORP,SMART,NYSE
+ALGN,ALGN,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,ALIGN TECHNOLOGY INC,SMART,NASDAQ
+ALL,ALL,Financial,Insurance,Multi-line Insurance,ALLSTATE CORP,SMART,NYSE
+ALLE,ALLE,Industrial,Electronics,Electronic Secur Devices,ALLEGION PLC,SMART,NYSE
+AMAT,AMAT,Technology,Semiconductors,Semiconductor Equipment,APPLIED MATERIALS INC,SMART,NASDAQ
+AMCR,AMCR,Industrial,Packaging&Containers,Containers-Paper/Plastic,AMCOR PLC,SMART,NYSE
+AMD,AMD,Technology,Semiconductors,Electronic Compo-Semicon,ADVANCED MICRO DEVICES,SMART,NASDAQ
+AME,AME,Industrial,Electrical Compo&Equip,Electric Products-Misc,AMETEK INC,SMART,NYSE
+AMGN,AMGN,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,AMGEN INC,SMART,NASDAQ
+AMP,AMP,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,AMERIPRISE FINANCIAL INC,SMART,NYSE
+AMT,AMT,Financial,REITS,REITS-Diversified,AMERICAN TOWER CORP,SMART,NYSE
+AMZN,AMZN,Communications,Internet,E-Commerce/Products,AMAZON.COM INC,SMART,NASDAQ
+ANET,ANET,Communications,Telecommunications,Networking Products,ARISTA NETWORKS INC,SMART,NYSE
+AON,AON,Financial,Insurance,Insurance Brokers,AON PLC-CLASS A,SMART,NYSE
+AOS,AOS,Industrial,Miscellaneous Manufactur,Diversified Manufact Op,SMITH (A.O.) CORP,SMART,NYSE
+APA,APA,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,APA CORP,SMART,NASDAQ
+APD,APD,Basic Materials,Chemicals,Industrial Gases,AIR PRODUCTS & CHEMICALS INC,SMART,NYSE
+APH,APH,Industrial,Electronics,Electronic Connectors,AMPHENOL CORP-CL A,SMART,NYSE
+APO,APO,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,APOLLO GLOBAL MANAGEMENT INC,SMART,NYSE
+APTV,APTV,"Consumer, Cyclical",Auto Parts&Equipment,Auto/Trk Prts&Equip-Orig,APTIV PLC,SMART,NYSE
+ARE,ARE,Financial,REITS,REITS-Health Care,ALEXANDRIA REAL ESTATE EQUIT,SMART,NYSE
+ATO,ATO,Utilities,Gas,Gas-Distribution,ATMOS ENERGY CORP,SMART,NYSE
+AVB,AVB,Financial,REITS,REITS-Apartments,AVALONBAY COMMUNITIES INC,SMART,NYSE
+AVGO,AVGO,Technology,Semiconductors,Electronic Compo-Semicon,BROADCOM INC,SMART,NASDAQ
+AVY,AVY,"Consumer, Non-cyclical",Household Products/Wares,Office Supplies&Forms,AVERY DENNISON CORP,SMART,NYSE
+AWK,AWK,Utilities,Water,Water,AMERICAN WATER WORKS CO INC,SMART,NYSE
+AXON,AXON,Industrial,Miscellaneous Manufactur,Firearms&Ammunition,AXON ENTERPRISE INC,SMART,NASDAQ
+AXP,AXP,Financial,Diversified Finan Serv,Finance-Credit Card,AMERICAN EXPRESS CO,SMART,NYSE
+AZO,AZO,"Consumer, Cyclical",Retail,Retail-Auto Parts,AUTOZONE INC,SMART,NYSE
+BA,BA,Industrial,Aerospace/Defense,Aerospace/Defense,BOEING CO/THE,SMART,NYSE
+BAC,BAC,Financial,Banks,Diversified Banking Inst,BANK OF AMERICA CORP,SMART,NYSE
+BALL,BALL,Industrial,Packaging&Containers,Containers-Metal/Glass,BALL CORP,SMART,NYSE
+BAX,BAX,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,BAXTER INTERNATIONAL INC.,SMART,NYSE
+BBY,BBY,"Consumer, Cyclical",Retail,Retail-Consumer Electron,BEST BUY CO INC,SMART,NYSE
+BDX,BDX,"Consumer, Non-cyclical",Pharmaceuticals,Drug Delivery Systems,BECTON DICKINSON AND CO,SMART,NYSE
+BEN,BEN,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,FRANKLIN RESOURCES INC,SMART,NYSE
+BG,BG,"Consumer, Non-cyclical",Agriculture,Agricultural Operations,BUNGE GLOBAL SA,SMART,NYSE
+BIIB,BIIB,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,BIOGEN INC,SMART,NASDAQ
+BK,BK,Financial,Banks,Fiduciary Banks,BANK OF NEW YORK MELLON CORP,SMART,NYSE
+BKNG,BKNG,Communications,Internet,E-Commerce/Services,BOOKING HOLDINGS INC,SMART,NASDAQ
+BKR,BKR,Energy,Oil&Gas Services,Oil-Field Services,BAKER HUGHES CO,SMART,NASDAQ
+BLDR,BLDR,Industrial,Building Materials,Bldg&Construct Prod-Misc,BUILDERS FIRSTSOURCE INC,SMART,NYSE
+BLK,BLK,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,BLACKROCK INC,SMART,NYSE
+BMY,BMY,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,BRISTOL-MYERS SQUIBB CO,SMART,NYSE
+BR,BR,Technology,Software,Data Processing/Mgmt,BROADRIDGE FINANCIAL SOLUTIO,SMART,NYSE
+BRO,BRO,Financial,Insurance,Insurance Brokers,BROWN & BROWN INC,SMART,NYSE
+BSX,BSX,"Consumer, Non-cyclical",Healthcare-Products,Medical Instruments,BOSTON SCIENTIFIC CORP,SMART,NYSE
+BX,BX,Financial,Private Equity,Private Equity,BLACKSTONE INC,SMART,NYSE
+BXP,BXP,Financial,REITS,REITS-Office Property,BXP INC,SMART,NYSE
+C,C,Financial,Banks,Diversified Banking Inst,CITIGROUP INC,SMART,NYSE
+CAG,CAG,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,CONAGRA BRANDS INC,SMART,NYSE
+CAH,CAH,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Whsle Drug Dist,CARDINAL HEALTH INC,SMART,NYSE
+CARR,CARR,Industrial,Building Materials,Bldg Prod-Air&Heating,CARRIER GLOBAL CORP,SMART,NYSE
+CAT,CAT,Industrial,Machinery-Constr&Mining,Machinery-Constr&Mining,CATERPILLAR INC,SMART,NYSE
+CB,CB,Financial,Insurance,Multi-line Insurance,CHUBB LTD,SMART,NYSE
+CBOE,CBOE,Financial,Diversified Finan Serv,Finance-Other Services,CBOE GLOBAL MARKETS INC,SMART,BATS
+CBRE,CBRE,Financial,Real Estate,Real Estate Mgmnt/Servic,CBRE GROUP INC - A,SMART,NYSE
+CCI,CCI,Financial,REITS,REITS-Diversified,CROWN CASTLE INC,SMART,NYSE
+CCL,CCL,"Consumer, Cyclical",Leisure Time,Cruise Lines,CARNIVAL CORP,SMART,NYSE
+CDNS,CDNS,Technology,Software,Computer Aided Design,CADENCE DESIGN SYS INC,SMART,NASDAQ
+CDW,CDW,Communications,Internet,E-Services/Consulting,CDW CORP/DE,SMART,NASDAQ
+CEG,CEG,Utilities,Electric,Electric-Generation,CONSTELLATION ENERGY,SMART,NASDAQ
+CF,CF,Basic Materials,Chemicals,Agricultural Chemicals,CF INDUSTRIES HOLDINGS INC,SMART,NYSE
+CFG,CFG,Financial,Banks,Commer Banks-Eastern US,CITIZENS FINANCIAL GROUP,SMART,NYSE
+CHD,CHD,"Consumer, Non-cyclical",Household Products/Wares,Soap&Cleaning Prepar,CHURCH & DWIGHT CO INC,SMART,NYSE
+CHRW,CHRW,Industrial,Transportation,Transport-Services,C.H. ROBINSON WORLDWIDE INC,SMART,NASDAQ
+CHTR,CHTR,Communications,Media,Cable/Satellite TV,CHARTER COMMUNICATIONS INC-A,SMART,NASDAQ
+CI,CI,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,THE CIGNA GROUP,SMART,NYSE
+CINF,CINF,Financial,Insurance,Multi-line Insurance,CINCINNATI FINANCIAL CORP,SMART,NASDAQ
+CL,CL,"Consumer, Non-cyclical",Cosmetics/Personal Care,Cosmetics&Toiletries,COLGATE-PALMOLIVE CO,SMART,NYSE
+CLX,CLX,"Consumer, Non-cyclical",Household Products/Wares,Consumer Products-Misc,CLOROX COMPANY,SMART,NYSE
+CMCSA,CMCSA,Communications,Media,Cable/Satellite TV,COMCAST CORP-CLASS A,SMART,NASDAQ
+CME,CME,Financial,Diversified Finan Serv,Finance-Other Services,CME GROUP INC,SMART,NASDAQ
+CMG,CMG,"Consumer, Cyclical",Retail,Retail-Restaurants,CHIPOTLE MEXICAN GRILL INC,SMART,NYSE
+CMI,CMI,"Consumer, Cyclical",Auto Manufacturers,Auto-Med&Heavy Duty Trks,CUMMINS INC,SMART,NYSE
+CMS,CMS,Utilities,Electric,Electric-Integrated,CMS ENERGY CORP,SMART,NYSE
+CNC,CNC,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,CENTENE CORP,SMART,NYSE
+CNP,CNP,Utilities,Electric,Electric-Integrated,CENTERPOINT ENERGY INC,SMART,NYSE
+COF,COF,Financial,Diversified Finan Serv,Finance-Credit Card,CAPITAL ONE FINANCIAL CORP,SMART,NYSE
+COIN,COIN,Financial,Diversified Finan Serv,Finance-Other Services,COINBASE GLOBAL INC -CLASS A,SMART,NASDAQ
+COO,COO,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,COOPER COS INC/THE,SMART,NASDAQ
+COP,COP,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,CONOCOPHILLIPS,SMART,NYSE
+COR,COR,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Whsle Drug Dist,CENCORA INC,SMART,NYSE
+COST,COST,"Consumer, Cyclical",Retail,Retail-Discount,COSTCO WHOLESALE CORP,SMART,NASDAQ
+CPAY,CPAY,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,CORPAY INC,SMART,NYSE
+CPB,CPB,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,THE CAMPBELL'S COMPANY,SMART,NASDAQ
+CPRT,CPRT,"Consumer, Cyclical",Distribution/Wholesale,Distribution/Wholesale,COPART INC,SMART,NASDAQ
+CPT,CPT,Financial,REITS,REITS-Apartments,CAMDEN PROPERTY TRUST,SMART,NYSE
+CRL,CRL,"Consumer, Non-cyclical",Healthcare-Services,Medical Labs&Testing Srv,CHARLES RIVER LABORATORIES,SMART,NYSE
+CRM,CRM,Technology,Software,Enterprise Software/Serv,SALESFORCE INC,SMART,NYSE
+CRWD,CRWD,Technology,Computers,Computer Data Security,CROWDSTRIKE HOLDINGS INC - A,SMART,NASDAQ
+CSCO,CSCO,Communications,Telecommunications,Networking Products,CISCO SYSTEMS INC,SMART,NASDAQ
+CSGP,CSGP,Financial,Real Estate,Real Estate Mgmnt/Servic,COSTAR GROUP INC,SMART,NASDAQ
+CSX,CSX,Industrial,Transportation,Transport-Rail,CSX CORP,SMART,NASDAQ
+CTAS,CTAS,"Consumer, Non-cyclical",Commercial Services,Commercial Services,CINTAS CORP,SMART,NASDAQ
+CTRA,CTRA,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,COTERRA ENERGY INC,SMART,NYSE
+CTSH,CTSH,Technology,Computers,Computer Services,COGNIZANT TECH SOLUTIONS-A,SMART,NASDAQ
+CTVA,CTVA,"Consumer, Non-cyclical",Biotechnology,Agricultural Biotech,CORTEVA INC,SMART,NYSE
+CVS,CVS,"Consumer, Non-cyclical",Pharmaceuticals,Pharmacy Services,CVS HEALTH CORP,SMART,NYSE
+CVX,CVX,Energy,Oil&Gas,Oil Comp-Integrated,CHEVRON CORP,SMART,NYSE
+CZR,CZR,"Consumer, Cyclical",Entertainment,Casino Services,CAESARS ENTERTAINMENT INC,SMART,NASDAQ
+D,D,Utilities,Electric,Electric-Integrated,DOMINION ENERGY INC,SMART,NYSE
+DAL,DAL,"Consumer, Cyclical",Airlines,Airlines,DELTA AIR LINES INC.,SMART,NYSE
+DASH,DASH,Communications,Internet,E-Commerce/Services,DOORDASH INC - A,SMART,NASDAQ
+DAY,DAY,Technology,Software,Enterprise Software/Serv,DAYFORCE INC,SMART,NYSE
+DD,DD,Basic Materials,Chemicals,Chemicals-Diversified,DUPONT DE NEMOURS INC,SMART,NYSE
+DDOG,DDOG,Technology,Software,Computer Software,DATADOG INC - CLASS A,SMART,NASDAQ
+DE,DE,Industrial,Machinery-Diversified,Machinery-Farm,DEERE & CO,SMART,NYSE
+DECK,DECK,"Consumer, Cyclical",Apparel,Apparel Manufacturers,DECKERS OUTDOOR CORP,SMART,NYSE
+DELL,DELL,Technology,Computers,Computers,DELL TECHNOLOGIES -C,SMART,NYSE
+DG,DG,"Consumer, Cyclical",Retail,Retail-Discount,DOLLAR GENERAL CORP,SMART,NYSE
+DGX,DGX,"Consumer, Non-cyclical",Healthcare-Services,Medical Labs&Testing Srv,QUEST DIAGNOSTICS INC,SMART,NYSE
+DHI,DHI,"Consumer, Cyclical",Home Builders,Bldg-Residential/Commer,DR HORTON INC,SMART,NYSE
+DHR,DHR,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Equipment,DANAHER CORP,SMART,NYSE
+DIS,DIS,Communications,Media,Multimedia,WALT DISNEY CO/THE,SMART,NYSE
+DLR,DLR,Financial,REITS,REITS-Diversified,DIGITAL REALTY TRUST INC.,SMART,NYSE
+DLTR,DLTR,"Consumer, Cyclical",Retail,Retail-Discount,DOLLAR TREE INC,SMART,NASDAQ
+DOC,DOC,Financial,REITS,REITS-Health Care,HEALTHPEAK PROPERTIES INC,SMART,NYSE
+DOV,DOV,Industrial,Machinery-Diversified,Machinery-Pumps,DOVER CORP,SMART,NYSE
+DOW,DOW,Basic Materials,Chemicals,Chemicals-Diversified,DOW INC,SMART,NYSE
+DPZ,DPZ,"Consumer, Cyclical",Retail,Retail-Restaurants,DOMINO'S PIZZA INC,SMART,NASDAQ
+DRI,DRI,"Consumer, Cyclical",Retail,Retail-Restaurants,DARDEN RESTAURANTS INC,SMART,NYSE
+DTE,DTE,Utilities,Electric,Electric-Integrated,DTE ENERGY COMPANY,SMART,NYSE
+DUK,DUK,Utilities,Electric,Electric-Integrated,DUKE ENERGY CORP,SMART,NYSE
+DVA,DVA,"Consumer, Non-cyclical",Healthcare-Services,Dialysis Centers,DAVITA INC,SMART,NYSE
+DVN,DVN,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,DEVON ENERGY CORP,SMART,NYSE
+DXCM,DXCM,"Consumer, Non-cyclical",Pharmaceuticals,Drug Delivery Systems,DEXCOM INC,SMART,NASDAQ
+EA,EA,Technology,Software,Entertainment Software,ELECTRONIC ARTS INC,SMART,NASDAQ
+EBAY,EBAY,Communications,Internet,E-Commerce/Products,EBAY INC,SMART,NASDAQ
+ECL,ECL,Basic Materials,Chemicals,Chemicals-Specialty,ECOLAB INC,SMART,NYSE
+ED,ED,Utilities,Electric,Electric-Distribution,CONSOLIDATED EDISON INC,SMART,NYSE
+EFX,EFX,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,EQUIFAX INC,SMART,NYSE
+EG,EG,Financial,Insurance,Reinsurance,EVEREST GROUP LTD,SMART,NYSE
+EIX,EIX,Utilities,Electric,Electric-Integrated,EDISON INTL,SMART,NYSE
+EL,EL,"Consumer, Non-cyclical",Cosmetics/Personal Care,Cosmetics&Toiletries,ESTEE LAUDER COMPANIES-CL A,SMART,NYSE
+ELV,ELV,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,ELEVANCE HEALTH INC,SMART,NYSE
+EMN,EMN,Basic Materials,Chemicals,Chemicals-Diversified,EASTMAN CHEMICAL CO,SMART,NYSE
+EMR,EMR,Industrial,Electrical Compo&Equip,Electric Products-Misc,EMERSON ELECTRIC CO,SMART,NYSE
+ENPH,ENPH,Energy,Energy-Alternate Sources,Energy-Alternate Sources,ENPHASE ENERGY INC,SMART,NASDAQ
+EOG,EOG,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,EOG RESOURCES INC,SMART,NYSE
+EPAM,EPAM,Technology,Computers,Computer Services,EPAM SYSTEMS INC,SMART,NYSE
+EQIX,EQIX,Financial,REITS,REITS-Diversified,EQUINIX INC,SMART,NASDAQ
+EQR,EQR,Financial,REITS,REITS-Apartments,EQUITY RESIDENTIAL,SMART,NYSE
+EQT,EQT,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,EQT CORP,SMART,NYSE
+ERIE,ERIE,Financial,Insurance,Property/Casualty Ins,ERIE INDEMNITY COMPANY-CL A,SMART,NASDAQ
+ES,ES,Utilities,Electric,Electric-Distribution,EVERSOURCE ENERGY,SMART,NYSE
+ESS,ESS,Financial,REITS,REITS-Apartments,ESSEX PROPERTY TRUST INC,SMART,NYSE
+ETN,ETN,Industrial,Electrical Compo&Equip,Power Conv/Supply Equip,EATON CORP PLC,SMART,NYSE
+ETR,ETR,Utilities,Electric,Electric-Integrated,ENTERGY CORP,SMART,NYSE
+EVRG,EVRG,Utilities,Electric,Electric-Integrated,EVERGY INC,SMART,NASDAQ
+EW,EW,"Consumer, Non-cyclical",Healthcare-Products,Medical Instruments,EDWARDS LIFESCIENCES CORP,SMART,NYSE
+EXC,EXC,Utilities,Electric,Electric-Distribution,EXELON CORP,SMART,NASDAQ
+EXE,EXE,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,EXPAND ENERGY CORP,SMART,NASDAQ
+EXPD,EXPD,Industrial,Transportation,Transport-Services,EXPEDITORS INTL WASH INC,SMART,NYSE
+EXPE,EXPE,Communications,Internet,E-Commerce/Services,EXPEDIA GROUP INC,SMART,NASDAQ
+EXR,EXR,Financial,REITS,REITS-Storage,EXTRA SPACE STORAGE INC,SMART,NYSE
+F,F,"Consumer, Cyclical",Auto Manufacturers,Auto-Cars/Light Trucks,FORD MOTOR CO,SMART,NYSE
+FANG,FANG,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,DIAMONDBACK ENERGY INC,SMART,NASDAQ
+FAST,FAST,"Consumer, Cyclical",Distribution/Wholesale,Distribution/Wholesale,FASTENAL CO,SMART,NASDAQ
+FCX,FCX,Basic Materials,Mining,Metal-Copper,FREEPORT-MCMORAN INC,SMART,NYSE
+FDS,FDS,Communications,Media,Multimedia,FACTSET RESEARCH SYSTEMS INC,SMART,NYSE
+FDX,FDX,Industrial,Transportation,Transport-Services,FEDEX CORPORATION,SMART,NYSE
+FE,FE,Utilities,Electric,Electric-Integrated,FIRSTENERGY CORP,SMART,NYSE
+FFIV,FFIV,Communications,Internet,Internet Infrastr Sftwr,F5 INC,SMART,NASDAQ
+FICO,FICO,Technology,Software,Data Processing/Mgmt,FAIR ISAAC CORP,SMART,NYSE
+FIS,FIS,Technology,Software,Data Processing/Mgmt,FIDELITY NATIONAL INFO SERV,SMART,NYSE
+FITB,FITB,Financial,Banks,Super-Regional Banks-US,FIFTH THIRD BANCORP,SMART,NASDAQ
+FOX,FOX,Communications,Media,Broadcast Serv/Program,FOX CORP - CLASS B,SMART,NASDAQ
+FOXA,FOXA,Communications,Media,Broadcast Serv/Program,FOX CORP - CLASS A,SMART,NASDAQ
+FRT,FRT,Financial,REITS,REITS-Shopping Centers,FEDERAL REALTY INVS TRUST,SMART,NYSE
+FSLR,FSLR,Energy,Energy-Alternate Sources,Energy-Alternate Sources,FIRST SOLAR INC,SMART,NASDAQ
+FTNT,FTNT,Technology,Computers,Computer Data Security,FORTINET INC,SMART,NASDAQ
+FTV,FTV,Industrial,Electronics,Electronic Measur Instr,FORTIVE CORP,SMART,NYSE
+GD,GD,Industrial,Aerospace/Defense,Aerospace/Defense,GENERAL DYNAMICS CORP,SMART,NYSE
+GDDY,GDDY,Communications,Internet,Web Hosting/Design,GODADDY INC - CLASS A,SMART,NYSE
+GE,GE,Industrial,Aerospace/Defense,Aerospace/Defense-Equip,GENERAL ELECTRIC,SMART,NYSE
+GEHC,GEHC,"Consumer, Non-cyclical",Healthcare-Products,Medical Imaging Systems,GE HEALTHCARE TECHNOLOGY,SMART,NASDAQ
+GEN,GEN,Communications,Internet,Internet Security,GEN DIGITAL INC,SMART,NASDAQ
+GEV,GEV,Industrial,Machinery-Constr&Mining,Machinery-Electric Util,GE VERNOVA INC,SMART,NYSE
+GILD,GILD,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,GILEAD SCIENCES INC,SMART,NASDAQ
+GIS,GIS,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,GENERAL MILLS INC,SMART,NYSE
+GL,GL,Financial,Insurance,Life/Health Insurance,GLOBE LIFE INC,SMART,NYSE
+GLW,GLW,Communications,Telecommunications,Telecom Eq Fiber Optics,CORNING INC,SMART,NYSE
+GM,GM,"Consumer, Cyclical",Auto Manufacturers,Auto-Cars/Light Trucks,GENERAL MOTORS CO,SMART,NYSE
+GNRC,GNRC,Industrial,Electrical Compo&Equip,Power Conv/Supply Equip,GENERAC HOLDINGS INC,SMART,NYSE
+GOOG,GOOG,Communications,Internet,Web Portals/ISP,ALPHABET INC-CL C,SMART,NASDAQ
+GOOGL,GOOGL,Communications,Internet,Web Portals/ISP,ALPHABET INC-CL A,SMART,NASDAQ
+GPC,GPC,"Consumer, Cyclical",Retail,Retail-Auto Parts,GENUINE PARTS CO,SMART,NYSE
+GPN,GPN,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,GLOBAL PAYMENTS INC,SMART,NYSE
+GRMN,GRMN,Industrial,Electronics,Electronic Compo-Misc,GARMIN LTD,SMART,NYSE
+GS,GS,Financial,Banks,Diversified Banking Inst,GOLDMAN SACHS GROUP INC,SMART,NYSE
+GWW,GWW,"Consumer, Cyclical",Distribution/Wholesale,Distribution/Wholesale,WW GRAINGER INC,SMART,NYSE
+HAL,HAL,Energy,Oil&Gas Services,Oil-Field Services,HALLIBURTON CO,SMART,NYSE
+HAS,HAS,"Consumer, Cyclical",Toys/Games/Hobbies,Toys,HASBRO INC,SMART,NASDAQ
+HBAN,HBAN,Financial,Banks,Super-Regional Banks-US,HUNTINGTON BANCSHARES INC,SMART,NASDAQ
+HCA,HCA,"Consumer, Non-cyclical",Healthcare-Services,Medical-Hospitals,HCA HEALTHCARE INC,SMART,NYSE
+HD,HD,"Consumer, Cyclical",Retail,Retail-Building Products,HOME DEPOT INC,SMART,NYSE
+HIG,HIG,Financial,Insurance,Multi-line Insurance,HARTFORD INSURANCE GROUP INC,SMART,NYSE
+HII,HII,Industrial,Shipbuilding,Shipbuilding,HUNTINGTON INGALLS INDUSTRIE,SMART,NYSE
+HLT,HLT,"Consumer, Cyclical",Lodging,Hotels&Motels,HILTON WORLDWIDE HOLDINGS IN,SMART,NYSE
+HOLX,HOLX,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Kits,HOLOGIC INC,SMART,NASDAQ
+HON,HON,Industrial,Electronics,Instruments-Controls,HONEYWELL INTERNATIONAL INC,SMART,NASDAQ
+HPE,HPE,Technology,Computers,Computers,HEWLETT PACKARD ENTERPRISE,SMART,NYSE
+HPQ,HPQ,Technology,Computers,Computers,HP INC,SMART,NYSE
+HRL,HRL,"Consumer, Non-cyclical",Food,Food-Meat Products,HORMEL FOODS CORP,SMART,NYSE
+HSIC,HSIC,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Whsle Drug Dist,HENRY SCHEIN INC,SMART,NASDAQ
+HST,HST,Financial,REITS,REITS-Hotels,HOST HOTELS & RESORTS INC,SMART,NASDAQ
+HSY,HSY,"Consumer, Non-cyclical",Food,Food-Confectionery,HERSHEY CO/THE,SMART,NYSE
+HUBB,HUBB,Industrial,Electronics,Electronic Compo-Misc,HUBBELL INC,SMART,NYSE
+HUM,HUM,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,HUMANA INC,SMART,NYSE
+HWM,HWM,Industrial,Aerospace/Defense,Aerospace/Defense-Equip,HOWMET AEROSPACE INC,SMART,NYSE
+IBM,IBM,Technology,Computers,Computer Services,INTL BUSINESS MACHINES CORP,SMART,NYSE
+ICE,ICE,Financial,Diversified Finan Serv,Finance-Other Services,INTERCONTINENTAL EXCHANGE IN,SMART,NYSE
+IDXX,IDXX,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Kits,IDEXX LABORATORIES INC,SMART,NASDAQ
+IEX,IEX,Industrial,Machinery-Diversified,Machinery-General Indust,IDEX CORP,SMART,NYSE
+IFF,IFF,Basic Materials,Chemicals,Chemicals-Specialty,INTL FLAVORS & FRAGRANCES,SMART,NYSE
+INCY,INCY,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,INCYTE CORP,SMART,NASDAQ
+INTC,INTC,Technology,Semiconductors,Electronic Compo-Semicon,INTEL CORP,SMART,NASDAQ
+INTU,INTU,Technology,Software,Applications Software,INTUIT INC,SMART,NASDAQ
+INVH,INVH,Financial,REITS,REITS-Apartments,INVITATION HOMES INC,SMART,NYSE
+IP,IP,Basic Materials,Forest Products&Paper,Paper&Related Products,INTERNATIONAL PAPER CO,SMART,NYSE
+IQV,IQV,"Consumer, Non-cyclical",Healthcare-Services,Medical Labs&Testing Srv,IQVIA HOLDINGS INC,SMART,NYSE
+IR,IR,Industrial,Machinery-Diversified,Machinery-Pumps,INGERSOLL-RAND INC,SMART,NYSE
+IRM,IRM,Financial,REITS,REITS-Storage,IRON MOUNTAIN INC,SMART,NYSE
+ISRG,ISRG,"Consumer, Non-cyclical",Healthcare-Products,Medical Instruments,INTUITIVE SURGICAL INC,SMART,NASDAQ
+IT,IT,Technology,Computers,Computer Services,GARTNER INC,SMART,NYSE
+ITW,ITW,Industrial,Miscellaneous Manufactur,Diversified Manufact Op,ILLINOIS TOOL WORKS,SMART,NYSE
+IVZ,IVZ,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,INVESCO LTD,SMART,NYSE
+J,J,Industrial,Engineering&Construction,Engineering/R&D Services,JACOBS SOLUTIONS INC,SMART,NYSE
+JBHT,JBHT,Industrial,Transportation,Transport-Truck,HUNT (JB) TRANSPRT SVCS INC,SMART,NASDAQ
+JBL,JBL,Industrial,Electronics,Electronic Compo-Misc,JABIL INC,SMART,NYSE
+JCI,JCI,Industrial,Building Materials,Bldg Prod-Air&Heating,JOHNSON CONTROLS INTERNATION,SMART,NYSE
+JKHY,JKHY,Technology,Software,Data Processing/Mgmt,JACK HENRY & ASSOCIATES INC,SMART,NASDAQ
+JNJ,JNJ,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,JOHNSON & JOHNSON,SMART,NYSE
+JPM,JPM,Financial,Banks,Diversified Banking Inst,JPMORGAN CHASE & CO,SMART,NYSE
+KDP,KDP,"Consumer, Non-cyclical",Beverages,Beverages-Non-alcoholic,KEURIG DR PEPPER INC,SMART,NASDAQ
+KEY,KEY,Financial,Banks,Super-Regional Banks-US,KEYCORP,SMART,NYSE
+KEYS,KEYS,Industrial,Electronics,Electronic Measur Instr,KEYSIGHT TECHNOLOGIES IN,SMART,NYSE
+KHC,KHC,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,KRAFT HEINZ CO/THE,SMART,NASDAQ
+KIM,KIM,Financial,REITS,REITS-Shopping Centers,KIMCO REALTY CORP,SMART,NYSE
+KKR,KKR,Financial,Private Equity,Private Equity,KKR & CO INC,SMART,NYSE
+KLAC,KLAC,Technology,Semiconductors,Semiconductor Equipment,KLA CORP,SMART,NASDAQ
+KMB,KMB,"Consumer, Non-cyclical",Household Products/Wares,Consumer Products-Misc,KIMBERLY-CLARK CORP,SMART,NASDAQ
+KMI,KMI,Energy,Pipelines,Pipelines,KINDER MORGAN INC,SMART,NYSE
+KMX,KMX,"Consumer, Cyclical",Retail,Retail-Automobile,CARMAX INC,SMART,NYSE
+KO,KO,"Consumer, Non-cyclical",Beverages,Beverages-Non-alcoholic,COCA-COLA CO/THE,SMART,NYSE
+KR,KR,"Consumer, Non-cyclical",Food,Food-Retail,KROGER CO,SMART,NYSE
+KVUE,KVUE,"Consumer, Non-cyclical",Cosmetics/Personal Care,Cosmetics&Toiletries,KENVUE INC,SMART,NYSE
+L,L,Financial,Insurance,Multi-line Insurance,LOEWS CORP,SMART,NYSE
+LDOS,LDOS,Technology,Computers,Computer Services,LEIDOS HOLDINGS INC,SMART,NYSE
+LEN,LEN,"Consumer, Cyclical",Home Builders,Bldg-Residential/Commer,LENNAR CORP-A,SMART,NYSE
+LH,LH,"Consumer, Non-cyclical",Healthcare-Services,Medical Labs&Testing Srv,LABCORP HOLDINGS INC,SMART,NYSE
+LHX,LHX,Industrial,Aerospace/Defense,Aerospace/Defense-Equip,L3HARRIS TECHNOLOGIES INC,SMART,NYSE
+LII,LII,Industrial,Building Materials,Bldg Prod-Air&Heating,LENNOX INTERNATIONAL INC,SMART,NYSE
+LIN,LIN,Basic Materials,Chemicals,Industrial Gases,LINDE PLC,SMART,NASDAQ
+LKQ,LKQ,"Consumer, Cyclical",Distribution/Wholesale,Distribution/Wholesale,LKQ CORP,SMART,NASDAQ
+LLY,LLY,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,ELI LILLY & CO,SMART,NYSE
+LMT,LMT,Industrial,Aerospace/Defense,Aerospace/Defense,LOCKHEED MARTIN CORP,SMART,NYSE
+LNT,LNT,Utilities,Electric,Electric-Integrated,ALLIANT ENERGY CORP,SMART,NASDAQ
+LOW,LOW,"Consumer, Cyclical",Retail,Retail-Building Products,LOWE'S COS INC,SMART,NYSE
+LRCX,LRCX,Technology,Semiconductors,Semiconductor Equipment,LAM RESEARCH CORP,SMART,NASDAQ
+LULU,LULU,"Consumer, Cyclical",Retail,Retail-Apparel/Shoe,LULULEMON ATHLETICA INC,SMART,NASDAQ
+LUV,LUV,"Consumer, Cyclical",Airlines,Airlines,SOUTHWEST AIRLINES CO,SMART,NYSE
+LVS,LVS,"Consumer, Cyclical",Lodging,Casino Hotels,LAS VEGAS SANDS CORP,SMART,NYSE
+LW,LW,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,LAMB WESTON HOLDINGS INC,SMART,NYSE
+LYB,LYB,Basic Materials,Chemicals,Chemicals-Diversified,LYONDELLBASELL INDU-CL A,SMART,NYSE
+LYV,LYV,"Consumer, Cyclical",Entertainment,Theaters,LIVE NATION ENTERTAINMENT IN,SMART,NYSE
+MA,MA,Financial,Diversified Finan Serv,Finance-Credit Card,MASTERCARD INC - A,SMART,NYSE
+MAA,MAA,Financial,REITS,REITS-Apartments,MID-AMERICA APARTMENT COMM,SMART,NYSE
+MAR,MAR,"Consumer, Cyclical",Lodging,Hotels&Motels,MARRIOTT INTERNATIONAL -CL A,SMART,NASDAQ
+MAS,MAS,Industrial,Building Materials,Bldg Prod-Wood,MASCO CORP,SMART,NYSE
+MCD,MCD,"Consumer, Cyclical",Retail,Retail-Restaurants,MC DONALD'S-CORP,SMART,NYSE
+MCHP,MCHP,Technology,Semiconductors,Electronic Compo-Semicon,MICROCHIP TECHNOLOGY INC,SMART,NASDAQ
+MCK,MCK,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Whsle Drug Dist,MCKESSON CORP,SMART,NYSE
+MCO,MCO,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,MOODY'S CORP,SMART,NYSE
+MDLZ,MDLZ,"Consumer, Non-cyclical",Food,Food-Confectionery,MONDELEZ INTERNATIONAL INC-A,SMART,NASDAQ
+MDT,MDT,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,MEDTRONIC PLC,SMART,NYSE
+MET,MET,Financial,Insurance,Multi-line Insurance,METLIFE INC,SMART,NYSE
+META,META,Communications,Internet,Internet Content-Entmnt,META PLATFORMS INC-CLASS A,SMART,NASDAQ
+MGM,MGM,"Consumer, Cyclical",Lodging,Casino Hotels,MGM RESORTS INTERNATIONAL,SMART,NYSE
+MHK,MHK,Industrial,Building Materials,Bldg&Construct Prod-Misc,MOHAWK INDUSTRIES INC,SMART,NYSE
+MKC,MKC,"Consumer, Non-cyclical",Food,Food-Misc/Diversified,MCCORMICK & CO-NON VTG SHRS,SMART,NYSE
+MKTX,MKTX,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,MARKETAXESS HOLDINGS INC,SMART,NASDAQ
+MLM,MLM,Industrial,Building Materials,Bldg Prod-Cement/Aggreg,MARTIN MARIETTA MATERIALS,SMART,NYSE
+MMM,MMM,Industrial,Miscellaneous Manufactur,Diversified Manufact Op,3M CO,SMART,NYSE
+MNST,MNST,"Consumer, Non-cyclical",Beverages,Beverages-Non-alcoholic,MONSTER BEVERAGE CORP,SMART,NASDAQ
+MO,MO,"Consumer, Non-cyclical",Agriculture,Tobacco,ALTRIA GROUP INC,SMART,NYSE
+MOH,MOH,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,MOLINA HEALTHCARE INC,SMART,NYSE
+MOS,MOS,Basic Materials,Chemicals,Agricultural Chemicals,MOSAIC CO/THE,SMART,NYSE
+MPC,MPC,Energy,Oil&Gas,Oil Refining&Marketing,MARATHON PETROLEUM CORP,SMART,NYSE
+MPWR,MPWR,Technology,Semiconductors,Electronic Compo-Semicon,MONOLITHIC POWER SYSTEMS INC,SMART,NASDAQ
+MRK,MRK,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,MERCK & CO INC,SMART,NYSE
+MRNA,MRNA,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,MODERNA INC,SMART,NASDAQ
+MS,MS,Financial,Banks,Diversified Banking Inst,MORGAN STANLEY,SMART,NYSE
+MSCI,MSCI,Technology,Software,Decision Support Softwar,MSCI INC,SMART,NYSE
+MSFT,MSFT,Technology,Software,Applications Software,MICROSOFT CORP,SMART,NASDAQ
+MSI,MSI,Communications,Telecommunications,Wireless Equipment,MOTOROLA SOLUTIONS INC,SMART,NYSE
+MTB,MTB,Financial,Banks,Commer Banks-Eastern US,M & T BANK CORP,SMART,NYSE
+MTCH,MTCH,Communications,Internet,E-Commerce/Services,MATCH GROUP INC,SMART,NASDAQ
+MTD,MTD,Industrial,Electronics,Instruments-Controls,METTLER-TOLEDO INTERNATIONAL,SMART,NYSE
+MU,MU,Technology,Semiconductors,Electronic Compo-Semicon,MICRON TECHNOLOGY INC,SMART,NASDAQ
+NCLH,NCLH,"Consumer, Cyclical",Leisure Time,Cruise Lines,NORWEGIAN CRUISE LINE HOLDIN,SMART,NYSE
+NDAQ,NDAQ,Financial,Diversified Finan Serv,Finance-Other Services,NASDAQ INC,SMART,NASDAQ
+NDSN,NDSN,Industrial,Machinery-Diversified,Machinery-General Indust,NORDSON CORP,SMART,NASDAQ
+NEE,NEE,Utilities,Electric,Electric-Integrated,NEXTERA ENERGY INC,SMART,NYSE
+NEM,NEM,Basic Materials,Mining,Gold Mining,NEWMONT CORP,SMART,NYSE
+NFLX,NFLX,Communications,Internet,Internet Content-Entmnt,NETFLIX INC,SMART,NASDAQ
+NI,NI,Utilities,Gas,Gas-Distribution,NISOURCE INC,SMART,NYSE
+NKE,NKE,"Consumer, Cyclical",Apparel,Athletic Footwear,NIKE INC -CL B,SMART,NYSE
+NOC,NOC,Industrial,Aerospace/Defense,Aerospace/Defense,NORTHROP GRUMMAN CORP,SMART,NYSE
+NOW,NOW,Technology,Software,Applications Software,SERVICENOW INC,SMART,NYSE
+NRG,NRG,Utilities,Electric,Independ Power Producer,NRG ENERGY INC,SMART,NYSE
+NSC,NSC,Industrial,Transportation,Transport-Rail,NORFOLK SOUTHERN CORP,SMART,NYSE
+NTAP,NTAP,Technology,Computers,Computers-Memory Devices,NETAPP INC,SMART,NASDAQ
+NTRS,NTRS,Financial,Banks,Fiduciary Banks,NORTHERN TRUST CORP,SMART,NASDAQ
+NUE,NUE,Basic Materials,Iron/Steel,Steel-Producers,NUCOR CORP,SMART,NYSE
+NVDA,NVDA,Technology,Semiconductors,Electronic Compo-Semicon,NVIDIA CORP,SMART,NASDAQ
+NVR,NVR,"Consumer, Cyclical",Home Builders,Bldg-Residential/Commer,NVR INC,SMART,NYSE
+NWS,NWS,Communications,Media,Publishing-Newspapers,NEWS CORP - CLASS B,SMART,NASDAQ
+NWSA,NWSA,Communications,Media,Publishing-Newspapers,NEWS CORP - CLASS A,SMART,NASDAQ
+NXPI,NXPI,Technology,Semiconductors,Semicon Compo-Intg Circu,NXP SEMICONDUCTORS NV,SMART,NASDAQ
+O,O,Financial,REITS,REITS-Single Tenant,REALTY INCOME CORP,SMART,NYSE
+ODFL,ODFL,Industrial,Transportation,Transport-Truck,OLD DOMINION FREIGHT LINE,SMART,NASDAQ
+OKE,OKE,Energy,Pipelines,Pipelines,ONEOK INC,SMART,NYSE
+OMC,OMC,Communications,Advertising,Advertising Agencies,OMNICOM GROUP,SMART,NYSE
+ON,ON,Technology,Semiconductors,Electronic Compo-Semicon,ON SEMICONDUCTOR,SMART,NASDAQ
+ORCL,ORCL,Technology,Software,Enterprise Software/Serv,ORACLE CORP,SMART,NYSE
+ORLY,ORLY,"Consumer, Cyclical",Retail,Retail-Auto Parts,O'REILLY AUTOMOTIVE INC,SMART,NASDAQ
+OTIS,OTIS,Industrial,Machinery-Diversified,Machinery-General Indust,OTIS WORLDWIDE CORP,SMART,NYSE
+OXY,OXY,Energy,Oil&Gas,Oil Comp-Explor&Prodtn,OCCIDENTAL PETROLEUM CORP,SMART,NYSE
+PANW,PANW,Communications,Internet,Internet Security,PALO ALTO NETWORKS INC,SMART,NASDAQ
+PAYC,PAYC,Technology,Software,Enterprise Software/Serv,PAYCOM SOFTWARE INC,SMART,NYSE
+PAYX,PAYX,Technology,Software,Data Processing/Mgmt,PAYCHEX INC,SMART,NASDAQ
+PCAR,PCAR,"Consumer, Cyclical",Auto Manufacturers,Auto-Med&Heavy Duty Trks,PACCAR INC,SMART,NASDAQ
+PCG,PCG,Utilities,Electric,Electric-Integrated,P G & E CORP,SMART,NYSE
+PEG,PEG,Utilities,Electric,Electric-Integrated,PUBLIC SERVICE ENTERPRISE GP,SMART,NYSE
+PEP,PEP,"Consumer, Non-cyclical",Beverages,Beverages-Non-alcoholic,PEPSICO INC,SMART,NASDAQ
+PFE,PFE,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,PFIZER INC,SMART,NYSE
+PFG,PFG,Financial,Insurance,Life/Health Insurance,PRINCIPAL FINANCIAL GROUP,SMART,NASDAQ
+PG,PG,"Consumer, Non-cyclical",Cosmetics/Personal Care,Cosmetics&Toiletries,PROCTER & GAMBLE CO/THE,SMART,NYSE
+PGR,PGR,Financial,Insurance,Property/Casualty Ins,PROGRESSIVE CORP,SMART,NYSE
+PH,PH,Industrial,Miscellaneous Manufactur,Diversified Manufact Op,PARKER HANNIFIN CORP,SMART,NYSE
+PHM,PHM,"Consumer, Cyclical",Home Builders,Bldg-Residential/Commer,PULTE GROUP INC,SMART,NYSE
+PKG,PKG,Industrial,Packaging&Containers,Containers-Paper/Plastic,PACKAGING CORP OF AMERICA,SMART,NYSE
+PLD,PLD,Financial,REITS,REITS-Warehouse/Industr,PROLOGIS INC,SMART,NYSE
+PLTR,PLTR,Technology,Software,Enterprise Software/Serv,PALANTIR TECHNOLOGIES INC-A,SMART,NASDAQ
+PM,PM,"Consumer, Non-cyclical",Agriculture,Tobacco,PHILIP MORRIS INTERNATIONAL,SMART,NYSE
+PNC,PNC,Financial,Banks,Super-Regional Banks-US,PNC FINANCIAL SERVICES GROUP,SMART,NYSE
+PNR,PNR,Industrial,Environmental Control,Water Treatment Systems,PENTAIR PLC,SMART,NYSE
+PNW,PNW,Utilities,Electric,Electric-Integrated,PINNACLE WEST CAPITAL,SMART,NYSE
+PODD,PODD,"Consumer, Non-cyclical",Healthcare-Products,Patient Monitoring Equip,INSULET CORP,SMART,NASDAQ
+POOL,POOL,"Consumer, Cyclical",Distribution/Wholesale,Distribution/Wholesale,POOL CORP,SMART,NASDAQ
+PPG,PPG,Basic Materials,Chemicals,Chemicals-Diversified,PPG INDUSTRIES INC,SMART,NYSE
+PPL,PPL,Utilities,Electric,Electric-Integrated,PPL CORPORATION,SMART,NYSE
+PRU,PRU,Financial,Insurance,Life/Health Insurance,PRUDENTIAL FINANCIAL INC,SMART,NYSE
+PSA,PSA,Financial,REITS,REITS-Storage,PUBLIC STORAGE,SMART,NYSE
+PSKY,PSKY,Communications,Media,Broadcast Serv/Program,PARAMOUNT SKYDANCE CL B,SMART,NASDAQ
+PSX,PSX,Energy,Oil&Gas,Oil Refining&Marketing,PHILLIPS 66,SMART,NYSE
+PTC,PTC,Technology,Software,Applications Software,PTC INC,SMART,NASDAQ
+PWR,PWR,"Consumer, Non-cyclical",Commercial Services,Commercial Services,QUANTA SERVICES INC,SMART,NYSE
+PYPL,PYPL,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,PAYPAL HOLDINGS INC,SMART,NASDAQ
+QCOM,QCOM,Technology,Semiconductors,Semicon Compo-Intg Circu,QUALCOMM INC,SMART,NASDAQ
+RCL,RCL,"Consumer, Cyclical",Leisure Time,Cruise Lines,ROYAL CARIBBEAN CRUISES LTD,SMART,NYSE
+REG,REG,Financial,REITS,REITS-Shopping Centers,REGENCY CENTERS CORP,SMART,NASDAQ
+REGN,REGN,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,REGENERON PHARMACEUTICALS,SMART,NASDAQ
+RF,RF,Financial,Banks,Commer Banks-Southern US,REGIONS FINANCIAL CORP,SMART,NYSE
+RJF,RJF,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,RAYMOND JAMES FINANCIAL INC,SMART,NYSE
+RL,RL,"Consumer, Cyclical",Apparel,Apparel Manufacturers,RALPH LAUREN CORP,SMART,NYSE
+RMD,RMD,"Consumer, Non-cyclical",Healthcare-Products,Respiratory Products,RESMED INC,SMART,NYSE
+ROK,ROK,Industrial,Machinery-Diversified,Industrial Automat/Robot,ROCKWELL AUTOMATION INC,SMART,NYSE
+ROL,ROL,"Consumer, Non-cyclical",Commercial Services,Building-Maint&Service,ROLLINS INC,SMART,NYSE
+ROP,ROP,Technology,Software,Applications Software,ROPER TECHNOLOGIES INC,SMART,NASDAQ
+ROST,ROST,"Consumer, Cyclical",Retail,Retail-Apparel/Shoe,ROSS STORES INC,SMART,NASDAQ
+RSG,RSG,Industrial,Environmental Control,Non-hazardous Waste Disp,REPUBLIC SERVICES INC,SMART,NYSE
+RTX,RTX,Industrial,Aerospace/Defense,Aerospace/Defense,RTX CORP,SMART,NYSE
+RVTY,RVTY,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Equipment,REVVITY INC,SMART,NYSE
+SBAC,SBAC,Financial,REITS,REITS-Diversified,SBA COMMUNICATIONS CORP,SMART,NASDAQ
+SBUX,SBUX,"Consumer, Cyclical",Retail,Retail-Restaurants,STARBUCKS CORP,SMART,NASDAQ
+SCHW,SCHW,Financial,Diversified Finan Serv,Finance-Invest Bnkr/Brkr,SCHWAB (CHARLES) CORP,SMART,NYSE
+SHW,SHW,Basic Materials,Chemicals,Coatings/Paint,SHERWIN-WILLIAMS CO/THE,SMART,NYSE
+SJM,SJM,"Consumer, Non-cyclical",Food,Food-Confectionery,JM SMUCKER CO/THE,SMART,NYSE
+SLB,SLB,Energy,Oil&Gas Services,Oil-Field Services,SLB LTD,SMART,NYSE
+SMCI,SMCI,Technology,Computers,Computers-Integrated Sys,SUPER MICRO COMPUTER INC,SMART,NASDAQ
+SNA,SNA,Industrial,Hand/Machine Tools,Tools-Hand Held,SNAP-ON INC,SMART,NYSE
+SNPS,SNPS,Technology,Software,Computer Aided Design,SYNOPSYS INC,SMART,NASDAQ
+SO,SO,Utilities,Electric,Electric-Integrated,SOUTHERN CO/THE,SMART,NYSE
+SOLV,SOLV,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,SOLVENTUM CORP,SMART,NYSE
+SPG,SPG,Financial,REITS,REITS-Regional Malls,SIMON PROPERTY GROUP INC,SMART,NYSE
+SPGI,SPGI,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,S&P GLOBAL INC,SMART,NYSE
+SRE,SRE,Utilities,Electric,Electric-Distribution,SEMPRA,SMART,NYSE
+STE,STE,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,STERIS PLC,SMART,NYSE
+STLD,STLD,Basic Materials,Iron/Steel,Steel-Producers,STEEL DYNAMICS INC,SMART,NASDAQ
+STT,STT,Financial,Banks,Fiduciary Banks,STATE STREET CORP,SMART,NYSE
+STX,STX,Technology,Computers,Computers-Memory Devices,SEAGATE TECHNOLOGY HOLDINGS,SMART,NASDAQ
+STZ,STZ,"Consumer, Non-cyclical",Beverages,Brewery,CONSTELLATION BRANDS INC-A,SMART,NYSE
+SW,SW,Industrial,Packaging&Containers,Containers-Paper/Plastic,SMURFIT WESTROCK PLC,SMART,NYSE
+SWK,SWK,Industrial,Hand/Machine Tools,Tools-Hand Held,STANLEY BLACK & DECKER INC,SMART,NYSE
+SWKS,SWKS,Technology,Semiconductors,Electronic Compo-Semicon,SKYWORKS SOLUTIONS INC,SMART,NASDAQ
+SYF,SYF,Financial,Diversified Finan Serv,Finance-Credit Card,SYNCHRONY FINANCIAL,SMART,NYSE
+SYK,SYK,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,STRYKER CORP,SMART,NYSE
+SYY,SYY,"Consumer, Non-cyclical",Food,Food-Wholesale/Distrib,SYSCO CORP,SMART,NYSE
+T,T,Communications,Telecommunications,Telephone-Integrated,AT&T INC,SMART,NYSE
+TAP,TAP,"Consumer, Non-cyclical",Beverages,Brewery,MOLSON COORS BEVERAGE CO - B,SMART,NYSE
+TDG,TDG,Industrial,Aerospace/Defense,Aerospace/Defense,TRANSDIGM GROUP INC,SMART,NYSE
+TDY,TDY,Industrial,Miscellaneous Manufactur,Miscellaneous Manufactur,TELEDYNE TECHNOLOGIES INC,SMART,NYSE
+TECH,TECH,"Consumer, Non-cyclical",Healthcare-Products,Medical Instruments,BIO-TECHNE CORP,SMART,NASDAQ
+TEL,TEL,Industrial,Electronics,Electronic Compo-Misc,TE CONNECTIVITY PLC,SMART,NYSE
+TER,TER,Technology,Semiconductors,Semiconductor Equipment,TERADYNE INC,SMART,NASDAQ
+TFC,TFC,Financial,Banks,Commer Banks-Southern US,TRUIST FINANCIAL CORP,SMART,NYSE
+TGT,TGT,"Consumer, Cyclical",Retail,Retail-Discount,TARGET CORP,SMART,NYSE
+TJX,TJX,"Consumer, Cyclical",Retail,Retail-Major Dept Store,TJX COMPANIES INC,SMART,NYSE
+TKO,TKO,"Consumer, Cyclical",Entertainment,Professional Sports,TKO GROUP HOLDINGS INC,SMART,NYSE
+TMO,TMO,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Equipment,THERMO FISHER SCIENTIFIC INC,SMART,NYSE
+TMUS,TMUS,Communications,Telecommunications,Cellular Telecom,T-MOBILE US INC,SMART,NASDAQ
+TPL,TPL,Energy,Oil&Gas,Oil-US Royalty Trusts,TEXAS PACIFIC LAND CORP,SMART,NYSE
+TPR,TPR,"Consumer, Cyclical",Apparel,Apparel Manufacturers,TAPESTRY INC,SMART,NYSE
+TRGP,TRGP,Energy,Pipelines,Pipelines,TARGA RESOURCES CORP,SMART,NYSE
+TRMB,TRMB,Industrial,Electronics,Electronic Measur Instr,TRIMBLE INC,SMART,NASDAQ
+TROW,TROW,Financial,Diversified Finan Serv,Invest Mgmnt/Advis Serv,T ROWE PRICE GROUP INC,SMART,NASDAQ
+TRV,TRV,Financial,Insurance,Property/Casualty Ins,TRAVELERS COS INC/THE,SMART,NYSE
+TSCO,TSCO,"Consumer, Cyclical",Retail,Retail-Gardening Prod,TRACTOR SUPPLY COMPANY,SMART,NASDAQ
+TSLA,TSLA,"Consumer, Cyclical",Auto Manufacturers,Auto-Cars/Light Trucks,TESLA INC,SMART,NASDAQ
+TSN,TSN,"Consumer, Non-cyclical",Food,Food-Meat Products,TYSON FOODS INC-CL A,SMART,NYSE
+TT,TT,Industrial,Building Materials,Bldg Prod-Air&Heating,TRANE TECHNOLOGIES PLC,SMART,NYSE
+TTD,TTD,Communications,Advertising,Advertising Services,TRADE DESK INC/THE -CLASS A,SMART,NASDAQ
+TTWO,TTWO,Technology,Software,Entertainment Software,TAKE-TWO INTERACTIVE SOFTWRE,SMART,NASDAQ
+TXN,TXN,Technology,Semiconductors,Electronic Compo-Semicon,TEXAS INSTRUMENTS INC,SMART,NASDAQ
+TXT,TXT,Industrial,Miscellaneous Manufactur,Diversified Manufact Op,TEXTRON INC,SMART,NYSE
+TYL,TYL,Technology,Software,Enterprise Software/Serv,TYLER TECHNOLOGIES INC,SMART,NYSE
+UAL,UAL,"Consumer, Cyclical",Airlines,Airlines,UNITED AIRLINES HOLDINGS INC,SMART,NASDAQ
+UBER,UBER,Communications,Internet,E-Commerce/Services,UBER TECHNOLOGIES INC,SMART,NYSE
+UDR,UDR,Financial,REITS,REITS-Apartments,UDR INC,SMART,NYSE
+UHS,UHS,"Consumer, Non-cyclical",Healthcare-Services,Medical-Hospitals,UNIVERSAL HEALTH SERVICES-B,SMART,NYSE
+ULTA,ULTA,"Consumer, Cyclical",Retail,Retail-Perfume&Cosmetics,ULTA BEAUTY INC,SMART,NASDAQ
+UNH,UNH,"Consumer, Non-cyclical",Healthcare-Services,Medical-HMO,UNITEDHEALTH GROUP INC,SMART,NYSE
+UNP,UNP,Industrial,Transportation,Transport-Rail,UNION PACIFIC CORP,SMART,NYSE
+UPS,UPS,Industrial,Transportation,Transport-Services,UNITED PARCEL SERVICE-CL B,SMART,NYSE
+URI,URI,"Consumer, Non-cyclical",Commercial Services,Rental Auto/Equipment,UNITED RENTALS INC,SMART,NYSE
+USB,USB,Financial,Banks,Super-Regional Banks-US,US BANCORP,SMART,NYSE
+V,V,Financial,Diversified Finan Serv,Finance-Credit Card,VISA INC-CLASS A SHARES,SMART,NYSE
+VICI,VICI,Financial,REITS,REITS-Diversified,VICI PROPERTIES INC,SMART,NYSE
+VLO,VLO,Energy,Oil&Gas,Oil Refining&Marketing,VALERO ENERGY CORP,SMART,NYSE
+VLTO,VLTO,Industrial,Environmental Control,Water Treatment Systems,VERALTO CORP,SMART,NYSE
+VMC,VMC,Industrial,Building Materials,Bldg Prod-Cement/Aggreg,VULCAN MATERIALS CO,SMART,NYSE
+VRSK,VRSK,"Consumer, Non-cyclical",Commercial Services,Consulting Services,VERISK ANALYTICS INC,SMART,NASDAQ
+VRSN,VRSN,Communications,Internet,Web Hosting/Design,VERISIGN INC,SMART,NASDAQ
+VRTX,VRTX,"Consumer, Non-cyclical",Biotechnology,Medical-Biomedical/Gene,VERTEX PHARMACEUTICALS INC,SMART,NASDAQ
+VST,VST,Utilities,Electric,Independ Power Producer,VISTRA CORP,SMART,NYSE
+VTR,VTR,Financial,REITS,REITS-Health Care,VENTAS INC.,SMART,NYSE
+VTRS,VTRS,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Generic Drugs,VIATRIS INC,SMART,NASDAQ
+VZ,VZ,Communications,Telecommunications,Telephone-Integrated,VERIZON COMMUNICATIONS INC,SMART,NYSE
+WAB,WAB,Industrial,Machinery-Diversified,Machinery-General Indust,WABTEC CORP,SMART,NYSE
+WAT,WAT,"Consumer, Non-cyclical",Healthcare-Products,Diagnostic Equipment,WATERS CORP,SMART,NYSE
+WBD,WBD,Communications,Media,Broadcast Serv/Program,WARNER BROS DISCOVERY INC,SMART,NASDAQ
+WDAY,WDAY,Technology,Software,Enterprise Software/Serv,WORKDAY INC-CLASS A,SMART,NASDAQ
+WDC,WDC,Technology,Computers,Computers-Memory Devices,WESTERN DIGITAL CORP,SMART,NASDAQ
+WEC,WEC,Utilities,Electric,Electric-Integrated,WEC ENERGY GROUP INC,SMART,NYSE
+WELL,WELL,Financial,REITS,REITS-Health Care,WELLTOWER INC,SMART,NYSE
+WFC,WFC,Financial,Banks,Super-Regional Banks-US,WELLS FARGO & CO,SMART,NYSE
+WM,WM,Industrial,Environmental Control,Non-hazardous Waste Disp,WASTE MANAGEMENT INC,SMART,NYSE
+WMB,WMB,Energy,Pipelines,Pipelines,WILLIAMS COS INC,SMART,NYSE
+WMT,WMT,"Consumer, Cyclical",Retail,Retail-Discount,WALMART INC,SMART,NASDAQ
+WRB,WRB,Financial,Insurance,Property/Casualty Ins,WR BERKLEY CORP,SMART,NYSE
+WSM,WSM,"Consumer, Cyclical",Retail,Retail-Home Furnishings,WILLIAMS-SONOMA INC,SMART,NYSE
+WST,WST,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,WEST PHARMACEUTICAL SERVICES,SMART,NYSE
+WTW,WTW,Financial,Insurance,Insurance Brokers,WILLIS TOWERS WATSON PLC,SMART,NASDAQ
+WY,WY,Financial,REITS,REITS-Diversified,WEYERHAEUSER CO,SMART,NYSE
+WYNN,WYNN,"Consumer, Cyclical",Lodging,Casino Hotels,WYNN RESORTS LTD,SMART,NASDAQ
+XEL,XEL,Utilities,Electric,Electric-Integrated,XCEL ENERGY INC,SMART,NASDAQ
+XOM,XOM,Energy,Oil&Gas,Oil Comp-Integrated,EXXON MOBIL CORP,SMART,NYSE
+XYL,XYL,Industrial,Machinery-Diversified,Machinery-Pumps,XYLEM INC,SMART,NYSE
+XYZ,XYZ,"Consumer, Non-cyclical",Commercial Services,Commercial Serv-Finance,BLOCK INC,SMART,NYSE
+YUM,YUM,"Consumer, Cyclical",Retail,Retail-Restaurants,YUM! BRANDS INC,SMART,NYSE
+ZBH,ZBH,"Consumer, Non-cyclical",Healthcare-Products,Medical Products,ZIMMER BIOMET HOLDINGS INC,SMART,NYSE
+ZBRA,ZBRA,Technology,Office/Business Equip,Office Automation&Equip,ZEBRA TECHNOLOGIES CORP-CL A,SMART,NASDAQ
+ZTS,ZTS,"Consumer, Non-cyclical",Pharmaceuticals,Medical-Drugs,ZOETIS INC,SMART,NYSE
+SNDK,SNDK,Technology,Technology,Computer Storage,SANDISK CORP (DELISTED),SMART,NASDAQ
+APP,APP,Technology,Software,Mobile Advertising,APPLOVIN CORP,SMART,NASDAQ
+MSTR,MSTR,Technology,Software,Business Intelligence,MICROSTRATEGY INC,SMART,NASDAQ
+HOOD,HOOD,Financial,Investment Services,Online Brokerage,ROBINHOOD MARKETS INC,SMART,NASDAQ
+SOFI,SOFI,Financial,Financial Services,Fintech,SOFI TECHNOLOGIES INC,SMART,NASDAQ
+TSM,TSM,Technology,Semiconductors,Semiconductor Foundry,TAIWAN SEMICONDUCTOR MFG,SMART,NYSE
+ASTS,ASTS,Communications,Telecommunications,Satellite Communications,AST SPACEMOBILE INC,SMART,NASDAQ
+LITE,LITE,Technology,Semiconductors,Optical Components,LUMENTUM HOLDINGS INC,SMART,NASDAQ
+CVNA,CVNA,Consumer Cyclical,Retail,Auto Retail,CARVANA CO,SMART,NYSE
+BE,BE,Technology,Energy Equipment,Fuel Cells,BLOOM ENERGY CORP,SMART,NYSE
+RKLB,RKLB,Industrials,Aerospace,Space Launch,ROCKET LAB USA INC,SMART,NASDAQ
+RBLX,RBLX,Technology,Software,Gaming Platform,ROBLOX CORP,SMART,NYSE
+NBIS,NBIS,Technology,Software,AI Infrastructure,NEBIUS GROUP NV,SMART,NASDAQ
+U,U,Technology,Software,Gaming Engine,UNITY SOFTWARE INC,SMART,NYSE
+IREN,IREN,Technology,Software,Bitcoin Mining,IRIS ENERGY LTD,SMART,NASDAQ
+APLD,APLD,Technology,Software,Data Centers,APPLIED DIGITAL CORP,SMART,NASDAQ
+BABA,BABA,Technology,Internet,E-Commerce,ALIBABA GROUP HOLDING LTD,SMART,NYSE
+COHR,COHR,Technology,Semiconductors,Optical Equipment,COHERENT CORP,SMART,NYSE
+OKLO,OKLO,Utilities,Energy,Nuclear Power,OKLO INC,SMART,NYSE
+FLUT,FLUT,Consumer Cyclical,Gaming,Online Gambling,FLUTTER ENTERTAINMENT PLC,SMART,NYSE
+AEM,AEM,Materials,Mining,Gold Mining,AGNICO EAGLE MINES LTD,SMART,NYSE
+SCCO,SCCO,Materials,Mining,Copper Mining,SOUTHERN COPPER CORP,SMART,NYSE
+CIEN,CIEN,Technology,Communications Equipment,Networking,CIENA CORP,SMART,NYSE
+NU,NU,Financial,Banks,Digital Banking,NU HOLDINGS LTD,SMART,NYSE
+AAL,AAL,Industrials,Transportation,Airlines,AMERICAN AIRLINES GROUP INC,SMART,NASDAQ
+IONQ,IONQ,Technology,Semiconductors,Quantum Computing,IONQ INC,SMART,NYSE
+SAP,SAP,Technology,Software,Enterprise Software,SAP SE,SMART,NYSE
+CLS,CLS,Technology,Electronics,Electronics Manufacturing,CELESTICA INC,SMART,NYSE
+HL,HL,Materials,Mining,Silver Mining,HECLA MINING CO,SMART,NYSE
+SHOP,SHOP,Technology,Internet,E-Commerce Platform,SHOPIFY INC,SMART,NYSE
+SNOW,SNOW,Technology,Software,Cloud Data,SNOWFLAKE INC,SMART,NYSE
+RDDT,RDDT,Technology,Internet,Social Media,REDDIT INC,SMART,NYSE
+VALE,VALE,Materials,Mining,Iron Ore Mining,VALE SA,SMART,NYSE
+RKT,RKT,Financial,Financial Services,Mortgage,ROCKET COMPANIES INC,SMART,NYSE
+CDE,CDE,Materials,Mining,Silver Mining,COEUR MINING INC,SMART,NYSE
+CRDO,CRDO,Technology,Semiconductors,Connectivity Solutions,CREDO TECHNOLOGY GROUP,SMART,NASDAQ
+SATS,SATS,Communications,Telecommunications,Satellite,ECHOSTAR CORP,SMART,NASDAQ
+CRWV,CRWV,Technology,Software,AI,CROWDSTRIKE HOLDINGS INC,SMART,NASDAQ
+SPYM,SPYM,Broad Market,S&P 500,Large Cap,SPDR PORTFOLIO SP 500 HIGH DIVIDEND ETF,SMART,NYSE
+USAR,USAR,Technology,Software,AI,USCB FINANCIAL HOLDINGS INC,SMART,NASDAQ
+BMNR,BMNR,Materials,Mining,Gold Mining,BRUNSWICK MINING LTD,SMART,NYSE
+CRCL,CRCL,Technology,Software,Data Analytics,CIRCLE INTERNET GROUP INC,SMART,NYSE
+ONDS,ONDS,Technology,Communications Equipment,Wireless,ONDAS HOLDINGS INC,SMART,NASDAQ
+ASML,ASML,Technology,Semiconductors,Semiconductor Equipment,ASML HOLDING NV,SMART,NASDAQ
+NET,NET,Technology,Software,Cloud Security,CLOUDFLARE INC,SMART,NYSE
+NVO,NVO,Healthcare,Pharmaceuticals,Pharmaceuticals,NOVO NORDISK A/S,SMART,NYSE
+AG,AG,Materials,Mining,Silver Mining,FIRST MAJESTIC SILVER CORP,SMART,NYSE
+QBTS,QBTS,Technology,Technology,Quantum Computing,D-WAVE QUANTUM INC,SMART,NYSE
+MP,MP,Materials,Mining,Rare Earth,MP MATERIALS CORP,SMART,NYSE
+VRT,VRT,Industrials,Industrial Services,Data Center Infrastructure,VERTIV HOLDINGS CO,SMART,NYSE
+B,B,Industrials,Industrial Products,Industrial Machinery,BARNES GROUP INC,SMART,NYSE
+MRVL,MRVL,Technology,Semiconductors,Semiconductors,MARVELL TECHNOLOGY INC,SMART,NASDAQ
+PAAS,PAAS,Materials,Mining,Silver Mining,PAN AMERICAN SILVER CORP,SMART,NASDAQ
+RDW,RDW,Technology,Aerospace,Space Technology,REDWIRE CORP,SMART,NYSE
+BBAI,BBAI,Technology,Software,AI Analytics,BIGBEAR AI HOLDINGS INC,SMART,NYSE
+CCJ,CCJ,Energy,Uranium,Uranium Mining,CAMECO CORP,SMART,NYSE
+CIFR,CIFR,Technology,Technology,Bitcoin Mining,CIPHER MINING INC,SMART,NASDAQ
+CPNG,CPNG,Technology,Internet,E-Commerce,COUPANG INC,SMART,NYSE
+UUUU,UUUU,Energy,Uranium,Uranium Mining,ENERGY FUELS INC,SMART,NYSE
+JOBY,JOBY,Industrials,Aerospace,Electric Aviation,JOBY AVIATION INC,SMART,NYSE
+ALAB,ALAB,Technology,Semiconductors,Data Center Semiconductors,ASTERA LABS INC,SMART,NASDAQ
+TEAM,TEAM,Technology,Software,Collaboration Software,ATLASSIAN CORP,SMART,NASDAQ
+RGTI,RGTI,Technology,Technology,Quantum Computing,RIGETTI COMPUTING INC,SMART,NASDAQ
+HIMS,HIMS,Healthcare,Healthcare Services,Telehealth,HIMS & HERS HEALTH INC,SMART,NYSE
+WPM,WPM,Materials,Precious Metals,Precious Metals Streaming,WHEATON PRECIOUS METALS CORP,SMART,NYSE
+PINS,PINS,Technology,Internet,Social Media,PINTEREST INC,SMART,NYSE
+ARM,ARM,Technology,Semiconductors,Semiconductor IP,ARM HOLDINGS PLC,SMART,NASDAQ
+MARA,MARA,Technology,Technology,Bitcoin Mining,MARATHON DIGITAL HOLDINGS,SMART,NASDAQ
+SE,SE,Technology,Internet,E-Commerce,SEA LTD,SMART,NYSE
+WULF,WULF,Technology,Technology,Bitcoin Mining,TERAWULF INC,SMART,NASDAQ
+SMR,SMR,Energy,Nuclear,Nuclear Energy,NUSCALE POWER CORP,SMART,NYSE
+AZN,AZN,Healthcare,Pharmaceuticals,Pharmaceuticals,ASTRAZENECA PLC,SMART,NASDAQ
+ZM,ZM,Technology,Software,Video Communications,ZOOM VIDEO COMMUNICATIONS,SMART,NASDAQ
+PBR,PBR,Energy,Oil & Gas,Oil & Gas E&P,PETROLEO BRASILEIRO SA,SMART,NYSE
+DKNG,DKNG,Consumer Discretionary,Entertainment,Online Gaming,DRAFTKINGS INC,SMART,NASDAQ
+GME,GME,Consumer Discretionary,Retail,Video Game Retail,GAMESTOP CORP,SMART,NYSE
+CLSK,CLSK,Technology,Technology,Bitcoin Mining,CLEANSPARK INC,SMART,NASDAQ
+PDD,PDD,Technology,Internet,E-Commerce,PDD HOLDINGS INC,SMART,NASDAQ
+RBRK,RBRK,Technology,Software,Cybersecurity,RUBRIK INC,SMART,NYSE
+HYMC,HYMC,Materials,Mining,Gold Silver Mining,HYCROFT MINING HOLDING CORP,SMART,NASDAQ
+AFRM,AFRM,Financial,Financial Services,Buy Now Pay Later,AFFIRM HOLDINGS INC,SMART,NASDAQ
+AA,AA,Materials,Mining,Aluminum,ALCOA CORP,SMART,NYSE
+PLUG,PLUG,Energy,Clean Energy,Hydrogen Fuel Cells,PLUG POWER INC,SMART,NASDAQ
+KGC,KGC,Materials,Mining,Gold Mining,KINROSS GOLD CORP,SMART,NYSE
+AU,AU,Materials,Mining,Gold Mining,ANGLOGOLD ASHANTI PLC,SMART,NYSE
+KTOS,KTOS,Industrials,Aerospace,Defense Technology,KRATOS DEFENSE & SECURITY,SMART,NASDAQ
+TEVA,TEVA,Healthcare,Pharmaceuticals,Generic Drugs,TEVA PHARMACEUTICAL INDUSTRIES,SMART,NYSE
+SNAP,SNAP,Technology,Internet,Social Media,SNAP INC,SMART,NYSE
+EOSE,EOSE,Energy,Clean Energy,Energy Storage,EOS ENERGY ENTERPRISES INC,SMART,NASDAQ
+BTG,BTG,Materials,Mining,Gold Mining,B2GOLD CORP,SMART,NYSE
+FISV,FISV,Technology,Financial Technology,Payment Processing,FISERV INC,SMART,NYSE
+AGNC,AGNC,Financial,Real Estate,Mortgage REIT,AGNC INVESTMENT CORP,SMART,NASDAQ
+PATH,PATH,Technology,Software,Automation Software,UIPATH INC,SMART,NYSE
+NOK,NOK,Technology,Communications Equipment,Telecommunications Equipment,NOKIA OYJ,SMART,NYSE
+OPEN,OPEN,Technology,Internet,Real Estate Tech,OPENDOOR TECHNOLOGIES INC,SMART,NASDAQ
+SHEL,SHEL,Energy,Oil & Gas,Integrated Oil,SHELL PLC,SMART,NYSE
+BROS,BROS,Consumer Discretionary,Restaurants,Coffee,DUTCH BROS INC,SMART,NYSE
+RIVN,RIVN,Consumer Discretionary,Automobiles,Electric Vehicles,RIVIAN AUTOMOTIVE INC,SMART,NASDAQ
+ACHR,ACHR,Industrials,Aerospace,Electric Aviation,ARCHER AVIATION INC,SMART,NYSE
+PL,PL,Technology,Aerospace,Space Technology,PLANET LABS PBC,SMART,NYSE
+ITUB,ITUB,Financial,Banks,International Banking,ITAU UNIBANCO HOLDING SA,SMART,NYSE
+PFSI,PFSI,Financial,Mortgage Finance,Mortgage Services,PENNYMAC FINANCIAL SERVICES INC,SMART,NYSE
+RIO,RIO,Materials,Mining,Diversified Mining,RIO TINTO PLC,SMART,NYSE
+NLY,NLY,Financial,REITS,Mortgage REIT,ANNALY CAPITAL MANAGEMENT INC,SMART,NYSE
+RHI,RHI,Industrials,Professional Services,Staffing Services,ROBERT HALF INC,SMART,NYSE
+WHR,WHR,Consumer Discretionary,Household Durables,Home Appliances,WHIRLPOOL CORP,SMART,NYSE
+TCEHY,TCEHY,Technology,Internet,Internet Services,TENCENT HOLDINGS LTD ADR,SMART,OTC
+RIOT,RIOT,Technology,Technology,Bitcoin Mining,RIOT PLATFORMS INC,SMART,NASDAQ
+HUT,HUT,Technology,Technology,Bitcoin Mining,HUT 8 CORP,SMART,NASDAQ
+AAOI,AAOI,Technology,Semiconductors,Optical Components,APPLIED OPTOELECTRONICS INC,SMART,NASDAQ
+GFI,GFI,Materials,Mining,Gold Mining,GOLD FIELDS LTD ADR,SMART,NYSE
+DNN,DNN,Energy,Uranium,Uranium Mining,DENISON MINES CORP,SMART,NYSE
+BHP,BHP,Materials,Mining,Diversified Mining,BHP GROUP LTD ADR,SMART,NYSE
+BTI,BTI,Consumer Staples,Tobacco,Tobacco Products,BRITISH AMERICAN TOBACCO PLC ADR,SMART,NYSE
+TOST,TOST,Technology,Software,Restaurant Tech,TOAST INC,SMART,NYSE
+TEM,TEM,Healthcare,Healthcare Technology,AI Healthcare,TEMPUS AI INC,SMART,NASDAQ
+OWL,OWL,Financial,Asset Management,Alternative Asset Management,BLUE OWL CAPITAL INC,SMART,NYSE
+TEX,TEX,Industrials,Machinery,Industrial Equipment,TEREX CORP,SMART,NYSE
+FEED,FEED,Healthcare,Medical Devices,Medical Equipment,ENVUE MEDICAL INC,SMART,NASDAQ
+TTMI,TTMI,Technology,Electronics,Electronic Components,TTM TECHNOLOGIES INC,SMART,NASDAQ
+LYFT,LYFT,Technology,Internet,Ride-Sharing,LYFT INC,SMART,NASDAQ
+BBD,BBD,Financial,Banks,International Banking,BANCO BRADESCO SA ADR,SMART,NYSE
+FLNC,FLNC,Industrials,Energy Equipment,Energy Storage,FLUENCE ENERGY INC,SMART,NASDAQ
+SU,SU,Energy,Oil & Gas,Integrated Oil,SUNCOR ENERGY INC,SMART,NYSE
+ROKU,ROKU,Technology,Internet,Streaming,ROKU INC,SMART,NASDAQ
+EPD,EPD,Energy,Pipelines,Midstream,ENTERPRISE PRODUCTS PARTNERS LP,SMART,NYSE
+ALGM,ALGM,Technology,Semiconductors,Analog Semiconductors,ALLEGRO MICROSYSTEMS INC,SMART,NASDAQ
+ETSY,ETSY,Technology,Internet,E-Commerce,ETSY INC,SMART,NASDAQ
+PCVX,PCVX,Healthcare,Biotechnology,Vaccines,VAXCYTE INC,SMART,NASDAQ
+GSK,GSK,Healthcare,Pharmaceuticals,Major Pharmaceuticals,GSK PLC ADR,SMART,NYSE
+NIO,NIO,Consumer Discretionary,Automobiles,Electric Vehicles,NIO INC ADR,SMART,NYSE
+INFY,INFY,Technology,IT Services,IT Consulting,INFOSYS LTD ADR,SMART,NYSE
+IBRX,IBRX,Healthcare,Biotechnology,Immunotherapy,IMMUNITYBIO INC,SMART,NASDAQ
+VIAV,VIAV,Technology,Communications Equipment,Network Testing,VIAVI SOLUTIONS INC,SMART,NASDAQ
+ET,ET,Energy,Pipelines,Midstream,ENERGY TRANSFER LP,SMART,NYSE
+WT,WT,Financial,Asset Management,ETF Provider,WISDOMTREE INC,SMART,NYSE
+SOUN,SOUN,Technology,Software,AI Voice,SOUNDHOUND AI INC,SMART,NASDAQ
+GAP,GAP,Consumer Discretionary,Retail,Apparel Retail,GAP INC,SMART,NYSE
+PR,PR,Energy,Oil & Gas,Oil E&P,PERMIAN RESOURCES CORP,SMART,NYSE
+RITM,RITM,Financial,REITS,Mortgage REIT,RITHM CAPITAL CORP,SMART,NYSE
+APLS,APLS,Healthcare,Biotechnology,Rare Disease,APELLIS PHARMACEUTICALS INC,SMART,NASDAQ
+FIGR,FIGR,Technology,Financial Technology,Blockchain Lending,FIGURE TECHNOLOGY SOLUTIONS INC,SMART,NASDAQ
+ALK,ALK,Industrials,Airlines,Airlines,ALASKA AIR GROUP INC,SMART,NYSE
+RHHBY,RHHBY,Healthcare,Pharmaceuticals,Major Pharmaceuticals,ROCHE HOLDING AG ADR,SMART,OTC
+BP,BP,Energy,Oil & Gas,Integrated Oil,BP PLC ADR,SMART,NYSE
+CHWY,CHWY,Consumer Discretionary,Retail,Pet Products,CHEWY INC,SMART,NYSE
+PRIV,PRIV,Financial,Investment Managers,Investment Managers,Beneficient,NASDAQ,NASDAQ
+RMBS,RMBS,Financial,Real Estate Investment Trusts,Mortgage REITs,Rambus Inc.,NASDAQ,NASDAQ
+FUSE,FUSE,Technology,Software,Infrastructure Software,Fusion Pharmaceuticals Inc.,NASDAQ,NASDAQ
+ARES,ARES,Financial,Investment Managers,Investment Managers,Ares Management Corporation,NYSE,NYSE
+IBKR,IBKR,Financial,Brokers & Intermediaries,Investment Brokers,"Interactive Brokers Group, Inc.",NASDAQ,NASDAQ
+XPO,XPO,Industrial,Transportation & Logistics,Trucking,"XPO, Inc.",NYSE,NYSE
+W,W,"Consumer, Cyclical",Retail,Internet Retail,Wayfair Inc.,NYSE,NYSE
+MKSI,MKSI,Technology,Semiconductors,Semiconductor Equipment,"MKS Instruments, Inc.",NASDAQ,NASDAQ
+KNX,KNX,Industrial,Conglomerates,Conglomerates,Knight-Swift Transportation Holdings Inc.,NYSE,NYSE
+DOCN,DOCN,Technology,Software,Infrastructure Software,"DigitalOcean Holdings, Inc.",NYSE,NYSE
+BN,BN,Financial,Investment Managers,Investment Managers,Brookfield Corporation,NYSE,NYSE
+GWRE,GWRE,Technology,Software,Application Software,"Guidewire Software, Inc.",NYSE,NYSE
+OKTA,OKTA,Technology,Software,Security Software,"Okta, Inc.",NASDAQ,NASDAQ
+GLXY,GLXY,Technology,Software,Application Software,Galaxy Digital Holdings Ltd.,NASDAQ,NASDAQ
+TSLG,TSLG,Technology,Semiconductors,Semiconductors,Tesla Inc.,NASDAQ,NASDAQ
+CG,CG,Financial,Investment Managers,Investment Managers,The Carlyle Group Inc.,NASDAQ,NASDAQ
+CART,CART,"Consumer, Cyclical",Retail,Specialty Retail,Instacart (Maplebear Inc.),NASDAQ,NASDAQ
+CRML,CRML,Technology,Software,Application Software,Critical Metals Corp.,NASDAQ,NASDAQ
+EXEL,EXEL,Healthcare,Biotechnology,Biotechnology,"Exelixis, Inc.",NASDAQ,NASDAQ
+EGO,EGO,Basic Materials,Gold,Gold Mining,Eldorado Gold Corporation,NYSE,NYSE
+OVV,OVV,Energy,Oil & Gas,Oil & Gas Exploration,Ovintiv Inc.,NYSE,NYSE
+FIG,FIG,Financial,Investment Managers,Investment Managers,Fortress Investment Group,NYSE,NYSE
+VIK,VIK,Energy,Oil & Gas,Oil & Gas Exploration,Viking Holdings Ltd.,NYSE,NYSE
+CAVA,CAVA,"Consumer, Cyclical",Restaurants,Restaurants,"CAVA Group, Inc.",NYSE,NYSE
+SPOT,SPOT,Technology,Entertainment,Music Streaming,Spotify Technology S.A.,NYSE,NYSE
+WBS,WBS,Financial,Banking,Commercial Banks,Webster Financial Corporation,NASDAQ,NASDAQ
+NVS,NVS,Healthcare,Pharmaceuticals,Pharmaceuticals,Novartis AG,NYSE,NYSE
+PFGC,PFGC,Consumer Non-cyclical,Food,Food Distribution,Performance Food Group Company,NASDAQ,NASDAQ
+CWAN,CWAN,Technology,Software,Financial Software,Clearwater Analytics Holdings Inc.,NYSE,NYSE
+CFLT,CFLT,Technology,Software,Data Infrastructure,Confluent Inc.,NASDAQ,NASDAQ
+SAN,SAN,Financial,Banking,International Banks,Banco Santander S.A.,NYSE,NYSE
+RRX,RRX,Industrial,Diversified Industrials,Diversified Industrials,Roper Technologies Inc.,NASDAQ,NASDAQ
+BILL,BILL,Technology,Software,Financial Software,Bill Holdings Inc.,NYSE,NYSE
+VEEV,VEEV,Healthcare,Software,Healthcare IT,Veeva Systems Inc.,NYSE,NYSE
+SLAB,SLAB,Technology,Semiconductors,Semiconductors,Silicon Laboratories Inc.,NASDAQ,NASDAQ
+ENTG,ENTG,Technology,Semiconductors,Semiconductor Equipment,Entegris Inc.,NASDAQ,NASDAQ
+FLEX,FLEX,Technology,Electronics,Contract Manufacturing,Flex Ltd.,NASDAQ,NASDAQ
+IOT,IOT,Technology,Software,IoT Platform Software,Samsara Inc.,NYSE,NYSE
+NYT,NYT,Communications,Media,Digital Media,The New York Times Company,NYSE,NYSE
+USFD,USFD,Consumer Non-cyclical,Food,Food Distribution,US Foods Holding Corp.,NYSE,NYSE
+TPG,TPG,Financial,Investment Managers,Private Equity,TPG Inc.,NASDAQ,NASDAQ
+Z,Z,Technology,Real Estate,Online Real Estate,Zillow Group Inc.,NASDAQ,NASDAQ
+TRI,TRI,Communications,Information Services,Professional Information,Thomson Reuters Corporation,NYSE,NYSE
+TRU,TRU,Technology,Data Analytics,Consumer Data Analytics,TransUnion,NYSE,NYSE
+SSNC,SSNC,Technology,Software,Financial Software,SS&C Technologies Holdings Inc.,NASDAQ,NASDAQ
+DUOL,DUOL,Technology,Software,Education Software,Duolingo Inc.,NASDAQ,NASDAQ
+SNY,SNY,Healthcare,Pharmaceuticals,Pharmaceuticals,Sanofi S.A.,NASDAQ,NASDAQ
+STLA,STLA,Consumer Cyclical,Automotive,Auto Manufacturers,Stellantis N.V.,NYSE,NYSE
+CRH,CRH,Industrial,Construction Materials,Construction Materials,CRH plc,NYSE,NYSE
+DT,DT,Technology,Software,Observability Software,Dynatrace Inc.,NYSE,NYSE
+JD,JD,Consumer Cyclical,Internet Retail,Internet Retail,JD.com Inc.,NASDAQ,NASDAQ
+DOCS,DOCS,Healthcare,Software,Healthcare IT,Doximity Inc.,NYSE,NYSE
+ONON,ONON,Consumer Cyclical,Footwear,Athletic Footwear,On Holding AG,NYSE,NYSE
+TSEM,TSEM,Technology,Semiconductors,Semiconductor Foundry,Tower Semiconductor Ltd.,NASDAQ,NASDAQ
+SIRI,SIRI,Communications,Broadcasting,Satellite Radio,SiriusXM Holdings Inc.,NASDAQ,NASDAQ
+FOLD,FOLD,Healthcare,Biotechnology,Biotechnology,Amicus Therapeutics Inc.,NASDAQ,NASDAQ
+NVT,NVT,Industrial,Electrical Equipment,Electrical Equipment,nVent Electric plc,NYSE,NYSE
+VRNS,VRNS,Technology,Software,Data Security Software,Varonis Systems Inc.,NASDAQ,NASDAQ
+TECK,TECK,Basic Materials,Mining,Diversified Mining,Teck Resources Ltd.,NYSE,NYSE
+LBRT,LBRT,Energy,Oil Services,Oilfield Services,Liberty Energy Inc.,NYSE,NYSE
+TWLO,TWLO,Technology,Software,Communications Software,Twilio Inc.,NYSE,NYSE
+ARMK,ARMK,Consumer Non-cyclical,Food Services,Managed Services,Aramark Holdings Corp.,NASDAQ,NASDAQ
+GRAB,GRAB,Technology,Internet,Ride Sharing/Delivery,Grab Holdings Ltd.,NASDAQ,NASDAQ
+NVTS,NVTS,Technology,Semiconductors,Power Semiconductors,Navitas Semiconductor Corp.,NASDAQ,NASDAQ
+PCOR,PCOR,Technology,Software,Construction Software,Procore Technologies Inc.,NYSE,NYSE
+CLF,CLF,Basic Materials,Steel,Steel Manufacturing,Cleveland-Cliffs Inc.,NYSE,NYSE
+HDB,HDB,Financial,Banking,International Banks,HDFC Bank Ltd.,NYSE,NYSE
+ZETA,ZETA,Technology,Software,Marketing Technology,Zeta Global Holdings Corp.,NYSE,NYSE
+GH,GH,Healthcare,Diagnostics,Liquid Biopsy,Guardant Health Inc.,NASDAQ,NASDAQ
+HUBS,HUBS,Technology,Software,CRM Software,HubSpot Inc.,NYSE,NYSE
+RIG,RIG,Energy,Offshore Drilling,Offshore Drilling,Transocean Ltd.,NYSE,NYSE
+NTNX,NTNX,Technology,Software,Cloud Infrastructure,Nutanix Inc.,NASDAQ,NASDAQ
+ARCC,ARCC,Financial,Business Development Co,BDC Lending,Ares Capital Corporation,NASDAQ,NASDAQ
+LUMN,LUMN,Communications,Telecom,Fiber Network Telecom,Lumen Technologies Inc.,NYSE,NYSE
+SONY,SONY,Technology,Consumer Electronics,Consumer Electronics,Sony Group Corporation,NYSE,NYSE
+MNDY,MNDY,Technology,Software,Work Management Software,Monday.com Ltd.,NASDAQ,NASDAQ
+ZS,ZS,Technology,Software,Cybersecurity,Zscaler Inc.,NASDAQ,NASDAQ
+MMYT,MMYT,Consumer Cyclical,Travel,Online Travel Services,MakeMyTrip Ltd.,NASDAQ,NASDAQ
+GPK,GPK,Industrial,Packaging,Paperboard Packaging,Graphic Packaging Holding Company,NYSE,NYSE
+AMKR,AMKR,Technology,Semiconductors,Semiconductor Packaging,Amkor Technology Inc.,NASDAQ,NASDAQ
+AS,AS,Consumer Cyclical,Sporting Goods,Athletic Equipment,Amer Sports Inc.,NYSE,NYSE
+CORZ,CORZ,Technology,Bitcoin Mining,Cryptocurrency Mining,Core Scientific Inc.,NASDAQ,NASDAQ
+RUN,RUN,Energy,Solar,Residential Solar,Sunrun Inc.,NASDAQ,NASDAQ
+SYM,SYM,Technology,Robotics,Warehouse Automation,Symbotic Inc.,NASDAQ,NASDAQ
+SM,SM,Energy,Oil & Gas,Oil & Gas Exploration,SM Energy Company,NYSE,NYSE
+EQX,EQX,Basic Materials,Gold,Gold Mining,Equinox Gold Corp.,NYSE,NYSE
+AGI,AGI,Basic Materials,Gold,Gold Mining,Alamos Gold Inc.,NYSE,NYSE
+COMP,COMP,Technology,Real Estate,Online Real Estate Broker,Compass Inc.,NYSE,NYSE
+FTI,FTI,Energy,Oil Services,Subsea Technologies,TechnipFMC plc,NYSE,NYSE
+GTLB,GTLB,Technology,Software,DevOps Platform,GitLab Inc.,NASDAQ,NASDAQ
+LUNR,LUNR,Technology,Space,Space Exploration,Intuitive Machines Inc.,NASDAQ,NASDAQ
+UAMY,UAMY,Basic Materials,Mining,Specialty Metals,United States Antimony Corp.,NYSE,NYSE
+ELF,ELF,Consumer Non-cyclical,Beauty,Beauty Products,e.l.f. Beauty Inc.,NYSE,NYSE
+GGB,GGB,Basic Materials,Steel,Steel Manufacturing,Gerdau S.A.,NYSE,NYSE
+RELX,RELX,Communications,Information Services,Professional Publishing,RELX plc,NYSE,NYSE
+SMX,SMX,Technology,Software,Blockchain Authentication,Security Matters Ltd.,NASDAQ,NASDAQ
+ILMN,ILMN,Healthcare,Life Sciences,Genomics,Illumina Inc.,NASDAQ,NASDAQ
+ROIV,ROIV,Healthcare,Biotechnology,Biopharmaceuticals,Roivant Sciences Ltd.,NASDAQ,NASDAQ
+AMPX,AMPX,Technology,Energy Storage,Battery Technology,Amprius Technologies Inc.,NYSE,NYSE
+ALC,ALC,Healthcare,Medical Devices,Eye Care,Alcon Inc.,NYSE,NYSE
+QXO,QXO,Technology,Software,Construction Technology,QXO Inc.,NASDAQ,NASDAQ
+PTON,PTON,Consumer Cyclical,Fitness,Fitness Equipment,Peloton Interactive Inc.,NASDAQ,NASDAQ
+BCS,BCS,Financial,Banking,International Banks,Barclays PLC,NYSE,NYSE
+UEC,UEC,Energy,Uranium,Uranium Mining,Uranium Energy Corp.,NYSE,NYSE
+CELH,CELH,Consumer Non-cyclical,Beverages,Energy Drinks,Celsius Holdings Inc.,NASDAQ,NASDAQ
+EQNR,EQNR,Energy,Oil & Gas,Oil & Gas Integrated,Equinor ASA,NYSE,NYSE
+CNH,CNH,Industrial,Agricultural Equipment,Agricultural Machinery,CNH Industrial N.V.,NYSE,NYSE
+FHN,FHN,Financial,Banking,Regional Banks,First Horizon National Corp.,NYSE,NYSE
+JBLU,JBLU,Industrial,Airlines,Airlines,JetBlue Airways Corp.,NASDAQ,NASDAQ
+FROG,FROG,Technology,Software,DevOps Platform,JFrog Ltd.,NASDAQ,NASDAQ
+RCAT,RCAT,Technology,Drones,Defense Technology,Red Cat Holdings Inc.,NASDAQ,NASDAQ
+AR,AR,Energy,Natural Gas,Natural Gas E&P,Antero Resources Corp.,NYSE,NYSE
+STM,STM,Technology,Semiconductors,Semiconductors,STMicroelectronics N.V.,NYSE,NYSE
+BAM,BAM,Financial,Asset Management,Alternative Asset Mgmt,Brookfield Asset Management Ltd.,NYSE,NYSE
+SEI,SEI,Financial,Asset Management,Financial Technology,SEI Investments Company,NASDAQ,NASDAQ
+AMC,AMC,Consumer Cyclical,Entertainment,Movie Theaters,AMC Entertainment Holdings Inc.,NYSE,NYSE
+QUBT,QUBT,Technology,Quantum Computing,Quantum Computing,Quantum Computing Inc.,NASDAQ,NASDAQ
+RPRX,RPRX,Healthcare,Pharmaceuticals,Pharma Royalties,Royalty Pharma plc,NASDAQ,NASDAQ
+HRB,HRB,Consumer Non-cyclical,Financial Services,Tax Services,H&R Block Inc.,NYSE,NYSE
+CNQ,CNQ,Energy,Oil & Gas,Oil Sands E&P,Canadian Natural Resources Ltd.,NYSE,NYSE
+S,S,Technology,Software,Cybersecurity,SentinelOne Inc.,NYSE,NYSE
+DOCU,DOCU,Technology,Software,Document Management,DocuSign Inc.,NASDAQ,NASDAQ
+ASX,ASX,Technology,Semiconductors,Semiconductor Packaging,ASE Technology Holding Co Ltd.,NYSE,NYSE
+VOD,VOD,Communications,Telecom,Wireless Telecom,Vodafone Group plc,NASDAQ,NASDAQ
+RXRX,RXRX,Healthcare,Biotechnology,AI Drug Discovery,Recursion Pharmaceuticals Inc.,NASDAQ,NASDAQ
+EQH,EQH,Financial,Insurance,Financial Services,Equitable Holdings Inc.,NYSE,NYSE
+NXE,NXE,Energy,Uranium,Uranium Mining,NexGen Energy Ltd.,NYSE,NYSE
+ADT,ADT,Industrial,Security Services,Electronic Security,ADT Inc.,NASDAQ,NASDAQ
+AVTR,AVTR,Healthcare,Life Sciences,Life Sciences Equipment,Avantor Inc.,NYSE,NYSE
+STKL,STKL,Consumer Non-cyclical,Food,Plant-Based Foods,SunOpta Inc.,NASDAQ,NASDAQ
+QS,QS,Technology,Battery,EV Battery Technology,QuantumScape Corporation,NYSE,NYSE
+UPST,UPST,Technology,Software,AI Lending Platform,Upstart Holdings Inc.,NASDAQ,NASDAQ
+BBIO,BBIO,Healthcare,Biotechnology,Biotechnology,BridgeBio Pharma Inc.,NASDAQ,NASDAQ
+ATI,ATI,Basic Materials,Specialty Materials,Specialty Alloys,ATI Inc.,NYSE,NYSE
+SBSW,SBSW,Basic Materials,Precious Metals,Platinum/Palladium Mining,Sibanye Stillwater Ltd.,NYSE,NYSE
+ABEV,ABEV,Consumer Non-cyclical,Beverages,Beer/Beverages,Ambev S.A.,NYSE,NYSE
+JHX,JHX,Industrial,Construction Materials,Fiber Cement,James Hardie Industries plc,NYSE,NYSE
+OBDC,OBDC,Financial,Business Development Co,BDC Lending,Blue Owl Capital Corporation,NYSE,NYSE
+FMC,FMC,Basic Materials,Chemicals,Agricultural Chemicals,FMC Corporation,NYSE,NYSE
+PSTG,PSTG,Technology,Software,Cloud Storage,Pure Storage Inc.,NYSE,NYSE
+AXTI,AXTI,Technology,Semiconductors,Compound Semiconductors,AXT Inc.,NASDAQ,NASDAQ
+EXK,EXK,Basic Materials,Silver,Silver Mining,Endeavour Silver Corp.,NYSE,NYSE

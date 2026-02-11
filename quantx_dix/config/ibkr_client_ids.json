@@ -1,0 +1,35 @@
+{
+  "default_start": 20,
+  "allocations": [
+    {
+      "host": "127.0.0.1",
+      "port": 4002,
+      "purpose": "dix_daily_one_day",
+      "clientId": 22
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 4002,
+      "purpose": "ibkr_symbol_profile_cache",
+      "clientId": 23
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 4002,
+      "purpose": "dix_history_6y",
+      "clientId": 24
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 4002,
+      "purpose": "dix_history_smoke",
+      "clientId": 20
+    },
+    {
+      "host": "127.0.0.1",
+      "port": 4002,
+      "purpose": "dix_history_6y_run",
+      "clientId": 21
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+ticker,sector,subsector,leverage,direction,description
+SOXL,Semiconductors,Semiconductor ETFs,3x,Bull,Direxion Daily Semiconductor Bull 3X
+SOXS,Semiconductors,Semiconductor ETFs,-3x,Bear,Direxion Daily Semiconductor Bear 3X
+TQQQ,Technology,NASDAQ-100,3x,Bull,ProShares UltraPro QQQ
+SQQQ,Technology,NASDAQ-100,-3x,Bear,ProShares UltraPro Short QQQ
+UPRO,Broad Market,S&P 500,3x,Bull,ProShares UltraPro S&P500
+SPXU,Broad Market,S&P 500,-3x,Bear,ProShares UltraPro Short S&P500
+TNA,Small Cap,Russell 2000,3x,Bull,Direxion Daily Small Cap Bull 3X
+TZA,Small Cap,Russell 2000,-3x,Bear,Direxion Daily Small Cap Bear 3X
+TECL,Technology,Technology Select Sector,3x,Bull,Direxion Daily Technology Bull 3X
+TECS,Technology,Technology Select Sector,-3x,Bear,Direxion Daily Technology Bear 3X
+FAS,Financials,Financial Select Sector,3x,Bull,Direxion Daily Financial Bull 3X
+FAZ,Financials,Financial Select Sector,-3x,Bear,Direxion Daily Financial Bear 3X
+DUST,Precious Metals,Gold Miners,-2x,Bear,Direxion Daily Gold Miners Bear 2X
+NUGT,Precious Metals,Gold Miners,3x,Bull,Direxion Daily Gold Miners Bull 3X
+JNUG,Precious Metals,Junior Gold Miners,2x,Bull,Direxion Daily Junior Gold Miners Bull 2X
+JDST,Precious Metals,Junior Gold Miners,-2x,Bear,Direxion Daily Junior Gold Miners Bear 2X
+GLD,Precious Metals,Gold,1x,Bull,SPDR Gold Trust
+SLV,Precious Metals,Silver,1x,Bull,iShares Silver Trust
+GDX,Precious Metals,Gold Miners,1x,Bull,VanEck Gold Miners ETF
+GDXJ,Precious Metals,Junior Gold Miners,1x,Bull,VanEck Junior Gold Miners ETF
+IAU,Precious Metals,Gold,1x,Bull,iShares Gold Trust
+SGOL,Precious Metals,Gold,1x,Bull,abrdn Physical Gold Shares ETF
+PHYS,Precious Metals,Gold,1x,Bull,Sprott Physical Gold Trust
+PSLV,Precious Metals,Silver,1x,Bull,Sprott Physical Silver Trust
+SIVR,Precious Metals,Silver,1x,Bull,Aberdeen Standard Physical Silver Shares ETF
+PPLT,Precious Metals,Platinum,1x,Bull,Aberdeen Standard Physical Platinum Shares ETF
+PALL,Precious Metals,Palladium,1x,Bull,Aberdeen Standard Physical Palladium Shares ETF
+USLV,Precious Metals,Silver,3x,Bull,VelocityShares 3x Long Silver ETN
+DSLV,Precious Metals,Silver,-3x,Bear,VelocityShares 3x Inverse Silver ETN
+UGL,Precious Metals,Gold,2x,Bull,ProShares Ultra Gold
+GLL,Precious Metals,Gold,-2x,Bear,ProShares UltraShort Gold
+AGQ,Precious Metals,Silver,2x,Bull,ProShares Ultra Silver
+ZSL,Precious Metals,Silver,-2x,Bear,ProShares UltraShort Silver
+SILJ,Precious Metals,Silver Miners,1x,Bull,ETFMG Prime Junior Silver Miners ETF
+SIL,Precious Metals,Silver Miners,1x,Bull,Global X Silver Miners ETF
+GDXU,Precious Metals,Gold Miners,2x,Bull,MicroSectors Gold Miners 2X Leveraged ETN
+SLV3,Precious Metals,Silver,3x,Bull,MicroSectors Silver 3X Leveraged ETN
+FNGU,Technology,FANG+,3x,Bull,MicroSectors FANG+ 3X Leveraged ETN
+FNGD,Technology,FANG+,-3x,Bear,MicroSectors FANG+ Inverse 3X Leveraged ETN
+WEBL,Technology,Dow Jones Internet,3x,Bull,Direxion Daily Dow Jones Internet Bull 3X
+WEBS,Technology,Dow Jones Internet,-3x,Bear,Direxion Daily Dow Jones Internet Bear 3X
+LABU,Healthcare,Biotechnology,3x,Bull,Direxion Daily S&P Biotech Bull 3X
+LABD,Healthcare,Biotechnology,-3x,Bear,Direxion Daily S&P Biotech Bear 3X
+ERX,Energy,Energy Select Sector,3x,Bull,Direxion Daily Energy Bull 3X
+ERY,Energy,Energy Select Sector,-3x,Bear,Direxion Daily Energy Bear 3X
+DRIP,Energy,Oil & Gas,3x,Bear,Direxion Daily S&P Oil & Gas Bear 3X
+GUSH,Energy,Oil & Gas,2x,Bull,Direxion Daily S&P Oil & Gas Bull 2X
+CURE,Healthcare,Healthcare Select Sector,3x,Bull,Direxion Daily Healthcare Bull 3X
+YINN,International,China,3x,Bull,Direxion Daily FTSE China Bull 3X
+YANG,International,China,-3x,Bear,Direxion Daily FTSE China Bear 3X
+SPY,Broad Market,S&P 500,1x,Bull,SPDR S&P 500 ETF Trust
+QQQ,Technology,NASDAQ-100,1x,Bull,Invesco QQQ Trust
+IWM,Small Cap,Russell 2000,1x,Bull,iShares Russell 2000 ETF
+DIA,Broad Market,Dow Jones,1x,Bull,SPDR Dow Jones Industrial Average ETF
+VTI,Broad Market,Total Stock Market,1x,Bull,Vanguard Total Stock Market ETF
+VOO,Broad Market,S&P 500,1x,Bull,Vanguard S&P 500 ETF
+ARKK,Technology,Innovation,1x,Bull,ARK Innovation ETF
+XLF,Financials,Financial Select Sector,1x,Bull,Financial Select Sector SPDR Fund
+XLE,Energy,Energy Select Sector,1x,Bull,Energy Select Sector SPDR Fund
+XLK,Technology,Technology Select Sector,1x,Bull,Technology Select Sector SPDR Fund
+XLV,Healthcare,Healthcare Select Sector,1x,Bull,Health Care Select Sector SPDR Fund
+XLI,Industrials,Industrial Select Sector,1x,Bull,Industrial Select Sector SPDR Fund
+XLP,Consumer Staples,Consumer Staples Select Sector,1x,Bull,Consumer Staples Select Sector SPDR Fund
+XLY,Consumer Discretionary,Consumer Discretionary Select Sector,1x,Bull,Consumer Discretionary Select Sector SPDR Fund
+XLB,Materials,Materials Select Sector,1x,Bull,Materials Select Sector SPDR Fund
+XLU,Utilities,Utilities Select Sector,1x,Bull,Utilities Select Sector SPDR Fund
+XLRE,Real Estate,Real Estate Select Sector,1x,Bull,Real Estate Select Sector SPDR Fund
+VGK,International,Europe,1x,Bull,Vanguard FTSE Europe ETF
+EWJ,International,Japan,1x,Bull,iShares MSCI Japan ETF
+EEM,International,Emerging Markets,1x,Bull,iShares MSCI Emerging Markets ETF
+VWO,International,Emerging Markets,1x,Bull,Vanguard FTSE Emerging Markets ETF
+HYG,Fixed Income,High Yield Corporate Bonds,1x,Bull,iShares iBoxx High Yield Corporate Bond ETF
+LQD,Fixed Income,Investment Grade Corporate Bonds,1x,Bull,iShares iBoxx Investment Grade Corporate Bond ETF
+TLT,Fixed Income,20+ Year Treasury Bonds,1x,Bull,iShares 20+ Year Treasury Bond ETF
+IEF,Fixed Income,7-10 Year Treasury Bonds,1x,Bull,iShares 7-10 Year Treasury Bond ETF
+SHY,Fixed Income,1-3 Year Treasury Bonds,1x,Bull,iShares 1-3 Year Treasury Bond ETF
+IVV,Broad Market,S&P 500,1x,Bull,iShares Core S&P 500 ETF
+SGOV,Fixed Income,Treasury,1x,Bull,iShares 0-3 Month Treasury Bond ETF
+SOXX,Semiconductors,Semiconductor ETFs,1x,Bull,iShares Semiconductor ETF
+SMH,Semiconductors,Semiconductor ETFs,1x,Bull,VanEck Semiconductor ETF
+JPST,Fixed Income,Ultra-Short,1x,Bull,JPMorgan Ultra-Short Income ETF
+UVXY,Volatility,VIX,1.5x,Bull,ProShares Ultra VIX Short-Term Futures
+SVXY,Volatility,VIX,-0.5x,Bear,ProShares Short VIX Short-Term Futures
+ARKG,Healthcare,Genomics,1x,Bull,ARK Genomic Revolution ETF
+ARKW,Technology,Internet,1x,Bull,ARK Next Generation Internet ETF
+IBIT,Crypto,Bitcoin,1x,Bull,iShares Bitcoin Trust ETF
+GBTC,Crypto,Bitcoin,1x,Bull,Grayscale Bitcoin Trust
+BITO,Crypto,Bitcoin Futures,1x,Bull,ProShares Bitcoin Strategy ETF
+VCSH,Fixed Income,Short-Term Corporate,1x,Bull,Vanguard Short-Term Corporate Bond ETF
+RSP,Broad Market,S&P 500 Equal Weight,1x,Bull,Invesco S&P 500 Equal Weight ETF
+JAAA,Fixed Income,CLO,1x,Bull,Janus Henderson AAA CLO ETF
+IGSB,Fixed Income,Investment Grade Corporate,1x,Bull,iShares 1-5 Year Investment Grade Corporate Bond ETF
+IEMG,International,Emerging Markets,1x,Bull,iShares Core MSCI Emerging Markets ETF
+IEFA,International,Developed Markets,1x,Bull,iShares Core MSCI EAFE ETF
+EWZ,International,Brazil,1x,Bull,iShares MSCI Brazil ETF
+BIL,Fixed Income,Treasury Bills,1x,Bull,SPDR Bloomberg 1-3 Month T-Bill ETF
+VEA,International,Developed Markets,1x,Bull,Vanguard FTSE Developed Markets ETF
+FXI,International,China,1x,Bull,iShares China Large-Cap ETF
+GLDM,Precious Metals,Gold,1x,Bull,SPDR Gold MiniShares Trust
+IGV,Software,Software ETFs,1x,Bull,iShares Expanded Tech-Software Sector ETF
+VCIT,Fixed Income,Intermediate Corporate,1x,Bull,Vanguard Intermediate-Term Corporate Bond ETF
+BKLN,Fixed Income,Senior Loans,1x,Bull,Invesco Senior Loan ETF
+EWY,International,South Korea,1x,Bull,iShares MSCI South Korea ETF
+XBI,Healthcare,Biotech ETFs,1x,Bull,SPDR S&P Biotech ETF
+VONG,Broad Market,Russell 1000 Growth,1x,Bull,Vanguard Russell 1000 Growth ETF
+XLC,Communications,Communication Services,1x,Bull,Communication Services Select Sector SPDR Fund
+XOP,Energy,Oil & Gas E&P,1x,Bull,SPDR S&P Oil & Gas Exploration & Production ETF
+KRE,Financials,Regional Banks,1x,Bull,SPDR S&P Regional Banking ETF
+EMB,Fixed Income,Emerging Market Bonds,1x,Bull,iShares JP Morgan USD Emerging Markets Bond ETF
+TSLL,Technology,Tesla Leveraged,2x,Bull,Direxion Daily TSLA Bull 2X Shares
+JEPQ,Income,Covered Call,1x,Bull,JPMorgan Nasdaq Equity Premium Income ETF
+SRLN,Fixed Income,Senior Loans,1x,Bull,SPDR Blackstone Senior Loan ETF
+BND,Fixed Income,Total Bond Market,1x,Bull,Vanguard Total Bond Market ETF
+AGG,Fixed Income,Aggregate Bond,1x,Bull,iShares Core US Aggregate Bond ETF
+VXUS,International,Total International,1x,Bull,Vanguard Total International Stock ETF
+VTV,Broad Market,Value,1x,Bull,Vanguard Value ETF
+EFA,International,EAFE,1x,Bull,iShares MSCI EAFE ETF
+VT,Broad Market,Total World,1x,Bull,Vanguard Total World Stock ETF
+PAAA,Fixed Income,Treasury Floating,1x,Bull,Pacer US Treasury Floating Rate ETF
+IJR,Small Cap,S&P 600,1x,Bull,iShares Core S&P Small-Cap ETF
+SCHX,Broad Market,US Large Cap,1x,Bull,Schwab US Large-Cap ETF
+COPX,Materials,Copper Miners,1x,Bull,Global X Copper Miners ETF
+JEPI,Income,Covered Call,1x,Bull,JPMorgan Equity Premium Income ETF
+IDEV,International,Developed Markets,1x,Bull,iShares Core MSCI International Developed Markets ETF
+IQLT,International,Quality Factor,1x,Bull,iShares MSCI Intl Quality Factor ETF
+USHY,Fixed Income,High Yield Corporate,1x,Bull,iShares Broad USD High Yield Corporate Bond ETF
+VTIP,Fixed Income,Inflation-Protected,1x,Bull,Vanguard Short-Term Inflation-Protected Securities ETF
+IJH,Broad Market,S&P Mid-Cap 400,1x,Bull,iShares Core S&P Mid-Cap ETF
+SCHD,Income,Dividend Equity,1x,Bull,Schwab US Dividend Equity ETF
+VTEB,Fixed Income,Municipal Bonds,1x,Bull,Vanguard Tax-Exempt Bond ETF
+QUAL,Broad Market,Quality Factor,1x,Bull,iShares MSCI USA Quality Factor ETF
+QQQM,Technology,NASDAQ-100,1x,Bull,Invesco NASDAQ 100 ETF
+NVDL,Semiconductors,NVIDIA Leveraged,2x,Bull,GraniteShares 2x Long NVDA Daily ETF
+URA,Energy,Uranium,1x,Bull,Global X Uranium ETF
+BNDX,Fixed Income,International Bond,1x,Bull,Vanguard Total International Bond ETF
+VGSH,Fixed Income,Short-Term Treasury,1x,Bull,Vanguard Short-Term Treasury ETF
+XME,Materials,Metals Mining,1x,Bull,SPDR S&P Metals and Mining ETF
+ETHA,Crypto,Ethereum,1x,Bull,iShares Ethereum Trust ETF
+IWD,Broad Market,Russell 1000 Value,1x,Bull,iShares Russell 1000 Value ETF
+KOLD,Energy,Natural Gas,-2x,Bear,ProShares UltraShort Bloomberg Natural Gas
+KWEB,International,China Internet,1x,Bull,KraneShares CSI China Internet ETF
+VEU,International,All-World ex-US,1x,Bull,Vanguard FTSE All-World ex-US ETF
+IAUM,Precious Metals,Gold Micro,1x,Bull,iShares Gold Trust Micro ETF
+RWM,Small Cap,Russell 2000,-1x,Bear,ProShares Short Russell2000
+BOIL,Energy,Natural Gas,2x,Bull,ProShares Ultra Bloomberg Natural Gas
+VGIT,Fixed Income,Intermediate Treasury,1x,Bull,Vanguard Intermediate-Term Treasury ETF
+VCLT,Fixed Income,Long-Term Corporate,1x,Bull,Vanguard Long-Term Corporate Bond ETF
+SCHG,Broad Market,US Large-Cap Growth,1x,Bull,Schwab US Large-Cap Growth ETF
+QID,Technology,NASDAQ-100,-2x,Bear,ProShares UltraShort QQQ
+SCHF,International,International Equity,1x,Bull,Schwab International Equity ETF
+PSQ,Technology,NASDAQ-100,-1x,Bear,ProShares Short QQQ
+QLD,Technology,NASDAQ-100,2x,Bull,ProShares Ultra QQQ
+TSLS,Technology,Tesla Inverse,-1x,Bear,Direxion Daily TSLA Bear 1X Shares
+SPTI,Fixed Income,Intermediate Treasury,1x,Bull,SPDR Portfolio Intermediate Term Treasury ETF
+USFR,Fixed Income,Floating Rate Treasury,1x,Bull,WisdomTree Floating Rate Treasury Fund
+IWF,Broad Market,Russell 1000 Growth,1x,Bull,iShares Russell 1000 Growth ETF
+BNAI,Technology,AI,1x,Bull,Brand Engagement Network AI ETF
+CGDV,Income,Dividend Value,1x,Bull,Capital Group Dividend Value ETF
+BOXX,Fixed Income,Treasury Box,1x,Bull,Alpha Architect 1-3 Month Box ETF
+MUB,Fixed Income,Municipal Bonds,1x,Bull,iShares National Muni Bond ETF
+SCZ,International,Small Cap,1x,Bull,iShares MSCI EAFE Small-Cap ETF
+SPDW,International,Developed World ex-US,1x,Bull,SPDR Portfolio Developed World ex-US ETF
+USO,Commodities,Oil,1x,Bull,United States Oil Fund LP
+PVAL,Broad Market,S&P 500 Value,1x,Bull,Invesco S&P 500 Pure Value ETF
+JNK,Fixed Income,High Yield Bonds,1x,Bull,SPDR Bloomberg High Yield Bond ETF
+XRT,Consumer Discretionary,Retail,1x,Bull,SPDR S&P Retail ETF
+MUU,Semiconductors,Micron Leveraged,2x,Bull,Direxion Daily MU Bull 2X Shares
+EWC,International,Canada,1x,Bull,iShares MSCI Canada ETF
+IYR,Real Estate,US Real Estate,1x,Bull,iShares U.S. Real Estate ETF
+KBWB,Financials,Banks,1x,Bull,Invesco KBW Bank ETF
+ACWI,Broad Market,Global All Cap,1x,Bull,iShares MSCI ACWI ETF
+ITB,Industrials,Home Construction,1x,Bull,iShares U.S. Home Construction ETF
+CGGR,Broad Market,Large Growth,1x,Bull,Capital Group Growth ETF
+BBCA,International,Canada,1x,Bull,JPMorgan BetaBuilders Canada ETF
+TSLQ,Technology,Tesla Inverse,-1x,Bear,AXS TSLA Bear Daily ETF
+DYNF,Broad Market,Factor Rotation,1x,Bull,BlackRock U.S. Equity Factor Rotation ETF
+VWOB,Fixed Income,EM Government Bonds,1x,Bull,Vanguard Emerging Markets Government Bond ETF
+USMV,Broad Market,Minimum Volatility,1x,Bull,iShares MSCI USA Min Vol Factor ETF
+NVD,Semiconductors,NVIDIA Inverse,-2x,Bear,GraniteShares 2x Short NVDA Daily ETF
+SNXX,Technology,SanDisk Leveraged,2x,Bull,Tradr 2X Long SNDK Daily ETF
+VNQ,Real Estate,US Real Estate,1x,Bull,Vanguard Real Estate ETF
+PICK,Materials,Metals Mining,1x,Bull,iShares MSCI Global Metals Mining Producers ETF
+UNG,Commodities,Natural Gas,1x,Bull,United States Natural Gas Fund LP
+SHV,Fixed Income,Short Treasury,1x,Bull,iShares Short Treasury Bond ETF
+VBIL,Fixed Income,International Treasury,1x,Bull,SPDR Bloomberg International Treasury Bond ETF
+PULS,Fixed Income,Ultra-Short,1x,Bull,PGIM Ultra Short Bond ETF
+BSV,Fixed Income,Short-Term Bonds,1x,Bull,Vanguard Short-Term Bond ETF
+SPXS,Broad Market,S&P 500,-3x,Bear,Direxion Daily S&P 500 Bear 3X Shares
+SPYI,Income,Covered Call,1x,Bull,NEOS S&P 500 High Income ETF
+PDBC,Commodities,Diversified,1x,Bull,Invesco Optimum Yield Diversified Commodity ETF
+FBTC,Crypto,Bitcoin,1x,Bull,Fidelity Wise Origin Bitcoin Fund
+SPIB,Fixed Income,Intermediate Corporate,1x,Bull,SPDR Portfolio Intermediate Term Corporate Bond ETF
+SPEM,International,Emerging Markets,1x,Bull,SPDR Portfolio Emerging Markets ETF
+TBIL,Fixed Income,Treasury Bills,1x,Bull,US Treasury 3 Month Bill ETF
+ASHR,International,China A-Shares,1x,Bull,Xtrackers Harvest CSI 300 China A-Shares ETF
+PLTD,Technology,Palantir Inverse,-1x,Bear,Direxion Daily PLTR Bear 1X Shares
+EWA,International,Australia,1x,Bull,iShares MSCI Australia ETF
+SCHB,Broad Market,US Total Market,1x,Bull,Schwab US Broad Market ETF
+IRE,Technology,IREN Leveraged,2x,Bull,Defiance Daily Target 2X Long IREN ETF
+UVIX,Volatility,VIX,2x,Bull,2x Long VIX Futures ETF
+BWX,Fixed Income,International Treasury,1x,Bull,SPDR Bloomberg International Treasury Bond ETF
+REMX,Materials,Rare Earth Metals,1x,Bull,VanEck Rare Earth Strategic Metals ETF
+SCHP,Fixed Income,TIPS,1x,Bull,Schwab US TIPS ETF
+SPLV,Broad Market,Low Volatility,1x,Bull,Invesco S&P 500 Low Volatility ETF
+ETHU,Crypto,Ethereum,2x,Bull,ProShares Ultra Ether ETF
+QQQI,Income,Covered Call,1x,Bull,NEOS Nasdaq-100 High Income ETF
+MSTX,Technology,MicroStrategy Leveraged,2x,Bull,T-Rex 2X Long MSTR Daily Target ETF
+FNDX,Broad Market,Fundamental Large Cap,1x,Bull,Schwab Fundamental US Large Company ETF
+SPDN,Broad Market,S&P 500,-1x,Bear,Direxion Daily S&P 500 Bear 1X Shares
+SPYV,Broad Market,S&P 500 Value,1x,Bull,SPDR Portfolio S&P 500 Value ETF
+FBND,Fixed Income,Total Bond,1x,Bull,Fidelity Total Bond ETF
+EWG,International,Germany,1x,Bull,iShares MSCI Germany ETF
+SSO,Broad Market,S&P 500,2x,Bull,ProShares Ultra S&P500
+BMNU,Technology,BMNR Leveraged,2x,Bull,T-REX 2X Long BMNR Daily Target ETF
+ASTX,Communications,ASTS Leveraged,2x,Bull,Tradr 2X Long ASTS Daily ETF
+INDA,Equity,India,,Long,iShares MSCI India ETF
+MBB,Fixed Income,Mortgage-Backed Securities,,Long,iShares MBS ETF
+TIP,Fixed Income,Inflation-Protected,,Long,iShares TIPS Bond ETF
+VUSB,Fixed Income,Ultra-Short,,Long,Vanguard Ultra-Short Bond ETF
+IYT,Equity,Transportation,,Long,iShares Transportation Average ETF
+MINT,Fixed Income,Ultra-Short,,Long,PIMCO Enhanced Short Maturity Active ETF
+GOVT,Fixed Income,US Treasury,,Long,iShares U.S. Treasury Bond ETF
+IEI,Fixed Income,Intermediate Treasury,,Long,iShares 3-7 Year Treasury Bond ETF
+IGIB,Fixed Income,Intermediate Credit,,Long,iShares Intermediate Credit Bond ETF
+VTWO,Equity,Small Cap,,Long,Vanguard Russell 2000 ETF
+IUSB,Fixed Income,Aggregate Bond,,Long,iShares Core Total USD Bond Market ETF
+ICSH,Fixed Income,Ultra-Short,,Long,iShares Ultra Short-Term Bond ETF
+TFLO,Fixed Income,Floating Rate,,Long,iShares Treasury Floating Rate Bond ETF
+PYLD,Fixed Income,High Yield,,Long,PIMCO Access Income Fund
+SPHY,Fixed Income,High Yield,,Short,SPDR Portfolio High Yield Bond ETF
+BITX,Equity,Bitcoin Miners,,Long,2x Bitcoin Strategy ETF
+SPXL,Equity,Large Cap,3x,Long,Direxion Daily S&P 500 Bull 3X Shares
+SPYG,Equity,Large Cap Growth,,Long,SPDR Portfolio S&P 500 Growth ETF
+SH,Equity,Large Cap Inverse,1x,Short,ProShares Short S&P500
+SDS,Equity,Large Cap Inverse,2x,Short,ProShares UltraShort S&P500
+UDOW,Equity,Dow Jones,3x,Long,ProShares UltraPro Dow30
+SHYG,Fixed Income,Short-Term High Yield,,Long,iShares 0-5 Year High Yield Corporate Bond ETF
+SJNK,Fixed Income,Short-Term High Yield,,Long,SPDR Bloomberg Short Term High Yield Bond ETF
+XHB,Equity,Homebuilders,,Long,SPDR S&P Homebuilders ETF
+QYLD,Equity,Covered Call,,Long,Global X NASDAQ 100 Covered Call ETF
+SCHH,Equity,REITs,,Long,Schwab US REIT ETF
+VXX,Volatility,VIX Futures,,Long,iPath Series B S&P 500 VIX ST Futures ETN
+ILF,Equity,Latin America,,Long,iShares Latin America 40 ETF
+EFV,Equity,International Value,,Long,iShares MSCI EAFE Value ETF
+ISVL,Equity,International Value,,Long,iShares MSCI Intl Value Factor ETF
+TMF,Fixed Income,Long Treasury,3x,Long,Direxion Daily 20+ Yr Treasury Bull 3X Shares
+SPTL,Fixed Income,Long Treasury,,Long,SPDR Portfolio Long Term Treasury ETF
+IBB,Healthcare,Biotechnology,,Long,iShares Biotechnology ETF
+MSTU,Equity,MicroStrategy Bull,2x,Long,T-Rex 2X Long MSTR Daily Target ETF
+MSTZ,Equity,MicroStrategy Bear,2x,Short,T-Rex 2X Inverse MSTR Daily Target ETF
+TSLZ,Equity,Tesla Bull,2x,Long,T-Rex 2X Long Tesla Daily Target ETF
+TSDD,Equity,Tesla Bear,2x,Short,GraniteShares 2x Short Tesla Daily ETP
+AMDL,Equity,AMD Bull,2x,Long,GraniteShares 2x Long AMD Daily ETP
+SBIT,Equity,Bitcoin Inverse,1x,Short,ProShares Short Bitcoin ETF
+BTC,Equity,Bitcoin,,Long,Grayscale Bitcoin Mini Trust ETF
+PBUS,Fixed Income,Aggregate Bond,,Long,Invesco PureBeta US Aggregate Bond ETF
+GCOW,Equity,Global Dividend,,Long,Pacer Global Cash Cows Dividend ETF
+DOG,Equity,Dow Jones Inverse,1x,Short,ProShares Short Dow30
+SDOW,Equity,Dow Jones Inverse,3x,Short,ProShares UltraPro Short Dow30
+BINC,Fixed Income,Flexible Income,None,Long,BlackRock Flexible Income ETF
+PFF,Fixed Income,Preferred Securities,None,Long,iShares Preferred & Income Securities ETF
+SCHO,Fixed Income,Short Treasury,None,Long,Schwab Short-Term U.S. Treasury ETF
+AVEM,Equity,Emerging Markets,None,Long,Avantis Emerging Markets Equity ETF
+EMXC,Equity,Emerging Markets ex-China,None,Long,iShares MSCI Emerging Markets ex-China ETF
+SCHE,Equity,Emerging Markets,None,Long,Schwab Emerging Markets Equity ETF
+EWH,Equity,Hong Kong,None,Long,iShares MSCI Hong Kong ETF
+SCHV,Equity,Large Cap Value,None,Long,Schwab U.S. Large-Cap Value ETF
+SCHA,Equity,Small Cap,None,Long,Schwab U.S. Small-Cap ETF
+DFIV,Equity,International Value,None,Long,Dimensional International Value ETF
+MAGS,Equity,Mega Cap Growth,None,Long,Roundhill Magnificent Seven ETF
+IGM,Equity,Technology,None,Long,iShares Expanded Tech Sector ETF
+ITOT,Equity,Broad Market,None,Long,iShares Core S&P Total U.S. Stock Market ETF
+MSFU,Equity,MicroStrategy Bull,2x,Long,Defiance Daily Target 2X Long MSTR ETF
+BITI,Equity,Bitcoin Inverse,1x,Short,ProShares Short Bitcoin Strategy ETF
+BITU,Equity,Bitcoin Bull,2x,Long,ProShares Ultra Bitcoin ETF
+ETH,Equity,Ethereum,None,Long,Grayscale Ethereum Mini Trust ETF
+PLTZ,Equity,Palantir Bull,2x,Long,T-Rex 2X Long Palantir Daily Target ETF
+AMZD,Equity,Amazon Bear,2x,Short,GraniteShares 2x Short Amazon Daily ETP
+AMZU,Equity,Amazon Bull,2x,Long,GraniteShares 2x Long Amazon Daily ETP
+SVIX,Volatility,VIX Inverse,1x,Short,-1x Short VIX Futures ETF

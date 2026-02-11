@@ -1,0 +1,9 @@
+{
+  "version": "v2",
+  "inputs": ["SPX", "IWM", "VIX"],
+  "ema_periods": [10, 20, 50],
+  "vix_ma_period": 20,
+  "iwm_spy_threshold_r0": 0.45,
+  "iwm_spy_threshold_r1": 0.40,
+  "mapping_notes": "V2: Fixed IWM thresholds (0.45/0.40 based on backtest), R5=early recovery (trend=1,vix=0), R3=pure no-trend+panic, R4=trend+VIX"
+}

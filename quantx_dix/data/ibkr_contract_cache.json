@@ -1,0 +1,7556 @@
+{
+  "A": {
+    "conId": 1715006,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AA": {
+    "conId": 251962528,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AAL": {
+    "conId": 139673266,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AAOI": {
+    "conId": 135423662,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AAP": {
+    "conId": 4027,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AAPL": {
+    "conId": 265598,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ABBV": {
+    "conId": 118089500,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ABEO": {
+    "conId": 571221112,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ABEV": {
+    "conId": 137736417,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ABR": {
+    "conId": 29661257,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ABT": {
+    "conId": 4065,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ACAD": {
+    "conId": 29308796,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACB": {
+    "conId": 684987288,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACGL": {
+    "conId": 10763362,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACHV": {
+    "conId": 437395849,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACIW": {
+    "conId": 45427720,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACM": {
+    "conId": 43980401,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ACMR": {
+    "conId": 295043917,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACN": {
+    "conId": 67889930,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ACRS": {
+    "conId": 209011562,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACWI": {
+    "conId": 49954154,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ACWX": {
+    "conId": 49954149,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADBE": {
+    "conId": 265768,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADI": {
+    "conId": 4157,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADM": {
+    "conId": 4165,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ADMA": {
+    "conId": 136375641,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADNT": {
+    "conId": 252066451,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ADP": {
+    "conId": 4661,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADPT": {
+    "conId": 372849716,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADSK": {
+    "conId": 265681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ADT": {
+    "conId": 302902498,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ADXS": {
+    "conId": 565846550,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "AEE": {
+    "conId": 13181,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AEG": {
+    "conId": 656769411,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AEM": {
+    "conId": 4205,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AEMD": {
+    "conId": 823801710,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AEO": {
+    "conId": 4725951,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AEP": {
+    "conId": 4211,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AES": {
+    "conId": 2560358,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AFL": {
+    "conId": 4227,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AG": {
+    "conId": 41855679,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AGEN": {
+    "conId": 696183669,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AGG": {
+    "conId": 25985141,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "AGI": {
+    "conId": 198630479,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AGNC": {
+    "conId": 249963585,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AGYS": {
+    "conId": 273139,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AIG": {
+    "conId": 61319701,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AIM": {
+    "conId": 791107086,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "AIV": {
+    "conId": 457630882,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AKBA": {
+    "conId": 146445446,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ALB": {
+    "conId": 4347,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ALGN": {
+    "conId": 11459264,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ALK": {
+    "conId": 4352,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ALKS": {
+    "conId": 94892734,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ALLY": {
+    "conId": 148233980,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ALV": {
+    "conId": 2746144,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AM": {
+    "conId": 355947671,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMAT": {
+    "conId": 266093,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMC": {
+    "conId": 648081824,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMCR": {
+    "conId": 845305949,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMD": {
+    "conId": 4391,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMGN": {
+    "conId": 266145,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMH": {
+    "conId": 132221970,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMKR": {
+    "conId": 4726244,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMLP": {
+    "conId": 419585780,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "AMPE": {
+    "conId": 651670281,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "AMRN": {
+    "conId": 775821334,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMRX": {
+    "conId": 316490716,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMT": {
+    "conId": 99831145,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMTD": {
+    "conId": 665145378,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMTX": {
+    "conId": 151367747,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AMX": {
+    "conId": 618310823,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AMZA": {
+    "conId": 411856797,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "AMZN": {
+    "conId": 3691937,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ANET": {
+    "conId": 740948854,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ANF": {
+    "conId": 2585399,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ANGI": {
+    "conId": 769111690,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ANGL": {
+    "conId": 229725522,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ANVS": {
+    "conId": 401630584,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AOS": {
+    "conId": 12225,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "APA": {
+    "conId": 474515500,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "APD": {
+    "conId": 4487,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "APH": {
+    "conId": 4493,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "APLE": {
+    "conId": 194322803,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "APO": {
+    "conId": 535288388,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "APPN": {
+    "conId": 277374861,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "APPS": {
+    "conId": 180352934,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "APT": {
+    "conId": 764497,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "APTV": {
+    "conId": 748351585,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AQMS": {
+    "conId": 803736038,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AR": {
+    "conId": 135942630,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ARAY": {
+    "conId": 42843151,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ARCC": {
+    "conId": 31400554,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ARDX": {
+    "conId": 156540877,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ARLP": {
+    "conId": 6857418,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ARMK": {
+    "conId": 139816149,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ARMP": {
+    "conId": 364041242,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "AROC": {
+    "conId": 199914862,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ARWR": {
+    "conId": 228571236,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ASB": {
+    "conId": 266410,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ASH": {
+    "conId": 247915706,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ASHR": {
+    "conId": 137868087,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "ASM": {
+    "conId": 37028040,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "ASML": {
+    "conId": 117902840,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ASRT": {
+    "conId": 841519249,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ATEC": {
+    "conId": 245164531,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ATI": {
+    "conId": 1946967,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ATNM": {
+    "conId": 438710464,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "ATRA": {
+    "conId": 710196235,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AU": {
+    "conId": 655276604,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AUDC": {
+    "conId": 6324655,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AUPH": {
+    "conId": 165642013,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AVAL": {
+    "conId": 167236267,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AVDL": {
+    "conId": 696794463,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AVGO": {
+    "conId": 313130367,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AVT": {
+    "conId": 4691,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "AVTR": {
+    "conId": 366131368,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AXL": {
+    "conId": 5082651,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AXP": {
+    "conId": 4721,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AXS": {
+    "conId": 18963197,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AXTA": {
+    "conId": 173253787,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "AZN": {
+    "conId": 4521593,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BA": {
+    "conId": 4762,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BAB": {
+    "conId": 319359489,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BABA": {
+    "conId": 166090175,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BAC": {
+    "conId": 10098,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BAM": {
+    "conId": 599900805,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BAR": {
+    "conId": 287646824,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BAX": {
+    "conId": 8111188,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BB": {
+    "conId": 131217639,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BBAR": {
+    "conId": 390462028,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BBBY": {
+    "conId": 15130059,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BBD": {
+    "conId": 28213000,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BBJP": {
+    "conId": 477183122,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "BBVA": {
+    "conId": 4815,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BBY": {
+    "conId": 4817,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BCRX": {
+    "conId": 4726995,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BCS": {
+    "conId": 4854,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BCX": {
+    "conId": 86253659,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BDN": {
+    "conId": 2586487,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BDX": {
+    "conId": 4886,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BE": {
+    "conId": 326398514,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BEN": {
+    "conId": 4906,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BG": {
+    "conId": 663174498,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BGS": {
+    "conId": 44216351,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BHC": {
+    "conId": 325536414,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BHP": {
+    "conId": 4986,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BHVN": {
+    "conId": 586873967,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BIDU": {
+    "conId": 35359385,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BIL": {
+    "conId": 296457239,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BILI": {
+    "conId": 311571413,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BIMI": {
+    "conId": 602243346,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "BIV": {
+    "conId": 43645835,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BJ": {
+    "conId": 323612220,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BK": {
+    "conId": 44986804,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BKLN": {
+    "conId": 319359400,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BKR": {
+    "conId": 281316445,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BKYI": {
+    "conId": 673642582,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BLDP": {
+    "conId": 56935150,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BMEZ": {
+    "conId": 401357651,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BMO": {
+    "conId": 5094,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BMRN": {
+    "conId": 6857447,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BMY": {
+    "conId": 5111,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BND": {
+    "conId": 43645828,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BNDX": {
+    "conId": 128835017,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BNGO": {
+    "conId": 756907447,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BOIL": {
+    "conId": 738523395,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BOOT": {
+    "conId": 172185600,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BOX": {
+    "conId": 181158987,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BP": {
+    "conId": 5171,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BRO": {
+    "conId": 6607613,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BRX": {
+    "conId": 137494497,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BRZU": {
+    "conId": 416854766,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BSV": {
+    "conId": 43645838,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BSX": {
+    "conId": 5270,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BTE": {
+    "conId": 82487862,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BTG": {
+    "conId": 48834358,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "BTU": {
+    "conId": 271303334,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BTZ": {
+    "conId": 42249758,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BWA": {
+    "conId": 5336,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BWX": {
+    "conId": 46577293,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "BX": {
+    "conId": 372834689,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BYD": {
+    "conId": 5365,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "BYND": {
+    "conId": 364036112,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "BZUN": {
+    "conId": 195224544,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "C": {
+    "conId": 87335484,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CADE": {
+    "conId": 522106237,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CAG": {
+    "conId": 5402,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CAH": {
+    "conId": 5407,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CAT": {
+    "conId": 5437,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CB": {
+    "conId": 218939694,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CBL": {
+    "conId": 524096642,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CBRE": {
+    "conId": 95514904,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CC": {
+    "conId": 196682709,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CCC": {
+    "conId": 505405416,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CCI": {
+    "conId": 176571182,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CCJ": {
+    "conId": 1447060,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CCL": {
+    "conId": 5516,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CCO": {
+    "conId": 362175385,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CDE": {
+    "conId": 60532895,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CELH": {
+    "conId": 71364351,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CENX": {
+    "conId": 4727883,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CERS": {
+    "conId": 4727893,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CETX": {
+    "conId": 817967413,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CF": {
+    "conId": 35447205,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CFG": {
+    "conId": 167955370,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CG": {
+    "conId": 397999651,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CGC": {
+    "conId": 673392035,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CHAU": {
+    "conId": 190481053,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "CHD": {
+    "conId": 5651,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CHGG": {
+    "conId": 138077525,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CHKP": {
+    "conId": 4172987,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CHRS": {
+    "conId": 172938783,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CHRW": {
+    "conId": 36320731,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CHWY": {
+    "conId": 370766146,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CI": {
+    "conId": 346403540,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CIEN": {
+    "conId": 41045553,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CIG": {
+    "conId": 2006842,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CL": {
+    "conId": 5749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CLB": {
+    "conId": 628622256,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CLF": {
+    "conId": 286030327,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CLM": {
+    "conId": 177437740,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "CLS": {
+    "conId": 695996615,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CLX": {
+    "conId": 5794,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CMA": {
+    "conId": 5800,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CMCSA": {
+    "conId": 267748,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CMCT": {
+    "conId": 776723025,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CME": {
+    "conId": 45127739,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CMRE": {
+    "conId": 80627441,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CMS": {
+    "conId": 5840,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CMTL": {
+    "conId": 4728269,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CNC": {
+    "conId": 13878278,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CNDT": {
+    "conId": 257848393,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CNI": {
+    "conId": 4457163,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CNK": {
+    "conId": 43739720,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CNP": {
+    "conId": 8093,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CNQ": {
+    "conId": 11926119,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CNX": {
+    "conId": 295296295,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "COCP": {
+    "conId": 590686140,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CODX": {
+    "conId": 842556629,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "COF": {
+    "conId": 5941,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "COLD": {
+    "conId": 302902503,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "COMT": {
+    "conId": 170375681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "COP": {
+    "conId": 10885,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "COST": {
+    "conId": 272997,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "COTY": {
+    "conId": 129131475,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CPB": {
+    "conId": 5980,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CPHI": {
+    "conId": 774815509,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "CPRI": {
+    "conId": 347409760,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CPRT": {
+    "conId": 4728523,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CPRX": {
+    "conId": 41478049,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CQQQ": {
+    "conId": 319355957,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "CRAK": {
+    "conId": 229725583,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "CRBP": {
+    "conId": 613910253,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRC": {
+    "conId": 452226249,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CREG": {
+    "conId": 799578422,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRM": {
+    "conId": 29624264,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CRNC": {
+    "conId": 383302044,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRNT": {
+    "conId": 9969533,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRON": {
+    "conId": 308077703,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRSP": {
+    "conId": 252260612,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRUS": {
+    "conId": 268057,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CRWD": {
+    "conId": 370757467,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CSCO": {
+    "conId": 268084,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CSTM": {
+    "conId": 394959368,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CSX": {
+    "conId": 6150,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CTRE": {
+    "conId": 152254614,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CTSH": {
+    "conId": 4728759,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CTSO": {
+    "conId": 176133077,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CTVA": {
+    "conId": 366239371,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CTXR": {
+    "conId": 744396778,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CUBE": {
+    "conId": 94153980,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CVE": {
+    "conId": 70021622,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CVLT": {
+    "conId": 40738085,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CVM": {
+    "conId": 786034498,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "CVNA": {
+    "conId": 274144952,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CVS": {
+    "conId": 2585769,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CVX": {
+    "conId": 5684,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CWB": {
+    "conId": 59354075,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "CX": {
+    "conId": 6257,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CYH": {
+    "conId": 10377696,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "CYTK": {
+    "conId": 130108624,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "CZR": {
+    "conId": 435774408,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "D": {
+    "conId": 6327,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DAL": {
+    "conId": 44001820,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DAN": {
+    "conId": 49260419,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DARE": {
+    "conId": 712857719,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DB": {
+    "conId": 13435352,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DBC": {
+    "conId": 319355208,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DBD": {
+    "conId": 647611140,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DBEF": {
+    "conId": 89380514,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DBEU": {
+    "conId": 135741455,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DBX": {
+    "conId": 311892159,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DD": {
+    "conId": 365921621,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DDD": {
+    "conId": 6542334,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DDOG": {
+    "conId": 383858515,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DE": {
+    "conId": 6393,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DEI": {
+    "conId": 41235770,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DELL": {
+    "conId": 346218218,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DERM": {
+    "conId": 526175559,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DFJ": {
+    "conId": 39615658,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DG": {
+    "conId": 70212228,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DGRO": {
+    "conId": 155518915,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DGX": {
+    "conId": 2459465,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DHC": {
+    "conId": 397803941,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DHI": {
+    "conId": 268627,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DHR": {
+    "conId": 6442,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DHT": {
+    "conId": 110322264,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DHY": {
+    "conId": 6607799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "DIA": {
+    "conId": 73128548,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DIS": {
+    "conId": 6459,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DK": {
+    "conId": 280731752,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DKS": {
+    "conId": 16310970,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DLR": {
+    "conId": 31832526,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DLTR": {
+    "conId": 49388062,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DNLI": {
+    "conId": 298932570,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DNN": {
+    "conId": 41983555,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "DOC": {
+    "conId": 389700396,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DOCU": {
+    "conId": 316073742,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DOW": {
+    "conId": 356576040,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DOYU": {
+    "conId": 692389348,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DRH": {
+    "conId": 34532778,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DT": {
+    "conId": 376427905,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DUK": {
+    "conId": 110176011,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DUST": {
+    "conId": 735455018,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DVA": {
+    "conId": 1035459,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DVAX": {
+    "conId": 173246175,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DVN": {
+    "conId": 754442,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DVY": {
+    "conId": 26653236,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "DXC": {
+    "conId": 268960158,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "DXJ": {
+    "conId": 39832875,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EA": {
+    "conId": 268995,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EAF": {
+    "conId": 808619071,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EAT": {
+    "conId": 6647,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EB": {
+    "conId": 333847811,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EBAY": {
+    "conId": 4347086,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ECH": {
+    "conId": 47202521,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "EDU": {
+    "conId": 554208336,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EEM": {
+    "conId": 6604766,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EEMV": {
+    "conId": 96079926,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "EFA": {
+    "conId": 13002510,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EFAV": {
+    "conId": 96079923,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "EFG": {
+    "conId": 35158180,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "EFV": {
+    "conId": 35158187,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "EGHT": {
+    "conId": 4730018,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EGO": {
+    "conId": 346219259,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EHTH": {
+    "conId": 41055282,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EIX": {
+    "conId": 11899,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EKSO": {
+    "conId": 788427523,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EL": {
+    "conId": 1448477,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ELAN": {
+    "conId": 333848211,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EMB": {
+    "conId": 47649504,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EMLC": {
+    "conId": 337332930,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EMLP": {
+    "conId": 109561289,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EMN": {
+    "conId": 6832,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EMR": {
+    "conId": 6842,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ENB": {
+    "conId": 4730124,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ENPH": {
+    "conId": 105368327,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ENSV": {
+    "conId": 454570185,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "ENTG": {
+    "conId": 9653775,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EOG": {
+    "conId": 6890,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EPD": {
+    "conId": 6607910,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EQH": {
+    "conId": 398898580,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EQNR": {
+    "conId": 316805238,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EQR": {
+    "conId": 6917,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EQT": {
+    "conId": 57698865,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ERIC": {
+    "conId": 268977,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ERX": {
+    "conId": 409199138,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "ES": {
+    "conId": 182880167,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ESGE": {
+    "conId": 238760480,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ESGU": {
+    "conId": 257689263,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ESI": {
+    "conId": 351659552,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ESTC": {
+    "conId": 335844146,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ET": {
+    "conId": 37830920,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ETN": {
+    "conId": 118017869,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ETSY": {
+    "conId": 190480965,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EVH": {
+    "conId": 196183267,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EVR": {
+    "conId": 40358992,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EVRG": {
+    "conId": 320106069,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EW": {
+    "conId": 8101142,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EWA": {
+    "conId": 2586606,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWBC": {
+    "conId": 4730364,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EWC": {
+    "conId": 2586548,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWD": {
+    "conId": 2586593,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWG": {
+    "conId": 2586603,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWH": {
+    "conId": 2586543,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWI": {
+    "conId": 253190540,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWJ": {
+    "conId": 253190534,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWT": {
+    "conId": 253190576,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWU": {
+    "conId": 253190561,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWW": {
+    "conId": 2586566,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWY": {
+    "conId": 10753248,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EWZ": {
+    "conId": 10753244,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "EXAS": {
+    "conId": 11468575,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EXC": {
+    "conId": 11000,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EXEL": {
+    "conId": 8088389,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EXG": {
+    "conId": 43150567,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EXK": {
+    "conId": 36525494,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EXPD": {
+    "conId": 269082,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EXPE": {
+    "conId": 98542021,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EXR": {
+    "conId": 30351205,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "EXTR": {
+    "conId": 269087,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EYPT": {
+    "conId": 459450984,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "EZU": {
+    "conId": 10435397,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "F": {
+    "conId": 9599491,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FANG": {
+    "conId": 115441080,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FAST": {
+    "conId": 269120,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FAX": {
+    "conId": 724297278,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "FB": {
+    "conId": 794639762,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "FBP": {
+    "conId": 80986824,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FCEL": {
+    "conId": 740517233,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FCFS": {
+    "conId": 533620436,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FCPT": {
+    "conId": 210810670,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FCX": {
+    "conId": 7089,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FDX": {
+    "conId": 5100583,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FE": {
+    "conId": 3265376,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FENY": {
+    "conId": 137229016,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FFIV": {
+    "conId": 6248713,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FHB": {
+    "conId": 242971206,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FHN": {
+    "conId": 269555,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FINV": {
+    "conId": 392428133,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FIS": {
+    "conId": 37866641,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FISV": {
+    "conId": 269315,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FITB": {
+    "conId": 269318,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FLEX": {
+    "conId": 4596077,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FLOT": {
+    "conId": 89553569,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "FLQL": {
+    "conId": 274616925,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "FLR": {
+    "conId": 11218575,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FLRN": {
+    "conId": 98392055,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FLS": {
+    "conId": 6477749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FLXN": {
+    "conId": 796360478,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "FMS": {
+    "conId": 2030556,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FNB": {
+    "conId": 269135,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FNDE": {
+    "conId": 132803397,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FNDF": {
+    "conId": 132803402,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FNDX": {
+    "conId": 132803409,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FNF": {
+    "conId": 156178034,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FNGD": {
+    "conId": 691994090,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FOLD": {
+    "conId": 44273751,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FOXA": {
+    "conId": 356858008,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FPE": {
+    "conId": 122142767,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FRO": {
+    "conId": 604736961,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FSK": {
+    "conId": 426117794,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FSLR": {
+    "conId": 41622169,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FSLY": {
+    "conId": 366131373,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FSM": {
+    "conId": 712118395,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FTEC": {
+    "conId": 137229035,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FTI": {
+    "conId": 262072228,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FTNT": {
+    "conId": 70236214,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FTSM": {
+    "conId": 173246170,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FTV": {
+    "conId": 236074120,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "FVD": {
+    "conId": 42033524,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "FWONK": {
+    "conId": 646549324,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "FXI": {
+    "conId": 31421120,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GAB": {
+    "conId": 7442,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GD": {
+    "conId": 7496,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GDOT": {
+    "conId": 77456656,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GDS": {
+    "conId": 254032874,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GDX": {
+    "conId": 229726316,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GDXJ": {
+    "conId": 229726197,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GE": {
+    "conId": 498843743,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GEM": {
+    "conId": 208316993,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GERN": {
+    "conId": 4812254,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GFI": {
+    "conId": 6857605,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GGB": {
+    "conId": 6607990,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GGG": {
+    "conId": 7563,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GGN": {
+    "conId": 98785552,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "GIGB": {
+    "conId": 278549249,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GILD": {
+    "conId": 269753,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GILT": {
+    "conId": 269756,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GIS": {
+    "conId": 7616,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GLBS": {
+    "conId": 451304573,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GLD": {
+    "conId": 51529211,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GLDM": {
+    "conId": 543859629,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GLNG": {
+    "conId": 16692333,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GLOB": {
+    "conId": 160756766,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GLPI": {
+    "conId": 136254442,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GLW": {
+    "conId": 7655,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GM": {
+    "conId": 80986742,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GME": {
+    "conId": 36285627,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GNPX": {
+    "conId": 824114006,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GNTX": {
+    "conId": 269828,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GNW": {
+    "conId": 29110391,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GOGO": {
+    "conId": 129481281,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GOLD": {
+    "conId": 146266831,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GOOD": {
+    "conId": 21521399,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GOOG": {
+    "conId": 208813720,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GOOGL": {
+    "conId": 208813719,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GOOS": {
+    "conId": 269515674,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GORO": {
+    "conId": 40743577,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "GOVT": {
+    "conId": 102436165,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "GPK": {
+    "conId": 49476732,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GPOR": {
+    "conId": 491186703,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GPRO": {
+    "conId": 158249582,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GREK": {
+    "conId": 417292587,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GRFS": {
+    "conId": 110753297,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GRPN": {
+    "conId": 426480582,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GS": {
+    "conId": 4627828,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GSAT": {
+    "conId": 760229174,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GSK": {
+    "conId": 572313495,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "GSLC": {
+    "conId": 206903716,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GSX": {
+    "conId": 814089462,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "GSY": {
+    "conId": 319648907,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GT": {
+    "conId": 7830,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "GTE": {
+    "conId": 627991871,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "GUNR": {
+    "conId": 95053797,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "GUSH": {
+    "conId": 409199144,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "H": {
+    "conId": 70084337,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HACK": {
+    "conId": 680623548,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "HAL": {
+    "conId": 7890,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HALO": {
+    "conId": 30212431,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HBAN": {
+    "conId": 270018,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HCA": {
+    "conId": 85076790,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HD": {
+    "conId": 7930,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HDB": {
+    "conId": 12796138,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HDGE": {
+    "conId": 467744741,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "HEPA": {
+    "conId": 768816881,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "HIG": {
+    "conId": 1217009,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HIMX": {
+    "conId": 38559396,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HIW": {
+    "conId": 8015,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HL": {
+    "conId": 8027,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HLT": {
+    "conId": 257944570,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HMY": {
+    "conId": 4812805,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HOG": {
+    "conId": 7935,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HOLX": {
+    "conId": 270188,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HON": {
+    "conId": 4350,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HP": {
+    "conId": 8097,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HPE": {
+    "conId": 209411798,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HPP": {
+    "conId": 832140754,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HPQ": {
+    "conId": 209411801,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HRB": {
+    "conId": 8130,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HRL": {
+    "conId": 8153,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HSBC": {
+    "conId": 4875668,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HSIC": {
+    "conId": 3655640,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HST": {
+    "conId": 8057,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HTGC": {
+    "conId": 34822226,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HTHT": {
+    "conId": 321415941,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HTZ": {
+    "conId": 500289391,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "HUM": {
+    "conId": 8251,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HUN": {
+    "conId": 33175911,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HUYA": {
+    "conId": 316805134,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "HYD": {
+    "conId": 337332936,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "HYG": {
+    "conId": 43652089,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "HYLB": {
+    "conId": 257944560,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "HYS": {
+    "conId": 89553565,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IAG": {
+    "conId": 16671499,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IAU": {
+    "conId": 474829650,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IBB": {
+    "conId": 11517520,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IBIO": {
+    "conId": 667415396,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IBM": {
+    "conId": 8314,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IBN": {
+    "conId": 8068883,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ICE": {
+    "conId": 136370275,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ICLN": {
+    "conId": 52170893,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ICSH": {
+    "conId": 140007769,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "IDV": {
+    "conId": 44647192,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "IEF": {
+    "conId": 15547844,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IEFA": {
+    "conId": 115826907,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "IEI": {
+    "conId": 42454555,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IEMG": {
+    "conId": 115826951,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IEZ": {
+    "conId": 39046974,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IGF": {
+    "conId": 47605491,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IGIB": {
+    "conId": 42454558,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IGSB": {
+    "conId": 42455799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IHRT": {
+    "conId": 365037210,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IIPR": {
+    "conId": 255608245,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IJH": {
+    "conId": 9579987,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IJR": {
+    "conId": 9579976,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "ILMN": {
+    "conId": 9869443,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IMMP": {
+    "conId": 298284081,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INCY": {
+    "conId": 4369855,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INDA": {
+    "conId": 101484826,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "INFO": {
+    "conId": 734184075,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "INFY": {
+    "conId": 4813460,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ING": {
+    "conId": 2865956,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "INMD": {
+    "conId": 378066054,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INO": {
+    "conId": 679966965,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INSG": {
+    "conId": 679696407,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INSM": {
+    "conId": 84889699,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INTC": {
+    "conId": 270639,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "INUV": {
+    "conId": 788427556,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "INVH": {
+    "conId": 264405214,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IP": {
+    "conId": 8511,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IPI": {
+    "conId": 439677475,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IQ": {
+    "conId": 312029611,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IQV": {
+    "conId": 295757261,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IR": {
+    "conId": 404509190,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IRDM": {
+    "conId": 69195736,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IRM": {
+    "conId": 180350774,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IRWD": {
+    "conId": 72384253,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ISRG": {
+    "conId": 9063285,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ISTB": {
+    "conId": 115826957,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ITB": {
+    "conId": 39046954,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "ITOT": {
+    "conId": 27443032,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "ITUB": {
+    "conId": 58996617,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IUSG": {
+    "conId": 10753223,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IVR": {
+    "conId": 560375049,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IVV": {
+    "conId": 8991352,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IVZ": {
+    "conId": 47550606,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "IWD": {
+    "conId": 8991562,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IWF": {
+    "conId": 8991557,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IWM": {
+    "conId": 9579970,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IWR": {
+    "conId": 13002600,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IXC": {
+    "conId": 13832153,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "IXUS": {
+    "conId": 115826952,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "IYR": {
+    "conId": 10209369,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "J": {
+    "conId": 582332987,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JAGX": {
+    "conId": 770378614,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "JBL": {
+    "conId": 4457282,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JBLU": {
+    "conId": 14765981,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "JCI": {
+    "conId": 244164913,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JD": {
+    "conId": 152486141,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "JDST": {
+    "conId": 707875866,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "JELD": {
+    "conId": 263852212,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JKHY": {
+    "conId": 270869,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "JKS": {
+    "conId": 72529744,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JMBS": {
+    "conId": 333130749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "JMIA": {
+    "conId": 360310571,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JNJ": {
+    "conId": 8719,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JNK": {
+    "conId": 356312840,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "JNUG": {
+    "conId": 416854773,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "JPM": {
+    "conId": 1520593,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "JPST": {
+    "conId": 276459749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "JQC": {
+    "conId": 18832912,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KALA": {
+    "conId": 592977497,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KBE": {
+    "conId": 45540769,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "KBH": {
+    "conId": 8772,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KBR": {
+    "conId": 41552939,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KDP": {
+    "conId": 324057162,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KEY": {
+    "conId": 8809,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KEYS": {
+    "conId": 170167160,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KGC": {
+    "conId": 8823,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KHC": {
+    "conId": 199169586,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KIM": {
+    "conId": 8845,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KJAN": {
+    "conId": 397813635,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "KKR": {
+    "conId": 321328198,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KLAC": {
+    "conId": 270957,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KMB": {
+    "conId": 8864,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KMI": {
+    "conId": 83975037,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KNX": {
+    "conId": 288039996,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KO": {
+    "conId": 8894,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KOS": {
+    "conId": 346369068,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KPTI": {
+    "conId": 764163981,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "KR": {
+    "conId": 8908,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KRE": {
+    "conId": 45540822,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "KSS": {
+    "conId": 8942,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "KWEB": {
+    "conId": 132310537,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "KYN": {
+    "conId": 31250966,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LABD": {
+    "conId": 812475642,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "LABU": {
+    "conId": 665380967,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "LAKE": {
+    "conId": 271092,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LAUR": {
+    "conId": 264485686,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LB": {
+    "conId": 712414332,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LBRT": {
+    "conId": 302202060,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LBTYA": {
+    "conId": 667891544,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LBTYK": {
+    "conId": 667891543,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LCTX": {
+    "conId": 376699094,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "LEA": {
+    "conId": 70152668,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LEE": {
+    "conId": 474517455,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LEN": {
+    "conId": 9091,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LEVI": {
+    "conId": 358053635,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LHX": {
+    "conId": 371886040,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LIN": {
+    "conId": 617155599,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LITE": {
+    "conId": 201113895,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LLY": {
+    "conId": 9160,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LMBS": {
+    "conId": 172854886,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LMT": {
+    "conId": 611191,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LNC": {
+    "conId": 9174,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LNG": {
+    "conId": 4728003,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LOPE": {
+    "conId": 55922559,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LOW": {
+    "conId": 9199,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LPCN": {
+    "conId": 630679737,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LPX": {
+    "conId": 9204,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LQD": {
+    "conId": 15547816,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "LRCX": {
+    "conId": 732440574,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LRN": {
+    "conId": 455946269,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LSCC": {
+    "conId": 271320,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LTM": {
+    "conId": 717833309,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LUV": {
+    "conId": 9282,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LVS": {
+    "conId": 32602412,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LX": {
+    "conId": 300570305,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LXP": {
+    "conId": 827707267,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LXRX": {
+    "conId": 195222897,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LYB": {
+    "conId": 74866700,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LYFT": {
+    "conId": 359130923,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "LYG": {
+    "conId": 14487291,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "LYV": {
+    "conId": 37511786,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "M": {
+    "conId": 44475946,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MA": {
+    "conId": 38685693,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MAC": {
+    "conId": 9322,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MAR": {
+    "conId": 9358,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MARA": {
+    "conId": 474219659,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MAS": {
+    "conId": 9360,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MAT": {
+    "conId": 9365,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MBB": {
+    "conId": 43283708,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MCD": {
+    "conId": 9408,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MCHI": {
+    "conId": 86326988,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MCHP": {
+    "conId": 271568,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MDB": {
+    "conId": 292833239,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MDLZ": {
+    "conId": 113599091,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MDRX": {
+    "conId": 6857738,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "MDT": {
+    "conId": 181387075,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MDU": {
+    "conId": 9485,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MET": {
+    "conId": 8093509,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MFA": {
+    "conId": 552747219,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MGM": {
+    "conId": 9560,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MGY": {
+    "conId": 327849712,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MIN": {
+    "conId": 9627,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MINT": {
+    "conId": 70282872,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MJ": {
+    "conId": 757861324,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MKC": {
+    "conId": 271556,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MKSI": {
+    "conId": 4814955,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MLCO": {
+    "conId": 41951960,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MLPA": {
+    "conId": 417292573,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MLPI": {
+    "conId": 839174132,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "MLPX": {
+    "conId": 417292597,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MLSS": {
+    "conId": 27378267,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "MMLP": {
+    "conId": 16480211,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MMM": {
+    "conId": 9720,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MNA": {
+    "conId": 70282877,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MNKD": {
+    "conId": 268671846,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MNST": {
+    "conId": 196986496,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MO": {
+    "conId": 9769,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MOH": {
+    "conId": 19012089,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MOMO": {
+    "conId": 506295812,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MOS": {
+    "conId": 88292752,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MPC": {
+    "conId": 89495776,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MPLX": {
+    "conId": 116339790,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MPW": {
+    "conId": 35111040,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MRK": {
+    "conId": 70101545,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MRNA": {
+    "conId": 344809106,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MRVL": {
+    "conId": 483492393,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MS": {
+    "conId": 2841574,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MSFT": {
+    "conId": 272093,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MT": {
+    "conId": 276046464,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MTCH": {
+    "conId": 430252818,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MTDR": {
+    "conId": 101694297,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MTG": {
+    "conId": 9902,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MTNB": {
+    "conId": 724669370,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "MTSI": {
+    "conId": 104158272,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MTUM": {
+    "conId": 125903832,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "MU": {
+    "conId": 9939,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "MUB": {
+    "conId": 46104034,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "MUFG": {
+    "conId": 9394,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MUR": {
+    "conId": 9952,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MUX": {
+    "conId": 573166977,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "MVIS": {
+    "conId": 102558681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NAD": {
+    "conId": 6608344,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NAK": {
+    "conId": 30214352,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "NAT": {
+    "conId": 6604153,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NAVI": {
+    "conId": 148782986,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NBIX": {
+    "conId": 4815347,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NBR": {
+    "conId": 417915989,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NBY": {
+    "conId": 705154143,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "NCLH": {
+    "conId": 120643512,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NE": {
+    "conId": 587257548,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NEAR": {
+    "conId": 135423659,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "NEE": {
+    "conId": 75960201,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NEM": {
+    "conId": 10174,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NFLX": {
+    "conId": 15124833,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NG": {
+    "conId": 26957459,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "NGD": {
+    "conId": 34735021,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "NGG": {
+    "conId": 273241270,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NI": {
+    "conId": 10260,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NIO": {
+    "conId": 332794741,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NIU": {
+    "conId": 337304717,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NKE": {
+    "conId": 10291,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NKTR": {
+    "conId": 789862827,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NLY": {
+    "conId": 585013481,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NNVC": {
+    "conId": 383141417,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "NOG": {
+    "conId": 443378898,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NOK": {
+    "conId": 661513,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NOMD": {
+    "conId": 217509716,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NOV": {
+    "conId": 462100032,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NOW": {
+    "conId": 109911821,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NRG": {
+    "conId": 10188791,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NSC": {
+    "conId": 10497,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NSPR": {
+    "conId": 482685086,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NTAP": {
+    "conId": 49921110,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NTNX": {
+    "conId": 249850033,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NTR": {
+    "conId": 301035662,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NTRP": {
+    "conId": 655918931,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NTRS": {
+    "conId": 272565,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NUE": {
+    "conId": 10557,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NUGT": {
+    "conId": 416854763,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "NVAX": {
+    "conId": 365598061,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NVCR": {
+    "conId": 208714764,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NVDA": {
+    "conId": 4815747,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NVO": {
+    "conId": 10611,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NVS": {
+    "conId": 8794522,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NVST": {
+    "conId": 383308243,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "NWL": {
+    "conId": 10627,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NWSA": {
+    "conId": 129348126,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "NXPI": {
+    "conId": 77791077,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "O": {
+    "conId": 10672,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OCGN": {
+    "conId": 385552436,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OGI": {
+    "conId": 772782719,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OHI": {
+    "conId": 10754,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OI": {
+    "conId": 396135117,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OIH": {
+    "conId": 415578515,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "OILD": {
+    "conId": 599374241,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "OILU": {
+    "conId": 525260342,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "OIS": {
+    "conId": 11506420,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OKE": {
+    "conId": 10794,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OKTA": {
+    "conId": 272356196,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OLED": {
+    "conId": 4816201,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OLLI": {
+    "conId": 199975711,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OLN": {
+    "conId": 10799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OMC": {
+    "conId": 10811,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ON": {
+    "conId": 8677881,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ONCY": {
+    "conId": 319099309,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OPGN": {
+    "conId": 704389414,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "OPK": {
+    "conId": 44622519,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OPRA": {
+    "conId": 326299952,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ORC": {
+    "conId": 581240386,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ORCL": {
+    "conId": 272800,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ORI": {
+    "conId": 10840,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OSK": {
+    "conId": 272856,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OSW": {
+    "conId": 358053703,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OTLK": {
+    "conId": 690184975,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OUT": {
+    "conId": 753278762,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OVV": {
+    "conId": 400651394,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "OXLC": {
+    "conId": 812506853,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "OXY": {
+    "conId": 10880,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PAA": {
+    "conId": 6608417,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PAAS": {
+    "conId": 4816190,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PACB": {
+    "conId": 80410754,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PAGP": {
+    "conId": 253915099,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PAGS": {
+    "conId": 303325834,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PARR": {
+    "conId": 143288167,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PAVM": {
+    "conId": 842556622,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PAYC": {
+    "conId": 148163036,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PB": {
+    "conId": 4816906,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PBA": {
+    "conId": 105094305,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PBF": {
+    "conId": 118786560,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PBI": {
+    "conId": 10920,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PBR": {
+    "conId": 10828168,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PBYI": {
+    "conId": 104804524,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PCAR": {
+    "conId": 272992,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PCG": {
+    "conId": 2586035,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PCY": {
+    "conId": 319355940,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PDBC": {
+    "conId": 320227565,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PDD": {
+    "conId": 326398585,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PEB": {
+    "conId": 70853825,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PEG": {
+    "conId": 11005,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PENN": {
+    "conId": 4816415,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PEP": {
+    "conId": 11017,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PFE": {
+    "conId": 11031,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PFF": {
+    "conId": 41037032,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PFG": {
+    "conId": 11032,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PG": {
+    "conId": 11054,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PGHY": {
+    "conId": 319356978,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PGR": {
+    "conId": 11080,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PGX": {
+    "conId": 319357079,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PH": {
+    "conId": 11094,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PHB": {
+    "conId": 319356966,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PHG": {
+    "conId": 11097,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PHM": {
+    "conId": 11109,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PHYS": {
+    "conId": 73062564,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PI": {
+    "conId": 241585158,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PII": {
+    "conId": 611242,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PINS": {
+    "conId": 360975915,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PK": {
+    "conId": 257944575,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PKG": {
+    "conId": 7740411,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PLD": {
+    "conId": 88819288,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PLG": {
+    "conId": 345962676,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "PLUG": {
+    "conId": 88385302,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PM": {
+    "conId": 49588376,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PNC": {
+    "conId": 11240,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PNR": {
+    "conId": 153068487,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PPC": {
+    "conId": 71395583,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PPL": {
+    "conId": 661547,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PRU": {
+    "conId": 13865082,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PSEC": {
+    "conId": 30188658,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PSLV": {
+    "conId": 80425147,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PSQ": {
+    "conId": 692767261,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "PSTG": {
+    "conId": 208813725,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PSX": {
+    "conId": 105669270,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "PTC": {
+    "conId": 121507047,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PTCT": {
+    "conId": 129374415,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PTEN": {
+    "conId": 4817001,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PTN": {
+    "conId": 806021725,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "PTON": {
+    "conId": 385087203,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PULM": {
+    "conId": 546982670,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PYPL": {
+    "conId": 199169591,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "PZA": {
+    "conId": 319357043,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "QCOM": {
+    "conId": 273544,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "QFIN": {
+    "conId": 344997557,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "QGEN": {
+    "conId": 840414918,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "QID": {
+    "conId": 692768974,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "QLD": {
+    "conId": 39622938,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "QQQ": {
+    "conId": 320227571,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "QRVO": {
+    "conId": 179002152,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "QSR": {
+    "conId": 176372132,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "QUAL": {
+    "conId": 131255429,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "QYLD": {
+    "conId": 346727816,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RCL": {
+    "conId": 11520,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "REAL": {
+    "conId": 373210998,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "REI": {
+    "conId": 51667394,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "RES": {
+    "conId": 11588,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "REZI": {
+    "conId": 336517319,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RF": {
+    "conId": 273815,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RIG": {
+    "conId": 56505491,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RIGL": {
+    "conId": 712374801,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RIO": {
+    "conId": 4095586,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RIOT": {
+    "conId": 292830677,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RJF": {
+    "conId": 11656,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RL": {
+    "conId": 92306678,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RLJ": {
+    "conId": 87836953,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RMBS": {
+    "conId": 4031477,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RODM": {
+    "conId": 185345355,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "ROKU": {
+    "conId": 290651477,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ROL": {
+    "conId": 11700,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ROST": {
+    "conId": 273939,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RQI": {
+    "conId": 14495475,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RRC": {
+    "conId": 6608450,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "RSP": {
+    "conId": 319359375,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "RUBI": {
+    "conId": 835599810,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RUN": {
+    "conId": 202225016,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "RVLV": {
+    "conId": 369919463,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "S": {
+    "conId": 499640681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SABR": {
+    "conId": 148782715,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SAN": {
+    "conId": 12442,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SAP": {
+    "conId": 3804335,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SAVA": {
+    "conId": 358913768,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SBGI": {
+    "conId": 634524697,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SBH": {
+    "conId": 41621276,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SBLK": {
+    "conId": 236994457,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SBRA": {
+    "conId": 80712681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SBUX": {
+    "conId": 274105,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SCHB": {
+    "conId": 70083650,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHD": {
+    "conId": 96079912,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHE": {
+    "conId": 71715076,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHF": {
+    "conId": 70083656,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHM": {
+    "conId": 82817275,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHO": {
+    "conId": 77763094,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHP": {
+    "conId": 77763097,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHW": {
+    "conId": 11905,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SCHX": {
+    "conId": 70083655,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCHZ": {
+    "conId": 90832064,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCO": {
+    "conId": 562283007,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SCYX": {
+    "conId": 435216185,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SCZ": {
+    "conId": 47605485,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SDOW": {
+    "conId": 738523398,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SDRL": {
+    "conId": 546518734,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SDS": {
+    "conId": 828937764,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SE": {
+    "conId": 292735472,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SEAC": {
+    "conId": 632933803,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "SEDG": {
+    "conId": 188625650,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SEE": {
+    "conId": 4082282,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SEIC": {
+    "conId": 274224,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SEM": {
+    "conId": 69114941,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SENS": {
+    "conId": 821239930,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SERV": {
+    "conId": 689676896,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SFIX": {
+    "conId": 296466074,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SFM": {
+    "conId": 132310192,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SGMO": {
+    "conId": 8093853,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SGOL": {
+    "conId": 334909238,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SH": {
+    "conId": 738523410,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SHAK": {
+    "conId": 182056846,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SHO": {
+    "conId": 31729162,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SHOP": {
+    "conId": 195014116,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SHV": {
+    "conId": 42454579,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SHY": {
+    "conId": 15547851,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SHYG": {
+    "conId": 136374385,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SID": {
+    "conId": 6607727,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SIG": {
+    "conId": 53747825,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SILJ": {
+    "conId": 680887855,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SINT": {
+    "conId": 705924553,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SIRI": {
+    "conId": 727785544,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SIVR": {
+    "conId": 334909235,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SJNK": {
+    "conId": 104158269,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SKT": {
+    "conId": 12187,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SKY": {
+    "conId": 12190,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SLAB": {
+    "conId": 8027031,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SLB": {
+    "conId": 12200,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SLM": {
+    "conId": 12211,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SLV": {
+    "conId": 39039301,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SM": {
+    "conId": 75472988,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SMG": {
+    "conId": 274173,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SMH": {
+    "conId": 229725622,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SMPL": {
+    "conId": 281858134,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SNAP": {
+    "conId": 268060148,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SNDL": {
+    "conId": 575890378,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SNES": {
+    "conId": 717996015,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SNGX": {
+    "conId": 707875909,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SNY": {
+    "conId": 15435308,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SO": {
+    "conId": 12300,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SONO": {
+    "conId": 328204984,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SOXL": {
+    "conId": 73340487,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SOXS": {
+    "conId": 692166900,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPAB": {
+    "conId": 45540687,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPCE": {
+    "conId": 709229198,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SPDW": {
+    "conId": 45540794,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPEM": {
+    "conId": 45540759,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPG": {
+    "conId": 2009113,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SPHB": {
+    "conId": 319357119,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPHD": {
+    "conId": 319357122,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPIB": {
+    "conId": 57091578,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPLV": {
+    "conId": 319357142,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPOT": {
+    "conId": 312496724,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SPSB": {
+    "conId": 70982912,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPTI": {
+    "conId": 45540692,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPTL": {
+    "conId": 45540689,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPTM": {
+    "conId": 45540643,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPTS": {
+    "conId": 98392056,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPWR": {
+    "conId": 642706634,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SPXL": {
+    "conId": 55679428,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPXS": {
+    "conId": 812475659,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPXU": {
+    "conId": 828937771,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPY": {
+    "conId": 756733,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPYD": {
+    "conId": 210534655,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPYG": {
+    "conId": 45540799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SPYV": {
+    "conId": 45540652,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SQQQ": {
+    "conId": 831082828,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SRNE": {
+    "conId": 132304979,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "SRPT": {
+    "conId": 110434131,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SSO": {
+    "conId": 39622943,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "SSRM": {
+    "conId": 284632520,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "STAG": {
+    "conId": 86792819,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "STIM": {
+    "conId": 324062325,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "STKS": {
+    "conId": 158060562,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "STLD": {
+    "conId": 6478095,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "STM": {
+    "conId": 12460,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "STNE": {
+    "conId": 339001919,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "STNG": {
+    "conId": 349869083,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "STT": {
+    "conId": 2730980,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "STWD": {
+    "conId": 67418868,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "STX": {
+    "conId": 491932113,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SU": {
+    "conId": 64731225,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SUPV": {
+    "conId": 233587209,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SVM": {
+    "conId": 39924480,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "SVXY": {
+    "conId": 331641614,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "SWK": {
+    "conId": 73354293,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SWKS": {
+    "conId": 4726021,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SWP": {
+    "conId": 731478572,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SXC": {
+    "conId": 91487789,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SXTC": {
+    "conId": 763602789,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "SYF": {
+    "conId": 162231797,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SYK": {
+    "conId": 4430948,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "SYY": {
+    "conId": 12581,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "T": {
+    "conId": 37018770,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TAK": {
+    "conId": 75124183,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TAL": {
+    "conId": 80269548,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TBLT": {
+    "conId": 675122980,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "TBT": {
+    "conId": 114091283,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TCOM": {
+    "conId": 390332321,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TDC": {
+    "conId": 46128760,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TDOC": {
+    "conId": 198563873,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TEAM": {
+    "conId": 589316251,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TECK": {
+    "conId": 39921623,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TECS": {
+    "conId": 735455025,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TEL": {
+    "conId": 731466408,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TEN": {
+    "conId": 427383985,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TER": {
+    "conId": 12729,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TEVA": {
+    "conId": 275085,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TFC": {
+    "conId": 393460310,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TGB": {
+    "conId": 6845298,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "TGE": {
+    "conId": 789486824,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TGNA": {
+    "conId": 196887976,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TGT": {
+    "conId": 6437,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TGTX": {
+    "conId": 106810749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "THO": {
+    "conId": 12786,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TIP": {
+    "conId": 26787475,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TJX": {
+    "conId": 12814,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TLRY": {
+    "conId": 835599999,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TLT": {
+    "conId": 15547841,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TME": {
+    "conId": 344439802,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TMF": {
+    "conId": 665380902,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TMHC": {
+    "conId": 125483759,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TMO": {
+    "conId": 12869,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TMUS": {
+    "conId": 125980227,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TMV": {
+    "conId": 416854749,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TNA": {
+    "conId": 55679435,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TNDM": {
+    "conId": 291995344,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TNXP": {
+    "conId": 759134214,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TOL": {
+    "conId": 12915,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TOPS": {
+    "conId": 657105341,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "TOT": {
+    "conId": 811025401,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TOTL": {
+    "conId": 185080689,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "TPH": {
+    "conId": 121560188,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TPR": {
+    "conId": 292491487,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TPYP": {
+    "conId": 783247136,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TQQQ": {
+    "conId": 72539702,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TRGP": {
+    "conId": 81671838,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TRIB": {
+    "conId": 686134858,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TRIL": {
+    "conId": 818583823,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TRIP": {
+    "conId": 98542026,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TROW": {
+    "conId": 275321,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TROX": {
+    "conId": 357888136,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TRU": {
+    "conId": 198051403,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TRV": {
+    "conId": 43150617,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TRVN": {
+    "conId": 721993662,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "TS": {
+    "conId": 16675601,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TSCO": {
+    "conId": 6858322,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TSLA": {
+    "conId": 76792991,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TSM": {
+    "conId": 6223250,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TSN": {
+    "conId": 275405,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TTD": {
+    "conId": 248755440,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TTMI": {
+    "conId": 10311716,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TTOO": {
+    "conId": 659508556,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "TWLO": {
+    "conId": 237794430,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TWO": {
+    "conId": 589828153,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TXMD": {
+    "conId": 560548585,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TXN": {
+    "conId": 13096,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TXRH": {
+    "conId": 31379441,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "TXT": {
+    "conId": 13101,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "TZA": {
+    "conId": 468796852,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UAA": {
+    "conId": 36786278,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UAL": {
+    "conId": 79498203,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "UBER": {
+    "conId": 365207014,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UBS": {
+    "conId": 172721087,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UCO": {
+    "conId": 416180803,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UDOW": {
+    "conId": 72539713,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UEC": {
+    "conId": 37451201,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "UGI": {
+    "conId": 13197,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UL": {
+    "conId": 833194082,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UNFI": {
+    "conId": 6746248,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UNG": {
+    "conId": 676612559,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UNH": {
+    "conId": 13272,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UNIT": {
+    "conId": 803736050,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "UNM": {
+    "conId": 13277,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UNP": {
+    "conId": 13284,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UPRO": {
+    "conId": 61228752,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UPS": {
+    "conId": 6231002,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "UPWK": {
+    "conId": 335839458,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "URI": {
+    "conId": 3629755,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "USA": {
+    "conId": 13314,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "USB": {
+    "conId": 11669769,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "USFR": {
+    "conId": 550122880,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "USHY": {
+    "conId": 293893522,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "USMV": {
+    "conId": 96079929,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "USO": {
+    "conId": 418893644,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "UUUU": {
+    "conId": 137823153,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "UVXY": {
+    "conId": 829567196,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "UXIN": {
+    "conId": 677344932,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "V": {
+    "conId": 49462172,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VAL": {
+    "conId": 488980507,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VALE": {
+    "conId": 60581038,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VB": {
+    "conId": 27638105,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VCIT": {
+    "conId": 70363051,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VCSH": {
+    "conId": 70363037,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VDE": {
+    "conId": 27684036,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VEA": {
+    "conId": 45444192,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VEEV": {
+    "conId": 136254493,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VEON": {
+    "conId": 615079830,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VERI": {
+    "conId": 275951398,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VERU": {
+    "conId": 805356094,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VET": {
+    "conId": 78642228,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VEU": {
+    "conId": 43240070,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VFC": {
+    "conId": 13440,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VFF": {
+    "conId": 354559261,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VG": {
+    "conId": 756373540,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VGK": {
+    "conId": 27684070,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VGSH": {
+    "conId": 70363044,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VGT": {
+    "conId": 27638079,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VIAV": {
+    "conId": 201113049,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VICI": {
+    "conId": 292080616,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VIG": {
+    "conId": 38746069,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VIPS": {
+    "conId": 104863799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VIR": {
+    "conId": 387014896,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VIRT": {
+    "conId": 190480975,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VISL": {
+    "conId": 628789140,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "VIVE": {
+    "conId": 458355826,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "VIXY": {
+    "conId": 738675328,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "VKTX": {
+    "conId": 192379311,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VLO": {
+    "conId": 13497,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VLY": {
+    "conId": 13508,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VMBS": {
+    "conId": 70363041,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VNLA": {
+    "conId": 255733041,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VNOM": {
+    "conId": 808305869,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VNQ": {
+    "conId": 31230302,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VO": {
+    "conId": 27638087,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VOD": {
+    "conId": 144463724,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VOO": {
+    "conId": 136155102,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VRIG": {
+    "conId": 320227631,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VRRM": {
+    "conId": 337722877,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VSH": {
+    "conId": 13591,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VST": {
+    "conId": 254457731,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VSTM": {
+    "conId": 634513127,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VT": {
+    "conId": 52197301,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VTEB": {
+    "conId": 204473835,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VTI": {
+    "conId": 12340041,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VTIP": {
+    "conId": 115664156,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VTR": {
+    "conId": 4044062,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VTV": {
+    "conId": 27638093,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VUG": {
+    "conId": 27638099,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VVR": {
+    "conId": 75911309,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "VWO": {
+    "conId": 27684033,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VXRT": {
+    "conId": 306890223,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "VXUS": {
+    "conId": 83512168,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "VXX": {
+    "conId": 717288676,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
+  },
+  "VYM": {
+    "conId": 41647036,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "VZ": {
+    "conId": 4901,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "W": {
+    "conId": 168812158,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WAL": {
+    "conId": 35090283,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WB": {
+    "conId": 148782724,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WCC": {
+    "conId": 6608665,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WDAY": {
+    "conId": 115324104,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WDC": {
+    "conId": 13681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WEC": {
+    "conId": 198560237,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WELL": {
+    "conId": 207739931,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WEN": {
+    "conId": 90655688,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WES": {
+    "conId": 354581103,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WFC": {
+    "conId": 10375,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WHR": {
+    "conId": 13751,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WKHS": {
+    "conId": 836765044,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WMB": {
+    "conId": 13805,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WMT": {
+    "conId": 13824,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WNC": {
+    "conId": 13839,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WPM": {
+    "conId": 274836867,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WTI": {
+    "conId": 32923763,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WU": {
+    "conId": 40773257,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WW": {
+    "conId": 794639097,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WY": {
+    "conId": 13949,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "WYNN": {
+    "conId": 16454492,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "WYY": {
+    "conId": 452077614,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "XBI": {
+    "conId": 45540828,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XBIO": {
+    "conId": 630918363,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XCUR": {
+    "conId": 725468694,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XELA": {
+    "conId": 630920232,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "XES": {
+    "conId": 413951493,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XHB": {
+    "conId": 45540859,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLB": {
+    "conId": 4215200,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLC": {
+    "conId": 322317077,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLE": {
+    "conId": 4215217,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLF": {
+    "conId": 4215220,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLI": {
+    "conId": 4215227,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLK": {
+    "conId": 4215230,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLP": {
+    "conId": 4215210,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLRE": {
+    "conId": 209048377,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLU": {
+    "conId": 4215235,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLV": {
+    "conId": 4215205,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XLY": {
+    "conId": 4215215,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XME": {
+    "conId": 45540699,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XNET": {
+    "conId": 157874416,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XOM": {
+    "conId": 13977,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "XOP": {
+    "conId": 413951498,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XP": {
+    "conId": 395194484,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XPO": {
+    "conId": 93957038,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "XRAY": {
+    "conId": 224225737,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XRT": {
+    "conId": 45540784,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XRX": {
+    "conId": 375796353,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "XSOE": {
+    "conId": 176477337,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "XXII": {
+    "conId": 792313826,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "YANG": {
+    "conId": 735455052,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "YAYO": {
+    "conId": 390879681,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
+  "YCBD": {
+    "conId": 779325429,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "AMEX"
+  },
+  "YETI": {
+    "conId": 338719595,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "YINN": {
+    "conId": 560066464,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "YPF": {
+    "conId": 14019,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "YUM": {
+    "conId": 3206042,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "YUMC": {
+    "conId": 251376406,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "Z": {
+    "conId": 201942684,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ZG": {
+    "conId": 184072087,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ZION": {
+    "conId": 276329,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ZM": {
+    "conId": 361181057,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ZS": {
+    "conId": 310621426,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
+  "ZTO": {
+    "conId": 253210632,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
+  "ZTS": {
+    "conId": 121665622,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  }
+}
