@@ -159,17 +159,21 @@ def build_bull_put_spread(ib, expiry, spx_px):
             ComboLeg(conId=buy_put.conId,  ratio=1, action="BUY",  exchange="CBOE"),
         ],
     )
-    return spread, short_k, long_k, ref
+    return spread, short_k, long_k, ref, sell_put, buy_put
 
-def get_mid_credit(ib, spread):
-    # Spreads/combos require streaming (snapshot=True not supported for Bag)
-    t = ib.reqMktData(spread, "", snapshot=False, regulatorySnapshot=False)
-    ib.sleep(3)
-    bid, ask = t.bid, t.ask   # capture before cancel
-    ib.cancelMktData(spread)  # cancel each time — called in retry loop, must not stack subscriptions
-    if not _valid_px(bid) or not _valid_px(ask):
+def get_mid_credit_from_legs(ib, sell_leg, buy_leg):
+    # Request snapshot for each leg individually — Bag/combo streaming unreliable for SPX spreads
+    t_sell = ib.reqMktData(sell_leg, "", snapshot=True, regulatorySnapshot=False)
+    t_buy  = ib.reqMktData(buy_leg,  "", snapshot=True, regulatorySnapshot=False)
+    ib.sleep(4)
+    ib.cancelMktData(sell_leg)
+    ib.cancelMktData(buy_leg)
+    if not all(_valid_px(v) for v in (t_sell.bid, t_sell.ask, t_buy.bid, t_buy.ask)):
         return None
-    return round((bid + ask) / 2, 2)
+    sell_mid = (t_sell.bid + t_sell.ask) / 2
+    buy_mid  = (t_buy.bid  + t_buy.ask)  / 2
+    mid = round(sell_mid - buy_mid, 2)
+    return mid if mid > 0 else None
 
 def place_limit_sell(ib, spread, mid):
     order = LimitOrder("SELL", QTY, mid, account=IB_ACCOUNT)
@@ -217,8 +221,8 @@ def main():
                 return
 
             spx_px, _ = get_spx_price_and_contract(ib)
-            spread, short_k, long_k, ref = build_bull_put_spread(ib, expiry, spx_px)
-            mid = get_mid_credit(ib, spread)
+            spread, short_k, long_k, ref, sell_put, buy_put = build_bull_put_spread(ib, expiry, spx_px)
+            mid = get_mid_credit_from_legs(ib, sell_put, buy_put)
 
             if mid is None or mid < MIN_CREDIT:
                 time.sleep(RETRY_SEC)

@@ -56,15 +56,16 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ## Current Status
 *(Update this section each session)*
 
-**As of 2026-02-11:**
+**As of 2026-02-12:**
 - Paper trading ACTIVE — cron at 18:30 UTC (1:30 PM ET) weekdays, account DUP148773
 - RF_THRESHOLD = 0.10 (trial mode — restore to 0.60 after enough paper trades collected)
-- 2021 DIX fetch: PID 2610294, Client ID 82 (20210104→20211231, started Feb 10 ~17:10 UTC)
-- RF pipeline bugs fixed (see session log 20260211_quantx.md)
+- Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test today at 1:30 PM ET
+- 2021 DIX fetch Part 3: PID 2801369, Client ID 83, 20210816→20211231 (100 days), started 2026-02-12
 
 ## Known Issues
 - `rf_daily_predictions.csv` has junk row with date `19700101` (epoch artifact) — cosmetic only, upsert deduplicates
 - 2021 DIX fetch script uses `open("w")` — if it dies, must restart from day 1, never resume mid-file
+- **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy (fix deployed 2026-02-12, pending confirmation)
 
 ---
 
@@ -141,6 +142,7 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 - **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite existing)
 - **ARM future:** VIX speed signal (day-over-day change) — target before Feb 2027
 - **DIX ratio per regime backtest** — target before Aug 2026
+- **⚠️ PENDING 2026-02-12:** If today's 1:30 PM ET cron places a trade (TRADE_ENTER in log) → update `PROJECT_ARCHIVE.md` with the IBKR leg-based pricing pattern rule for all future option spread strategies. Also update `PROJECT_OVERVIEW.md` Known Issues to mark confirmed.
 
 ---
 
@@ -165,4 +167,4 @@ Update the archive whenever any of these change — keep it current, not just hi
 For historical sessions, roadmap, data quality tables, fetch procedures, diagnostic commands:
 → `/root/projects/PROJECT_ARCHIVE.md`
 
-**Last Updated:** 2026-02-11
+**Last Updated:** 2026-02-12

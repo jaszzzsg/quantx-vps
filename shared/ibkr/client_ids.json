@@ -11,6 +11,8 @@
     201,
     202,
     203,
+    204,
+    205,
     991
   ],
   "registry": {
@@ -44,6 +46,22 @@
       "host": "127.0.0.1",
       "port": 4002,
       "timestamp": "2026-02-10T18:30:19.105192+00:00",
+      "status": "active"
+    },
+    "204": {
+      "purpose": "bear_call_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-11T18:30:05.008452+00:00",
+      "status": "active"
+    },
+    "205": {
+      "purpose": "bull_put_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-11T20:11:40.013041+00:00",
       "status": "active"
     }
   }

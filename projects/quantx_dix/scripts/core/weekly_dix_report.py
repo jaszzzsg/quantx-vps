@@ -152,8 +152,17 @@ def risk_score_from_short_ratio(short_ratio: float) -> int:
     return max(0, min(100, int(round(100.0 * (1.0 - short_ratio)))))
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start", default=None, help="Override window start YYYYMMDD")
+    parser.add_argument("--end", default=None, help="Override window end YYYYMMDD")
+    args = parser.parse_args()
+
     today = datetime.now(timezone.utc)
-    mon, fri = last_completed_mf_window(today)
+    if args.start and args.end:
+        mon, fri = args.start, args.end
+    else:
+        mon, fri = last_completed_mf_window(today)
     ymds = ymds_between(mon, fri)
 
     print(f"[WEEKLY] Window: {mon} -> {fri}")
@@ -247,7 +256,8 @@ def main():
 
     # Build Telegram message
     lines = []
-    lines.append(f"QuantX DIX Weekly Report")
+    label = "QuantX DIX Early Weekly Report" if (args.start and args.end) else "QuantX DIX Weekly Report"
+    lines.append(label)
     lines.append(f"{mon} → {fri} (Days: {len(used_days)})")
     lines.append(f"Risk Score: {score}/100 (sr={short_ratio:.3f})")
     lines.append("")

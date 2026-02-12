@@ -65,9 +65,30 @@ echo "PID: $!"
 |--------|---------|-----------|
 | `compute_diy_dix_one_day_ibkr.py` | Daily DIX fetch | 22 |
 | `compute_diy_dix_6y_optimized.py` | Historical 6Y fetch | 80/82 (manual) |
-| `weekly_dix_report.py` | Weekly Telegram summary | N/A |
+| `weekly_dix_report.py` | Weekly Telegram summary (accepts `--start`/`--end` YYYYMMDD for partial/early reports) | N/A |
 | `daily_precious_metals_report.py` | Precious metals report | N/A |
 | `update_history_master.py` | Merge daily into master | N/A |
+
+### Early/Partial Weekly Report (one-off)
+Use when you need an early report mid-week (e.g. emergency, public holiday):
+```bash
+# Systemd files (reusable — edit dates as needed):
+/etc/systemd/system/quantx-dix-early-weekly-20260213.service   ← edit --start/--end dates
+/etc/systemd/system/quantx-dix-early-weekly-20260213.timer     ← edit OnCalendar date/time
+
+# To set up for a new date:
+# 1. Copy/edit the service + timer files with the new date
+# 2. systemctl daemon-reload
+# 3. systemctl enable --now quantx-dix-early-weekly-<YYYYMMDD>.timer
+# 4. Verify: systemctl list-timers quantx-dix-early-weekly-<YYYYMMDD>.timer
+
+# Cleanup after firing:
+# systemctl disable quantx-dix-early-weekly-<YYYYMMDD>.timer
+# rm /etc/systemd/system/quantx-dix-early-weekly-<YYYYMMDD>.{service,timer}
+# systemctl daemon-reload
+```
+- Timer convention: fires at `HH:MM UTC` (system clock is UTC; "1am NYT" = 01:00 UTC, "2am NYT" = 02:00 UTC in this setup)
+- `weekly_dix_report.py --start YYYYMMDD --end YYYYMMDD` — Telegram header shows "Early Weekly Report"; default (no args) = normal Sunday behaviour unchanged
 
 Data paths:
 - Daily details: `/root/projects/quantx_dix/data/dix/details/`
@@ -178,4 +199,4 @@ END
 ```
 
 ---
-*Last archived: 2026-02-11*
+*Last archived: 2026-02-12*

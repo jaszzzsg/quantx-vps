@@ -175,17 +175,21 @@ def build_bear_call_spread(ib: IB, expiry: str, spx_px: float):
         ],
     )
 
-    return spread, short_k, long_k, ref
+    return spread, short_k, long_k, ref, sell_call, buy_call
 
-def get_mid_credit(ib: IB, spread: Bag):
-    # Spreads/combos require streaming (snapshot=True not supported for Bag)
-    t = ib.reqMktData(spread, "", snapshot=False, regulatorySnapshot=False)
-    ib.sleep(3)
-    bid, ask = t.bid, t.ask   # capture before cancel
-    ib.cancelMktData(spread)  # cancel each time — called in retry loop, must not stack subscriptions
-    if not _valid_px(bid) or not _valid_px(ask):
+def get_mid_credit_from_legs(ib: IB, sell_leg: Option, buy_leg: Option):
+    # Request snapshot for each leg individually — Bag/combo streaming unreliable for SPX spreads
+    t_sell = ib.reqMktData(sell_leg, "", snapshot=True, regulatorySnapshot=False)
+    t_buy  = ib.reqMktData(buy_leg,  "", snapshot=True, regulatorySnapshot=False)
+    ib.sleep(4)
+    ib.cancelMktData(sell_leg)
+    ib.cancelMktData(buy_leg)
+    if not all(_valid_px(v) for v in (t_sell.bid, t_sell.ask, t_buy.bid, t_buy.ask)):
         return None
-    return round((bid + ask) / 2, 2)
+    sell_mid = (t_sell.bid + t_sell.ask) / 2
+    buy_mid  = (t_buy.bid  + t_buy.ask)  / 2
+    mid = round(sell_mid - buy_mid, 2)
+    return mid if mid > 0 else None
 
 def place_limit_sell_mid(ib: IB, spread: Bag, mid: float):
     order = LimitOrder("SELL", QTY, mid, account=IB_ACCOUNT)
@@ -240,8 +244,8 @@ def main():
 
             # refresh SPX px for dynamic strikes each retry
             spx_px, _ = get_spx_price_and_contract(ib)
-            spread, short_k, long_k, ref = build_bear_call_spread(ib, expiry, spx_px)
-            mid = get_mid_credit(ib, spread)
+            spread, short_k, long_k, ref, sell_call, buy_call = build_bear_call_spread(ib, expiry, spx_px)
+            mid = get_mid_credit_from_legs(ib, sell_call, buy_call)
 
             if mid is None:
                 # no quote -> retry
