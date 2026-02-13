@@ -80,7 +80,7 @@ nohup /root/odte_strategy/venv/bin/python \
 ## Active Processes to Check Next Session
 | Process | PID | Command |
 |---------|-----|---------|
-| 2021 DIX fetch Part 3 | 2801369 | Client ID 83, 20210816→20211231, chunk_2021_part3_*.csv |
+| 2021 DIX fetch Part 4 | 2875352 | Client ID 83, 20211115→20211231, chunk_2021_part4_20211115_20211231.csv |
 | Strategy cron | — | 18:30 UTC daily, run_1330_strategies.sh |
 | Early weekly DIX timer | — | fires 02:00 UTC Feb 13 → `quantx-dix-early-weekly-20260213.timer` |
 

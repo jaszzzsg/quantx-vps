@@ -14,8 +14,10 @@
 | ARM Backtest (1,533 days) | ✅ DONE 2026-02-08 |
 | Fix Regime Definitions V2 | ✅ DONE 2026-02-08 |
 | Strategy bug fixes (rf_prob, SPX NaN, subscription leak) | ✅ DONE 2026-02-11 |
+| Strategy fix: leg-based mid pricing + tif=DAY + position guard + fill wait | ✅ DONE 2026-02-12 |
 | Bear Call RF Threshold backtest per regime | 🔵 NEXT |
 | R4 Bull Put RF Threshold backtest | 🔵 NEXT |
+| Multi-strategy runner: parallelise + cross-strategy position check | 🔴 NOT STARTED — required before adding 3rd+ strategy |
 | VIX Speed Signal (day-over-day change as secondary panic detector) | 🔴 NOT STARTED — target before Feb 2027 |
 
 ## Priority 2: DIX Ratio Per Regime (Target: Before Aug 2026)
@@ -114,6 +116,15 @@ RF features: regime_num, risk_off, caution, risk_on, regime_change, days_in_regi
 - Bear Call: OTM=30pts, width=5pts, min_credit=$1.00, RF_THR=0.10 (trial)
 - Bull Put: OTM=20pts, width=5pts, min_credit=$1.00, ARM gate (skip R3)
 - Bear flag: `/root/odte_strategy/state/bear_call_active_today.json` — if Bear Call trades, Bull Put skips
+- Runner: **sequential** (001 → 002). Must parallelise before adding 3rd+ strategy or window timing degrades
+
+### Strategy Design Rules (MANDATORY for all future strategies)
+1. **`tif="DAY"`** on all `LimitOrder` calls — order persists after disconnect
+2. **Fill-wait loop** after `placeOrder` — poll up to 90s for `Filled`/`Cancelled` before returning
+3. **Position guard** before entry — call `ib.positions()` and skip if SPXW legs for today's expiry already exist (prevents duplicates on reruns or cron overlap)
+4. **Each strategy gets unique Client ID** via `get_client_id()` registry
+5. **IBKR Bag/combo `reqMktData` unreliable for SPX spreads** — always use leg-based snapshot pricing (`get_mid_credit_from_legs`)
+6. **Closing the terminal does NOT disconnect** — strategy disconnects in its own `finally` block after logging `TRADE_ENTER`
 
 ---
 

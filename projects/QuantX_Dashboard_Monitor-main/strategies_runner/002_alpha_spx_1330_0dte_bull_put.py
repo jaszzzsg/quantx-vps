@@ -175,11 +175,27 @@ def get_mid_credit_from_legs(ib, sell_leg, buy_leg):
     mid = round(sell_mid - buy_mid, 2)
     return mid if mid > 0 else None
 
-def place_limit_sell(ib, spread, mid):
-    order = LimitOrder("SELL", QTY, mid, account=IB_ACCOUNT)
+def has_open_spxw_position(ib, expiry) -> bool:
+    """Return True if account already holds any SPXW legs for today's expiry."""
+    for pos in ib.positions(IB_ACCOUNT):
+        c = pos.contract
+        if (c.symbol == "SPX"
+                and getattr(c, "lastTradeDateOrContractMonth", "") == expiry
+                and pos.position != 0):
+            return True
+    return False
+
+def place_and_wait_fill(ib, spread, mid, timeout_sec=90):
+    """Place DAY limit order and wait up to timeout_sec for a fill."""
+    order = LimitOrder("SELL", QTY, mid, tif="DAY", account=IB_ACCOUNT)
     trade = ib.placeOrder(spread, order)
-    ib.sleep(1)
-    return trade.orderStatus.status or "UNKNOWN"
+    deadline = time.time() + timeout_sec
+    while time.time() < deadline:
+        ib.sleep(2)
+        status = trade.orderStatus.status
+        if status in ("Filled", "Cancelled", "ApiCancelled", "Inactive"):
+            break
+    return trade.orderStatus.status or "UNKNOWN", int(trade.orderStatus.filled)
 
 # =========================================================
 # MAIN
@@ -214,6 +230,12 @@ def main():
         spx_px, spx = get_spx_price_and_contract(ib)
         expiry = get_today_expiry_spxw(ib, spx)
 
+        # Position guard — skip if already holding SPXW legs for today
+        if has_open_spxw_position(ib, expiry):
+            notify_skip("BULL_PUT", "SPXW", "Already open position for today", f"expiry={expiry}")
+            log_event("SKIP_ALREADY_OPEN", regime, {"expiry": expiry})
+            return
+
         while True:
             if not in_window(now_et()):
                 notify_skip("BULL_PUT", "SPXW", "Window expired (15:10 ET)", f"date={td}")
@@ -228,7 +250,7 @@ def main():
                 time.sleep(RETRY_SEC)
                 continue
 
-            status = place_limit_sell(ib, spread, mid)
+            status, filled = place_and_wait_fill(ib, spread, mid)
 
             notify_enter(
                 "BULL_PUT", "SPXW",
@@ -236,7 +258,7 @@ def main():
                 short_strike=short_k,
                 long_strike=long_k,
                 credit=mid,
-                extra=f"status={status} spx={spx_px:.2f} ref={ref} regime={regime}"
+                extra=f"status={status} filled={filled} spx={spx_px:.2f} ref={ref} regime={regime}"
             )
             log_event("TRADE_ENTER", regime, {
                 "expiry": expiry,
@@ -244,6 +266,7 @@ def main():
                 "long_put": long_k,
                 "credit": mid,
                 "status": status,
+                "filled": filled,
                 "spx_px": spx_px,
                 "ref": ref
             })
