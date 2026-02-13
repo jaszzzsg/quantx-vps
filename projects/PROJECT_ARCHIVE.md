@@ -73,10 +73,11 @@ echo "PID: $!"
 
 ### Early/Partial Weekly Report (one-off)
 Use when you need an early report mid-week (e.g. emergency, public holiday):
+**Last used: 2026-02-13 02:00 UTC → Feb 9–12 report ✅ delivered + systemd files cleaned up**
 ```bash
-# Systemd files (reusable — edit dates as needed):
-/etc/systemd/system/quantx-dix-early-weekly-20260213.service   ← edit --start/--end dates
-/etc/systemd/system/quantx-dix-early-weekly-20260213.timer     ← edit OnCalendar date/time
+# Systemd files (create fresh each time — template below):
+# quantx-dix-early-weekly-YYYYMMDD.service: edit --start/--end dates
+# quantx-dix-early-weekly-YYYYMMDD.timer:   edit OnCalendar date/time (always UTC)
 
 # To set up for a new date:
 # 1. Copy/edit the service + timer files with the new date

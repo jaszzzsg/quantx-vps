@@ -70,9 +70,13 @@
 | Strategy cron | — | 18:30 UTC daily, run_1330_strategies.sh |
 | Early weekly DIX timer | — | fires 02:00 UTC Feb 13 → `quantx-dix-early-weekly-20260213.timer` |
 
+### [DONE] Early weekly DIX report confirmed + systemd cleanup
+- Telegram received ✅ (Feb 9–12 early weekly report)
+- Cleanup done: `systemctl disable`, `rm` service+timer, `daemon-reload` ✅
+
+---
+
 ## Next Steps
-- [ ] **02:00 UTC tonight**: verify early weekly DIX report Telegram received (Feb 9–12)
-- [ ] **After early report fires**: cleanup systemd files (`systemctl disable` + `rm` + `daemon-reload`)
 - [ ] **18:30 UTC today (Feb 13)**: first live test of fill-wait + fill monitor — confirm `TRADE_FILL` in log + Telegram `🎯 FILLED`
 - [ ] **2021 Part 4**: check progress / completion (20211115→20211231, ~35 days)
 - [ ] **After Part 4 completes**: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
