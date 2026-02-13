@@ -34,6 +34,23 @@
 - Roadmap Priority 1: added ✅ strategy fix row (2026-02-12), added 🔴 multi-strategy runner item
 - Paper Trading Setup: added "Strategy Design Rules" section with 6 mandatory rules for all future strategies
 
+### [DONE] Fill Monitor — hourly intraday fill checker
+**File:** `strategies_runner/fill_monitor.py`
+
+**Design:**
+- Generic — scans ALL `strategies_runner/logs/*/trade_log.csv` (works for any future alpha)
+- Finds `TRADE_ENTER` rows for today's expiry where `filled=0`
+- Connects to IBKR (readonly), calls `reqExecutions()` for today's SPX fills
+- Matches short-leg fill (SLD + right + strike) to each pending strategy entry
+- Appends `TRADE_FILL` row to the strategy's trade log
+- Sends Telegram `🎯 FILLED` with spread details, fill price, fill time
+- Dedup: skips if `TRADE_FILL` already logged for today's expiry (safe to run hourly)
+- Silent exit if no pending TRADE_ENTER (no IBKR connection made)
+
+**Cron added:** `0 15,16,17,18,19,20,21 * * 1-5` = hourly 10am–4pm ET Mon–Fri
+**Log:** `strategies_runner/logs/fill_monitor.log`
+**PROJECT_ARCHIVE.md:** updated Paper Trading Setup section
+
 ---
 
 ## Active Processes
@@ -46,6 +63,6 @@
 ## Next Steps
 - [ ] **02:00 UTC tonight**: verify early weekly DIX report Telegram received (Feb 9–12)
 - [ ] **After early report fires**: cleanup systemd files (`systemctl disable` + `rm` + `daemon-reload`)
-- [ ] **18:30 UTC today**: first live test of fill-wait fix — confirm `filled=1` in trade log
+- [ ] **18:30 UTC today (Feb 13)**: first live test of fill-wait + fill monitor — confirm `TRADE_FILL` in log + Telegram `🎯 FILLED`
 - [ ] **2021 Part 4**: check progress / completion (20211115→20211231, ~35 days)
 - [ ] **After Part 4 completes**: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch

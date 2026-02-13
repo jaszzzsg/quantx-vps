@@ -117,6 +117,7 @@ RF features: regime_num, risk_off, caution, risk_on, regime_change, days_in_regi
 - Bull Put: OTM=20pts, width=5pts, min_credit=$1.00, ARM gate (skip R3)
 - Bear flag: `/root/odte_strategy/state/bear_call_active_today.json` — if Bear Call trades, Bull Put skips
 - Runner: **sequential** (001 → 002). Must parallelise before adding 3rd+ strategy or window timing degrades
+- Fill monitor: `strategies_runner/fill_monitor.py` — runs hourly 10am–4pm ET (cron: `0 15-21 * * 1-5`), generic (scans all `*/trade_log.csv`), logs `TRADE_FILL` + Telegram `🎯 FILLED` on confirmation. Log: `strategies_runner/logs/fill_monitor.log`
 
 ### Strategy Design Rules (MANDATORY for all future strategies)
 1. **`tif="DAY"`** on all `LimitOrder` calls — order persists after disconnect
