@@ -86,6 +86,8 @@ def load_trade_logs(trade_date: str) -> list[dict]:
                         "rf_prob": row.get("rf_prob", ""),
                         "details": details,
                         "expiry": expiry,
+                        # underlying defaults to SPX for backward compat with old log rows
+                        "underlying": details.get("underlying", "SPX"),
                         # short leg strike + right
                         "short_strike": details.get("short_call") or details.get("short_put"),
                         "right": "C" if "short_call" in details else "P",
@@ -121,8 +123,8 @@ def append_fill_row(log_path: str, alpha_id: str, regime: str, rf_prob: str, det
 
 
 def get_executions(ib: IB, expiry: str) -> list:
-    """Return all SPX executions for today's expiry."""
-    filt = ExecutionFilter(acctCode=IB_ACCOUNT, symbol="SPX")
+    """Return all option executions for today's expiry across all underlyings."""
+    filt = ExecutionFilter(acctCode=IB_ACCOUNT)   # no symbol filter — works for any ticker
     fills = ib.reqExecutions(filt)
     result = []
     for fill in fills:
@@ -130,6 +132,7 @@ def get_executions(ib: IB, expiry: str) -> list:
         e = fill.execution
         if getattr(c, "lastTradeDateOrContractMonth", "") == expiry:
             result.append({
+                "symbol": c.symbol,        # underlying ticker e.g. SPX, NDX, SPY
                 "strike": c.strike,
                 "right": c.right,          # 'C' or 'P'
                 "side": e.side,            # 'SLD' or 'BOT'
@@ -142,16 +145,17 @@ def get_executions(ib: IB, expiry: str) -> list:
     return result
 
 
-def match_fill(executions: list, short_strike, right: str) -> dict | None:
+def match_fill(executions: list, underlying: str, short_strike, right: str) -> dict | None:
     """
     Find the short-leg fill for this strategy.
-    Short leg = SELL (SLD) the given strike + right.
+    Short leg = SELL (SLD) the given underlying + strike + right.
     Returns the execution dict if found, else None.
     """
     if short_strike is None:
         return None
     for ex in executions:
-        if (ex["right"] == right
+        if (ex["symbol"] == underlying
+                and ex["right"] == right
                 and ex["side"] == "SLD"
                 and float(ex["strike"]) == float(short_strike)):
             return ex
@@ -185,19 +189,20 @@ def main():
         print(f"[FILL_MONITOR] {len(executions)} SPX executions found for expiry {expiry}")
 
         for entry in pending:
-            log_path    = entry["log_path"]
-            strategy    = entry["strategy"]
-            alpha_id    = entry["alpha_id"]
+            log_path     = entry["log_path"]
+            strategy     = entry["strategy"]
+            alpha_id     = entry["alpha_id"]
             short_strike = entry["short_strike"]
-            right       = entry["right"]
-            details     = entry["details"]
+            right        = entry["right"]
+            underlying   = entry["underlying"]
+            details      = entry["details"]
 
             # Skip if already recorded in log (safe re-run)
             if already_filled_in_log(log_path, expiry):
                 print(f"[FILL_MONITOR] {strategy} already has TRADE_FILL for {expiry}, skipping.")
                 continue
 
-            matched = match_fill(executions, short_strike, right)
+            matched = match_fill(executions, underlying, short_strike, right)
             if matched is None:
                 print(f"[FILL_MONITOR] {strategy} — no fill yet (short {right}{short_strike})")
                 continue

@@ -40,7 +40,7 @@
 **Design:**
 - Generic — scans ALL `strategies_runner/logs/*/trade_log.csv` (works for any future alpha)
 - Finds `TRADE_ENTER` rows for today's expiry where `filled=0`
-- Connects to IBKR (readonly), calls `reqExecutions()` for today's SPX fills
+- Connects to IBKR (readonly), calls `reqExecutions()` for today's fills
 - Matches short-leg fill (SLD + right + strike) to each pending strategy entry
 - Appends `TRADE_FILL` row to the strategy's trade log
 - Sends Telegram `🎯 FILLED` with spread details, fill price, fill time
@@ -50,6 +50,16 @@
 **Cron added:** `0 15,16,17,18,19,20,21 * * 1-5` = hourly 10am–4pm ET Mon–Fri
 **Log:** `strategies_runner/logs/fill_monitor.log`
 **PROJECT_ARCHIVE.md:** updated Paper Trading Setup section
+
+### [DONE] Fill Monitor + strategy logs — multi-ticker support
+**Problem:** `ExecutionFilter(symbol="SPX")` hardcoded — future alphas with different underlyings (NDX, SPY, etc.) would not be matched.
+
+**Changes:**
+- `fill_monitor.py`: `ExecutionFilter` now uses `acctCode` only (no symbol filter); `get_executions()` returns `symbol` field from contract; `match_fill()` takes `underlying` param and matches on it; `load_trade_logs()` reads `"underlying"` from TRADE_ENTER details (defaults to `"SPX"` for backward compat)
+- `001_alpha_spx_1330_0dte_bear_call.py`: added `"underlying": "SPX"` to TRADE_ENTER details
+- `002_alpha_spx_1330_0dte_bull_put.py`: added `"underlying": "SPX"` to TRADE_ENTER details
+
+**Syntax check:** all three files pass `py_compile` ✅
 
 ---
 

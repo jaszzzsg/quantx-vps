@@ -261,6 +261,7 @@ def main():
                 extra=f"status={status} filled={filled} spx={spx_px:.2f} ref={ref} regime={regime}"
             )
             log_event("TRADE_ENTER", regime, {
+                "underlying": "SPX",
                 "expiry": expiry,
                 "short_put": short_k,
                 "long_put": long_k,
