@@ -130,7 +130,7 @@ Key changes:  [only if something changed]
 - [ ] Confirm `pressure_state.json` created in `state/` after first run
 - [ ] After 2021 Part 4 completes: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
 - [ ] Check PID 2938773 — when done verify ≥80% close coverage on chunk_2020_jan_apr.csv → merge with chunk_2020.csv
-- [ ] As more paper trades labeled in rf_features.csv, retrain model to accumulate more samples
+- [ ] As more paper trades fire and are labeled, retrain model. Target ~150 labeled rows before trusting forward AUC
 
 ---
 
@@ -161,3 +161,27 @@ Key changes:  [only if something changed]
 - Bad rate at threshold 0.60: **5.3%** vs baseline — 4.7x lift
 
 **Feature importances:** rs_iwm_spy 57%, days_in_regime 31% (unchanged structure)
+
+---
+
+### [DONE] RF threshold set to 0.65 + time-based split validation
+
+**Files changed:**
+- `scripts/rf_score_daily.py`: Added `RF_TRADE_THRESH = 0.65` constant; per-regime `REGIME_THR` updated to use it as baseline; verbose scoring printout added
+- `scripts/rf_time_split_validate.py`: New validation script (time-based 70/30 split, no shuffle)
+- `.env.paper`: Kept at `RF_THR=0.10` — see note below
+
+**Time-based forward validation results (train Sep 2024–May 2025, test May–Dec 2025):**
+- Accuracy: 53.8%,  **AUC: 0.503** (vs random-split AUC 0.935)
+- **Conclusion: random-split AUC was inflated by time-series data leakage**
+- Forward-period BADs occur in R1.5 (fair regime) — model learned "R1.5 = safe" from training, fails on BAD days in R1.5 during test
+
+**Why the model isn't ready for tight gating yet:**
+- 85 labeled rows is too small; 26-row test set with 9 BADs is statistically fragile
+- The ARM regime gate (R3/R5 blocks) is the primary protection; RF is supplementary
+- Need ~150 labeled rows before forward AUC becomes reliable
+
+**Decision on RF_THR:**
+- `.env.paper` stays at `0.10` — low gate to keep paper trades firing and accumulating labeled data
+- `RF_TRADE_THRESH = 0.65` is set in code as the activation threshold for live trading
+- Will switch `.env.paper` to `0.65` (or remove `RF_THR` override) when transitioning to live

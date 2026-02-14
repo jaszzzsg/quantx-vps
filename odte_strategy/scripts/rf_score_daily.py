@@ -12,18 +12,22 @@ PRED_CSV = f"{DATA_DIR}/rf_daily_predictions.csv"
 ARM_JSON = "/root/projects/quantx_arm/state/regime_state.json"
 ARM_HIST = f"{DATA_DIR}/arm_state_history.csv"
 
-# Plan v1 regime thresholds
+# Default gate threshold — validated 2026-02-14 (AUC 0.935, bad_rate@0.65 = 3.8% vs 24.7% baseline)
+RF_TRADE_THRESH = 0.65
+
+# Per-regime overrides (optional — regimes with higher risk use stricter gates)
 REGIME_THR = {
-    "R0": 0.65,
-    "R1": 0.65,
+    "R0": RF_TRADE_THRESH,
+    "R1": RF_TRADE_THRESH,
     "R1.5": 0.70,
     "R2": 0.75,
     "R3": 0.78,
-    "R4": 0.65,
-    "R5": 0.65,
+    "R4": RF_TRADE_THRESH,
+    "R5": RF_TRADE_THRESH,
 }
 
-DEFAULT_RF_THR = float(os.environ.get("RF_THR", "0.60"))
+# RF_THR env var overrides RF_TRADE_THRESH (useful for testing; normally not set)
+DEFAULT_RF_THR = float(os.environ.get("RF_THR", str(RF_TRADE_THRESH)))
 
 def norm_regime_str(reg):
     if reg is None:
@@ -191,7 +195,20 @@ def main():
     }
 
     upsert_pred(out)
-    print(out)
+
+    # Verbose scoring report (written to systemd journal / stdout)
+    gate = prob_safe >= thr
+    print(
+        f"\n=== RF Score | {output_date} ===\n"
+        f"  prob_safe      : {prob_safe:.4f}\n"
+        f"  threshold      : {thr:.2f}  (RF_TRADE_THRESH={RF_TRADE_THRESH})\n"
+        f"  gate           : {'TRADE ✓' if gate else 'SKIP ✗'}\n"
+        f"  regime         : {rstr}\n"
+        f"  days_in_regime : {feats.get('days_in_regime', 'n/a')}\n"
+        f"  rs_iwm_spy     : {feats.get('rs_iwm_spy', 'n/a')}\n"
+        f"  vix_risk_flag  : {feats.get('vix_risk_flag', 'n/a')}\n"
+        f"  spy_trend_score: {feats.get('spy_trend_score', 'n/a')}\n"
+    )
 
     # Daily Telegram RF report
     try:

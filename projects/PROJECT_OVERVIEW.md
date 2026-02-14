@@ -58,7 +58,7 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 
 **As of 2026-02-14:**
 - Paper trading ACTIVE — cron at 18:30 UTC (1:30 PM ET) weekdays, account DUP148773
-- RF_THRESHOLD = 0.10 (trial mode — restore to 0.60 after enough paper trades collected)
+- RF_THRESHOLD = 0.65 (set 2026-02-14 — trial mode ended; random-split AUC 0.935, but forward AUC ~0.5 — ARM gate is primary protection)
 - Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test NOT YET CONFIRMED (Bear Call skipped Feb 13 due to SPX snapshot NaN — retry fix deployed Feb 14)
 - ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15
 - 2021 DIX fetch Part 4: COMPLETE (PID 2875352 finished) — full 2021 year covered (Parts 1–4), merge pending
@@ -139,7 +139,7 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 
 ## Critical Reminders
 - **⚠️ Jan–May 2020 DIX data MISSING** — 20200101→20200416 was overwritten. Must refetch after 2021 chunk completes. Use NEW part file, Client ID 83+. Verify ≥80% close coverage before merging.
-- **Restore RF_THRESHOLD to 0.60** in Bear Call (`001_alpha...bear_call.py` line ~51) after paper trade validation complete
+- **RF gate:** currently `RF_THR=0.10` in `.env.paper` (low gate to collect paper trade data). `RF_TRADE_THRESH=0.65` is set as the code constant — will activate when transitioning to live trading
 - **After 2021 merge complete:** verify ≥80% close coverage per part → start 2022 fetch (Client ID 83) → then refetch Jan–May 2020
 - **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite existing)
 - **ARM future:** VIX speed signal (day-over-day change) — target before Feb 2027

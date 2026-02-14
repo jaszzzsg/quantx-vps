@@ -185,6 +185,12 @@
     "exchange": "SMART",
     "primaryExchange": "NYSE"
   },
+  "ADX": {
+    "conId": 4187,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
   "ADXS": {
     "conId": 565846550,
     "currency": "USD",
@@ -7456,6 +7462,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "NASDAQ"
+  },
+  "XRLV": {
+    "conId": 319357085,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
   },
   "XRT": {
     "conId": 45540784,
