@@ -1,7 +1,7 @@
 # QuantX Project Archive
 **Living roadmap + detailed reference. Read when you need deep context on a specific component.**
 *For current status, rules, and session start instructions, see PROJECT_OVERVIEW.md*
-*Last roadmap update: 2026-02-14*
+*Last roadmap update: 2026-02-14 (added Priority 4: 0DTE Distance-from-Open Backtest)*
 
 ---
 
@@ -25,6 +25,39 @@
 ## Priority 2: DIX Ratio Per Regime (Target: Before Aug 2026)
 - Calculate DIX ratio behavior per ARM regime
 - Needs full 6Y DIX data first (2020–2025)
+
+---
+
+## Priority 4: 0DTE Distance-from-Open Backtest by Regime (TODO — Later)
+
+**Context:**
+- Recent behavior: market opens green, then around 1:50–2:30pm ET can sell off aggressively.
+- Manual 0DTE trades recently hit even at 1.35% away from open; market moved ~1.92%.
+- Static distance rules insufficient in volatile conditions.
+- Need regime-aware % distance rules for 0DTE put/call placement.
+
+**Goal:** Backtest optimal % distance-from-OPEN for 0DTE entries, conditioned on ARM regime, to maximize CAGR while controlling breach frequency.
+
+**Entry Times (two strategies):**
+1. Midday entry: ~1:30pm ET
+2. Night entry: ~10:00pm SGT
+
+**Distance Grid:**
+- Test % distance from OPEN: +0.1%, +0.2%, ..., +2.0% (put side may extend to +2.2%)
+- Call breach metric: `max(high/open - 1)` → breach if >= chosen %
+- Put breach metric: `min(low/open - 1)` → breach if <= -chosen %
+
+**Backtest Steps:**
+1. For each trading day: anchor on OPEN; simulate short strike at % distance; determine if intraday excursion breaches.
+2. Slice by: ARM regime (R0/R1/R1.5/R2/R3/R4/R5), days_in_regime bucket, vix_risk_flag (later).
+3. Metrics per (regime, distance): breach rate, trade frequency, max adverse excursion, CAGR proxy (fixed credit per distance bucket), risk-adjusted return estimate.
+
+**Deliverables:**
+- Table: best % distance per regime for Put and Call sides separately
+- Plot: breach rate vs distance by regime
+- Recommended regime-based distance rule schedule for live 0DTE system
+
+**Data needed:** SPX (or SPY) intraday OHLC by date; ARM regime history (`arm_regime_historical.csv` + live `arm_state_history.csv`)
 
 ## Priority 3: 6Y Historical Data Completion (Target: Before Mar 2026)
 | Chunk | Date Range | Status | Notes |

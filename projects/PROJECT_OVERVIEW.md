@@ -144,6 +144,7 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 - **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite existing)
 - **ARM future:** VIX speed signal (day-over-day change) — target before Feb 2027
 - **DIX ratio per regime backtest** — target before Aug 2026
+- **0DTE Distance-from-Open Backtest by Regime** — see PROJECT_ARCHIVE.md → "Priority 4: 0DTE Distance Backtest". Context: static distance rules insufficient; manual trades recently hit at 1.35% away when market moved 1.92%. Goal: regime-aware % distance grid (0.1%–2.2%) for Put/Call sides, conditioned on ARM regime, optimizing CAGR vs breach rate. Deliverable: per-regime distance rule schedule for live 0DTE placement.
 - **⚠️ Strategy first confirmed trade still pending** — Bear Call skipped Feb 13 (SPX snapshot NaN). Next cron fire: 18:30 UTC Feb 18 (next trading day). Confirm TRADE_ENTER in log → update `PROJECT_ARCHIVE.md` with the IBKR leg-based pricing pattern rule for all future option spread strategies. Also update `PROJECT_OVERVIEW.md` Known Issues to mark confirmed.
 
 ---
