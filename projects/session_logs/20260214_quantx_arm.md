@@ -185,3 +185,42 @@ Key changes:  [only if something changed]
 - `.env.paper` stays at `0.10` — low gate to keep paper trades firing and accumulating labeled data
 - `RF_TRADE_THRESH = 0.65` is set in code as the activation threshold for live trading
 - Will switch `.env.paper` to `0.65` (or remove `RF_THR` override) when transitioning to live
+
+---
+
+### [DONE] 3 shock features added + spy_dd_next sanity confirmed
+
+**Files changed:**
+- `scripts/backfill_arm_signals.py`: Added vix_close, vix_change_1d, spy_return_1d, spy_gap (SPY Open now downloaded)
+- `scripts/arm_history_append.py`: Added daily collection of vix_close (from regime_state.json), vix_change_1d (diff vs prev row), spy_return_1d, spy_gap (from yfinance)
+- `data/rf_build_features.py`: spy_dd_next sanity print added (verifies trading-day shift); new optional columns included
+- `scripts/rf_train_once.py` + `rf_time_split_validate.py`: PREFERRED_COLS expanded to 12
+
+**spy_dd_next sanity — confirmed correct:**
+- Dec 15 (Friday) → Dec 18 (Monday): next_trade_date correctly skips weekend ✅
+- Using positional shift(-1) on trading-day index, not calendar days
+
+**New features (all 100% filled after backfill):**
+- `vix_close`: raw IBKR VIX close
+- `vix_change_1d`: VIX today minus VIX yesterday (shock signal)
+- `spy_return_1d`: SPY close-to-close return
+- `spy_gap`: SPY overnight gap (open / prev_close - 1)
+
+**Model now 12 features (was 9):**
+
+**Forward time-split AUC improvement:**
+| Model | Random-split AUC | Forward AUC (70/30 time split) |
+|---|---|---|
+| 9 features (no shock) | 0.935 | 0.503 |
+| 12 features (+ shock) | — | **0.680** |
+
+Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 18%, days_in_regime 17%, spy_gap 17% — well distributed, no single dominant feature
+
+**Threshold analysis (12-feat, test period May–Dec 2025):**
+- thr=0.70: 76.9% trade rate, bad_rate=35.0% (≈ baseline 34.6%) — at 0.70 still near-random
+- thr=0.65: bad_rate=40.9% — worse than baseline (model is not calibrated yet)
+- **Conclusion:** Forward AUC 0.68 is a meaningful improvement but threshold gating still needs more data. ARM regime gate remains primary protection. Target 150 labeled rows.
+
+**Next steps:**
+- Continue paper trading with RF_THR=0.10
+- Rerun rf_time_split_validate.py when 150+ labeled rows accumulate

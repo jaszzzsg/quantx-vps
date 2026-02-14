@@ -23,6 +23,7 @@ PREFERRED_COLS = [
     "regime_num", "risk_off", "caution", "risk_on",
     "regime_change", "days_in_regime",
     "spy_trend_score", "vix_risk_flag", "rs_iwm_spy",
+    "vix_change_1d", "spy_return_1d", "spy_gap",
 ]
 MIN_COLS = ["regime_num", "risk_off", "caution", "risk_on"]
 

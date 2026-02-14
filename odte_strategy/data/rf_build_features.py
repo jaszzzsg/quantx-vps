@@ -28,10 +28,14 @@ OUT      = os.path.join(DATA_DIR, "rf_features.csv")
 DD_THRESH = -0.007   # -0.7% drop from open to intraday low
 
 
-def fetch_spy_next_day_dd(min_date: pd.Timestamp, max_date: pd.Timestamp) -> pd.Series:
+def fetch_spy_next_day_dd(min_date: pd.Timestamp, max_date: pd.Timestamp,
+                          n_samples: int = 5) -> pd.Series:
     """
     Returns a Series indexed by TRADE date D containing the next-trading-day
     intraday drawdown:  dd = (low_D+1 / open_D+1) - 1
+
+    shift(-1) moves by one ROW in the trading-day index (not by calendar day),
+    so Friday correctly maps to Monday, not Saturday.
     """
     dl_start = (min_date - timedelta(days=10)).strftime("%Y-%m-%d")
     dl_end   = (max_date + timedelta(days=10)).strftime("%Y-%m-%d")
@@ -41,8 +45,23 @@ def fetch_spy_next_day_dd(min_date: pd.Timestamp, max_date: pd.Timestamp) -> pd.
         spy.columns = spy.columns.get_level_values(0)
     spy.index = pd.to_datetime(spy.index).normalize()
     spy = spy.sort_index()
-    dd_next = (spy["Low"].shift(-1) / spy["Open"].shift(-1)) - 1
+
+    next_open = spy["Open"].shift(-1)
+    next_low  = spy["Low"].shift(-1)
+    next_date = spy.index.to_series().shift(-1)  # actual next trading date
+
+    dd_next = (next_low / next_open) - 1
     dd_next.name = "spy_dd_next"
+
+    # Sanity check: print sample rows to confirm trading-day alignment
+    sample_dates = spy.index[spy.index >= min_date][:n_samples]
+    print(f"\n[sanity] spy_dd_next — {n_samples} samples (shift is by trading day, not calendar):")
+    print(f"  {'trade_date':<14} {'next_trade_date':<16} {'next_open':>10} {'next_low':>9} {'dd_next':>9}")
+    for d in sample_dates:
+        nd  = next_date[d]
+        nd_s = nd.strftime("%Y-%m-%d") if pd.notna(nd) else "NaT"
+        print(f"  {str(d.date()):<14} {nd_s:<16} {next_open[d]:>10.2f} {next_low[d]:>9.2f} {dd_next[d]:>9.4f}")
+
     return dd_next   # index = trade date D, value = D+1 dd
 
 def regime_to_num(reg: str):
@@ -97,7 +116,10 @@ def main():
     if missing_req:
         raise SystemExit(f"arm_state_history.csv missing required cols: {missing_req}. found={list(arm.columns)}")
 
-    optional = [c for c in ["spy_trend_score", "vix_risk_flag", "rs_iwm_spy"] if c in arm.columns]
+    optional = [c for c in [
+        "spy_trend_score", "vix_risk_flag", "rs_iwm_spy",
+        "vix_change_1d", "spy_return_1d", "spy_gap",
+    ] if c in arm.columns]
 
     cols = [dcol, "arm_regime", "regime_num", "risk_off", "caution", "risk_on", "regime_change", "days_in_regime"] + optional
     feats = arm[cols].copy()

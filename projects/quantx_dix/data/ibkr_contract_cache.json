@@ -1169,6 +1169,12 @@
     "exchange": "SMART",
     "primaryExchange": "NYSE"
   },
+  "CCB": {
+    "conId": 326089324,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
   "CCC": {
     "conId": 505405416,
     "currency": "USD",
