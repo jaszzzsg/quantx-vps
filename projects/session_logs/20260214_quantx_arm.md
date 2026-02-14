@@ -230,6 +230,28 @@ Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 1
 
 ---
 
+### [DONE] RF Scoreboard + Auto-retrain Checkpoints deployed
+
+**Script:** `/root/odte_strategy/scripts/rf_scoreboard_update.py`
+
+**Added to arm-rf-update.service** as 4th/final step.
+
+**Daily steps (automated):**
+- A: Fill dd_next + label for most recent unfilled scoreboard row (SPY positional shift next-day)
+- B: Upsert label into rf_features.csv
+- C: Append today's scored row (prob_safe, gate_thr, 6 feature cols, dd_next=null placeholder)
+- D: Check retrain checkpoints [120, 150, 200] — auto-retrain + timestamp save + 70/30 forward validation if crossed
+
+**Scoreboard CSV:** `data/rf_scoreboard.csv` columns: date, arm_regime, prob_safe, gate_thr, rs_iwm_spy, vix_change_1d, spy_gap, spy_return_1d, vix_risk_flag, spy_trend_score, dd_next, label
+
+**Checkpoint state:** `data/rf_retrain_checkpoints.json` — 120+150 marked triggered on first run (160 rows); 200 is next
+
+**Timestamped models saved to:** `data/rf_model_YYYYMMDD_HHMMSS.joblib`; `rf_model.joblib` = latest
+
+**Feature set frozen at 12 features** — no adds/removes until forward AUC stabilizes
+
+---
+
 ### [DONE] Market-risk label backfill — 160 labeled rows
 
 **Script created:** `/root/odte_strategy/scripts/rf_build_labels_dd_all.py`
