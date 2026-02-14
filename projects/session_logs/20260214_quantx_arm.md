@@ -311,6 +311,52 @@ Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 1
 
 ---
 
+### [DONE] ARM History Backfill 2020–2024 + RF Retrain on 1,339 rows
+
+**Script created:** `/root/odte_strategy/scripts/arm_history_backfill_2020.py`
+
+**What it does:**
+- Loads `backtest_results/arm_regime_historical.csv` (1,533 rows, 2020-01-02→2026-02-06)
+- Filters pre-live range: 2020-01-02→2024-09-09 (1,179 rows)
+- Maps columns: `regime`→`arm_regime`, `iwm_spy_rs`→`rs_iwm_spy`
+- Derives `risk_off/caution/risk_on` from regime using ARM engine rules
+- Fetches SPY OHLC from yfinance → `spy_return_1d`, `spy_gap` (100% fill)
+- Concatenates with existing 162 live rows → sorts → saves with backup
+- Computes `vix_change_1d` via `.diff()` on full ordered series
+- Rebuilds `rf_features.csv` with `regime_num`, `regime_change`, `days_in_regime`
+- Runs v4_wq25 label backfill + RF retrain + 70/30 forward validation inline
+
+**Backup:** `arm_state_history_pre_backfill_backup.csv`
+
+**Results:**
+- `arm_state_history.csv`: 162 rows → **1,341 rows** (2020-01-02→2026-02-13)
+- `rf_features.csv`: **1,339 labeled rows** (was 160)
+- v4_wq25 Q25 threshold: **-0.0091** (was -0.0076 on 160 rows)
+- GOOD/BAD: 989/350, bad_rate=0.261
+
+**Forward validation (70/30 time split):**
+- Train: 937 rows (2020-01-02→2023-09-21)
+- Test:  402 rows (2023-09-22→2026-02-12)
+- Accuracy: 0.746, **Forward AUC: 0.640**
+- Threshold analysis (test set, baseline bad=0.229):
+  - thr=0.60: 66.4% trade rate, bad_rate=0.180 → 1.3x lift
+  - thr=0.65: 37.6% trade rate, bad_rate=0.146 → **1.6x lift**
+  - thr=0.70: 10.4% trade rate, bad_rate=0.167 → 1.4x lift
+
+**Feature importances (time-split):** rs_iwm_spy 20%, spy_return_1d 16%, spy_gap 16%, vix_change_1d 15%, spy_trend_score 9%, days_in_regime 7%
+
+**Activation condition check:**
+- AUC >= 0.70: ❌ 0.640  |  lift@0.65 >= 2.0x: ❌ 1.6x  |  bad_rate@0.65 <= 0.20: ✅ 0.146
+- **Decision: keep RF_THR=0.10** — 1 of 3 conditions met. AUC dropped from 0.746→0.640 because the 2023–2026 test period is genuinely harder than training (seen in live conditions). More data + feature engineering needed.
+
+**Files updated:**
+- `arm_state_history.csv`: 1,341 rows
+- `rf_features.csv`: 1,339 labeled rows, 15 cols
+- `rf_model.joblib`: retrained (1,339 rows, 12 features)
+- `rf_model_meta.json`: label_source = v4_wq25 (dd_next <= Q25=-0.0091)
+
+---
+
 ### [DONE] Label threshold comparison: structure-calibrated (-0.010 / -0.012 / -0.015 / worst-Q25)
 
 **Context:** strategy is ~20 SPX points OTM, 12–16 delta, entered ~1:30pm. DD=-0.007 too sensitive for this structure.

@@ -1,7 +1,7 @@
 # QuantX Project Archive
 **Living roadmap + detailed reference. Read when you need deep context on a specific component.**
 *For current status, rules, and session start instructions, see PROJECT_OVERVIEW.md*
-*Last roadmap update: 2026-02-14 (added Priority 4: 0DTE Distance-from-Open Backtest)*
+*Last roadmap update: 2026-02-14 (ARM history backfill 2020–2024; RF retrained 1,339 rows)*
 
 ---
 
@@ -16,6 +16,7 @@
 | Strategy bug fixes (rf_prob, SPX NaN, subscription leak) | ✅ DONE 2026-02-11 |
 | Strategy fix: leg-based mid pricing + tif=DAY + position guard + fill wait | ✅ DONE 2026-02-12 |
 | ARM Pressure Dashboard deployed (down/up/stability/escalation in daily Telegram) | ✅ DONE 2026-02-14 |
+| ARM History Backfill 2020–2024 + RF retrain (1,339 rows, AUC=0.640) | ✅ DONE 2026-02-14 |
 | SPX RF model retrain with pressure features (down_pressure, up_pressure, escalation) | 🔵 NEXT |
 | Bear Call RF Threshold backtest per regime | 🔵 NEXT |
 | R4 Bull Put RF Threshold backtest | 🔵 NEXT |

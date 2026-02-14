@@ -58,7 +58,8 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 
 **As of 2026-02-14:**
 - Paper trading ACTIVE — cron at 18:30 UTC (1:30 PM ET) weekdays, account DUP148773
-- RF_THRESHOLD = 0.65 (set 2026-02-14 — trial mode ended; random-split AUC 0.935, but forward AUC ~0.5 — ARM gate is primary protection)
+- RF_THRESHOLD = 0.65 in code; `.env.paper` RF_THR=0.10 (data collection mode — activation conditions NOT met)
+- RF model retrained on **1,339 rows** (2020-01-02→2026-02-12) — v4_wq25 labels, forward AUC=0.640, lift@0.65=1.6x
 - Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test NOT YET CONFIRMED (Bear Call skipped Feb 13 due to SPX snapshot NaN — retry fix deployed Feb 14)
 - ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15
 - 2021 DIX fetch Part 4: COMPLETE (PID 2875352 finished) — full 2021 year covered (Parts 1–4), merge pending

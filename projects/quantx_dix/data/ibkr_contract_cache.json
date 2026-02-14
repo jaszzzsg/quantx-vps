@@ -317,6 +317,12 @@
     "exchange": "SMART",
     "primaryExchange": "NASDAQ"
   },
+  "ALGT": {
+    "conId": 41855688,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
   "ALK": {
     "conId": 4352,
     "currency": "USD",
@@ -646,6 +652,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "NYSE"
+  },
+  "ATMP": {
+    "conId": 123981943,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "BATS"
   },
   "ATNM": {
     "conId": 438710464,
@@ -2525,6 +2537,12 @@
     "exchange": "SMART",
     "primaryExchange": "ARCA"
   },
+  "FFBW": {
+    "conId": 399802270,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
   "FFIV": {
     "conId": 6248713,
     "currency": "USD",
@@ -3334,6 +3352,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "NYSE"
+  },
+  "ICCC": {
+    "conId": 4813174,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
   },
   "ICE": {
     "conId": 136370275,
@@ -4925,6 +4949,12 @@
     "exchange": "SMART",
     "primaryExchange": "NYSE"
   },
+  "OSBC": {
+    "conId": 3655785,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
+  },
   "OSK": {
     "conId": 272856,
     "currency": "USD",
@@ -5393,6 +5423,12 @@
     "exchange": "SMART",
     "primaryExchange": "BATS"
   },
+  "QVCC": {
+    "conId": 392863789,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
   "QYLD": {
     "conId": 346727816,
     "currency": "USD",
@@ -5416,6 +5452,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "AMEX"
+  },
+  "RELV": {
+    "conId": 463998316,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
   },
   "RES": {
     "conId": 11588,
@@ -6268,6 +6310,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "NYSE"
+  },
+  "SZNE": {
+    "conId": 327230537,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
   },
   "T": {
     "conId": 37018770,
