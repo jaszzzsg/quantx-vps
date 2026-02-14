@@ -56,16 +56,17 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ## Current Status
 *(Update this section each session)*
 
-**As of 2026-02-12:**
+**As of 2026-02-14:**
 - Paper trading ACTIVE — cron at 18:30 UTC (1:30 PM ET) weekdays, account DUP148773
 - RF_THRESHOLD = 0.10 (trial mode — restore to 0.60 after enough paper trades collected)
-- Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test today at 1:30 PM ET
-- 2021 DIX fetch Part 3: PID 2801369, Client ID 83, 20210816→20211231 (100 days), started 2026-02-12
+- Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test NOT YET CONFIRMED (Bear Call skipped Feb 13 due to SPX snapshot NaN — retry fix deployed Feb 14)
+- ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15
+- 2021 DIX fetch Part 4: COMPLETE (PID 2875352 finished) — full 2021 year covered (Parts 1–4), merge pending
 
 ## Known Issues
 - `rf_daily_predictions.csv` has junk row with date `19700101` (epoch artifact) — cosmetic only, upsert deduplicates
 - 2021 DIX fetch script uses `open("w")` — if it dies, must restart from day 1, never resume mid-file
-- **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy (fix deployed 2026-02-12, pending confirmation)
+- **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy (fix deployed 2026-02-12, pending first confirmed trade)
 
 ---
 
@@ -138,11 +139,11 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ## Critical Reminders
 - **⚠️ Jan–May 2020 DIX data MISSING** — 20200101→20200416 was overwritten. Must refetch after 2021 chunk completes. Use NEW part file, Client ID 83+. Verify ≥80% close coverage before merging.
 - **Restore RF_THRESHOLD to 0.60** in Bear Call (`001_alpha...bear_call.py` line ~51) after paper trade validation complete
-- **After 2021 fetch complete:** verify ≥80% close coverage → start 2022 fetch (Client ID 83) → then refetch Jan–May 2020
+- **After 2021 merge complete:** verify ≥80% close coverage per part → start 2022 fetch (Client ID 83) → then refetch Jan–May 2020
 - **6Y fetch resume:** use `check_last_date_quality.py` to find restart point, write to NEW part file (never overwrite existing)
 - **ARM future:** VIX speed signal (day-over-day change) — target before Feb 2027
 - **DIX ratio per regime backtest** — target before Aug 2026
-- **⚠️ PENDING 2026-02-12:** If today's 1:30 PM ET cron places a trade (TRADE_ENTER in log) → update `PROJECT_ARCHIVE.md` with the IBKR leg-based pricing pattern rule for all future option spread strategies. Also update `PROJECT_OVERVIEW.md` Known Issues to mark confirmed.
+- **⚠️ Strategy first confirmed trade still pending** — Bear Call skipped Feb 13 (SPX snapshot NaN). Next cron fire: 18:30 UTC Feb 18 (next trading day). Confirm TRADE_ENTER in log → update `PROJECT_ARCHIVE.md` with the IBKR leg-based pricing pattern rule for all future option spread strategies. Also update `PROJECT_OVERVIEW.md` Known Issues to mark confirmed.
 
 ---
 
@@ -167,4 +168,4 @@ Update the archive whenever any of these change — keep it current, not just hi
 For historical sessions, roadmap, data quality tables, fetch procedures, diagnostic commands:
 → `/root/projects/PROJECT_ARCHIVE.md`
 
-**Last Updated:** 2026-02-12
+**Last Updated:** 2026-02-14

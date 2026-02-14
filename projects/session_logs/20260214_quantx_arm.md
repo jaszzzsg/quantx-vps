@@ -64,10 +64,20 @@ Key changes:  [only if something changed]
 
 ---
 
+### [DONE] PROJECT_ARCHIVE.md + PROJECT_OVERVIEW.md updated
+- Roadmap: added ARM Pressure Dashboard ✅ DONE 2026-02-14; added SPX RF retrain as 🔵 NEXT
+- 6Y fetch table: 2021 Parts 1–4 corrected with actual trim dates (from check_last_date_quality.py); Part 4 marked ✅ COMPLETE 99.0% coverage; 2022 moved to 🔵 NEXT
+- ARM section: added Pressure Dashboard subsection (params, formulas, validation summary)
+- Strategy Design Rules: added Rule 7 — SPX snapshot retry
+- Session history: added 2026-02-14 and 2026-02-12–13 entries
+- Last archived: 2026-02-14
+
+---
+
 ## Active Processes
 | Process | PID | Command |
 |---------|-----|---------|
-| 2021 DIX fetch Part 4 | 2875352 | Client ID 83, 20211115→20211231 |
+| 2021 DIX fetch Part 4 | 2875352 | COMPLETE — 20211115→20211231, 99.0% coverage |
 | Strategy cron | — | 18:30 UTC daily Mon–Fri |
 
 ---

@@ -1,7 +1,7 @@
 # QuantX Project Archive
 **Living roadmap + detailed reference. Read when you need deep context on a specific component.**
 *For current status, rules, and session start instructions, see PROJECT_OVERVIEW.md*
-*Last roadmap update: 2026-02-11*
+*Last roadmap update: 2026-02-14*
 
 ---
 
@@ -15,6 +15,8 @@
 | Fix Regime Definitions V2 | ✅ DONE 2026-02-08 |
 | Strategy bug fixes (rf_prob, SPX NaN, subscription leak) | ✅ DONE 2026-02-11 |
 | Strategy fix: leg-based mid pricing + tif=DAY + position guard + fill wait | ✅ DONE 2026-02-12 |
+| ARM Pressure Dashboard deployed (down/up/stability/escalation in daily Telegram) | ✅ DONE 2026-02-14 |
+| SPX RF model retrain with pressure features (down_pressure, up_pressure, escalation) | 🔵 NEXT |
 | Bear Call RF Threshold backtest per regime | 🔵 NEXT |
 | R4 Bull Put RF Threshold backtest | 🔵 NEXT |
 | Multi-strategy runner: parallelise + cross-strategy position check | 🔴 NOT STARTED — required before adding 3rd+ strategy |
@@ -29,9 +31,11 @@
 |-------|------------|--------|-------|
 | 2020 Apr–Dec | 20200417→20201231 | ✅ COMPLETE | 129,251 rows, 97.77% coverage |
 | **2020 Jan–Apr** | **20200101→20200416** | **⚠️ MUST REFETCH** | **Overwritten — fetch after 2021 done. New part file, Client ID 83+** |
-| 2021 Part 1 | 20210104→20210311 | ✅ PARTIAL | 49 days, 96.6% coverage — PID 2610294 died Feb 10 (gateway down) |
-| 2021 Part 2 | 20210312→20211231 | 🚀 RUNNING | PID 2675397, Client ID 83, started Feb 11 UTC |
-| 2022 | 20220103→20221230 | ⏳ PENDING | Start after 2021 complete, Client ID 83 |
+| 2021 Part 1 | 20210104→20210311 | ✅ FETCHED | trim to 20210311 (20210312 = 21.3% bad) |
+| 2021 Part 2 | 20210312→20210813 | ✅ FETCHED | trim to 20210813 (20210816 = 79.1% low) |
+| 2021 Part 3 | 20210816→20211115 | ✅ FETCHED | trim to 20211115 (20211116 = 44.2% bad) |
+| 2021 Part 4 | 20211115→20211231 | ✅ COMPLETE | 99.0% coverage, 20211231 clean — all 4 parts cover full year ⚠️ MERGE PENDING |
+| 2022 | 20220103→20221230 | 🔵 NEXT | Start after 2021 merge, Client ID 83 |
 | 2023–2025 | TBD | ⏳ PENDING | Lower priority |
 
 ### 6Y Fetch Commands
@@ -109,7 +113,31 @@ RF feature pipeline:
 4. Model: `/root/odte_strategy/data/rf_model.joblib`
 5. Metadata: `/root/odte_strategy/data/rf_model_meta.json`
 
-RF features: regime_num, risk_off, caution, risk_on, regime_change, days_in_regime (6 now; will auto-upgrade to 9 with spy_trend_score, vix_risk_flag, rs_iwm_spy once >50% fill)
+RF features (current, 6): `regime_num`, `risk_off`, `caution`, `risk_on`, `regime_change`, `days_in_regime`
+- `regime_num` = float of regime label string (R1.5→1.5), NOT the pressure `_REGIME_RANK` ordering
+- Will auto-upgrade to 9 features once `spy_trend_score`/`vix_risk_flag`/`rs_iwm_spy` hit >50% fill
+
+### ARM Pressure Dashboard (deployed 2026-02-14)
+**File:** `quantx_arm/arm_regime_engine.py` — replaces Telegram message, runs within existing daily job
+
+**State file:** `quantx_arm/state/pressure_state.json` — carries today's `vix_close` + scores as tomorrow's "yesterday". Cold start: `vix_pct=0`, all pressure=0 (safe).
+
+**Locked parameters (grid search, 108 combos, properly warmup-buffered):**
+```python
+VIX_SPIKE_DOWN_PCT = 0.08   VIX_SPIKE_DOWN_ABS = 2.0   # strict — spikes are sharp
+VIX_SPIKE_UP_PCT   = 0.08   VIX_SPIKE_UP_ABS   = 1.0   # relaxed — drops are gradual
+VIX_GAP_NEAR_MA    = 0.5    STABILITY_GATE     = 2
+```
+
+**Formulas:**
+```
+down_pressure   = vix_spike_down + trend_dropped  + regime_worsened   (0–3)
+up_pressure     = vix_spike_up   + trend_improved + regime_improved   (0–3)
+stability_score = regime_flipped + vix_near_ma    + trend_changed     (0–3)
+escalation      = (down_pressure == 3) AND (stability_score >= 2)
+```
+
+**Validation:** 2020 crash → Feb 24 caught day-of; 2024 H1 bull → 0 false alarms; recent 6m → 9 escalation days, all legitimate STORM/GUSTY periods.
 
 ## Paper Trading Setup
 - Account: DUP148773 (username: jaszzzsgapi-paper)
@@ -127,11 +155,25 @@ RF features: regime_num, risk_off, caution, risk_on, regime_change, days_in_regi
 4. **Each strategy gets unique Client ID** via `get_client_id()` registry
 5. **IBKR Bag/combo `reqMktData` unreliable for SPX spreads** — always use leg-based snapshot pricing (`get_mid_credit_from_legs`)
 6. **Closing the terminal does NOT disconnect** — strategy disconnects in its own `finally` block after logging `TRADE_ENTER`
+7. **SPX snapshot retry** — `get_spx_price_and_contract()` retries `reqMktData(snapshot=True)` up to 3 times (3s each) before raising. Transient gateway NaN can occur even in normal market hours.
 
 ---
 
 # SESSION LOG HISTORY
 *(Sessions before 2026-02-11 — moved from PROJECT_OVERVIEW.md)*
+
+## 2026-02-14 — ARM Pressure Dashboard + 2021 DIX Part 4 complete
+- ARM Pressure Dashboard deployed in `arm_regime_engine.py` (replaces Telegram message)
+- Locked params: down abs=2.0, up abs=1.0, pct=0.08, gap=0.5, stability gate=2
+- `pressure_state.json` added to `quantx_arm/state/` for yesterday/today comparison
+- SPX snapshot retry (3 attempts) deployed in 001+002 strategies
+- 2021 DIX Part 4 complete: PID 2875352 finished, 20211115→20211231, 99.0% coverage
+- Full 2021 year covered (Parts 1–4) — merge pending before starting 2022 fetch
+
+## 2026-02-12–13 — Strategy fill fix + fill monitor + early weekly DIX
+- Strategy fix: `tif=DAY`, 90s fill-wait loop, position guard in 001+002
+- Fill monitor: hourly 10am–4pm ET, generic multi-ticker, `fill_monitor.py`
+- Early weekly DIX report (Feb 9–12) delivered via systemd one-shot timer, files cleaned up
 
 ## 2026-02-10 — Fix RF pipeline, duplicate runner, account correction
 - Fixed `.env.paper` inline comment on RF_THR → systemd was reading `0.10# Lowered...` as float → crash
@@ -212,4 +254,4 @@ END
 ```
 
 ---
-*Last archived: 2026-02-12*
+*Last archived: 2026-02-14*
