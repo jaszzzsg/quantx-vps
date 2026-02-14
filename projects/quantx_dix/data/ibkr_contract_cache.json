@@ -1271,6 +1271,12 @@
     "exchange": "SMART",
     "primaryExchange": "NASDAQ"
   },
+  "CHKR": {
+    "conId": 97288799,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "PINK"
+  },
   "CHRS": {
     "conId": 172938783,
     "currency": "USD",
@@ -1747,6 +1753,12 @@
   },
   "DBEU": {
     "conId": 135741455,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "ARCA"
+  },
+  "DBP": {
+    "conId": 319355732,
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "ARCA"
@@ -2674,6 +2686,12 @@
     "currency": "USD",
     "exchange": "SMART",
     "primaryExchange": "NYSE"
+  },
+  "FTC": {
+    "conId": 44000328,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NASDAQ"
   },
   "FTEC": {
     "conId": 137229035,

@@ -130,4 +130,34 @@ Key changes:  [only if something changed]
 - [ ] Confirm `pressure_state.json` created in `state/` after first run
 - [ ] After 2021 Part 4 completes: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
 - [ ] Check PID 2938773 — when done verify ≥80% close coverage on chunk_2020_jan_apr.csv → merge with chunk_2020.csv
-- [ ] As more paper trades labeled in rf_features.csv, retrain model to improve from current ~45% accuracy
+- [ ] As more paper trades labeled in rf_features.csv, retrain model to accumulate more samples
+
+---
+
+### [DONE] RF label logic improved: removed noisy d_close < entry_px
+
+**File changed:** `/root/odte_strategy/data/rf_build_features.py`
+
+**Problem:** Old label marked BAD if `d_close < entry_px` — 174/339 traded days flagged. This is noisy because SPX closing slightly below the short put strike ≠ actual loss.
+
+**New logic (BAD=0):**
+- `breach==1 OR full_loss==1` — real structural events
+- `spy_dd_next <= DD_THRESH (-0.007)` — next-trading-day SPY intraday drawdown > 0.7%
+
+**Constant:** `DD_THRESH = -0.007` at top of rf_build_features.py (easy to tune)
+
+**Label shift across all 339 outcomes:**
+- Old BAD: 174 (51% — d_close < entry_px was dominant)
+- New BAD: 83 total (breach/full_loss/dd combined) — 15 breach, 7 full_loss, 72 dd-triggered
+
+**RF features row view (85 labeled, arm_state_history window 2024-09-10+):**
+- Old: 45 BAD / 40 GOOD — bad_rate 52.9%
+- New: 21 BAD / 64 GOOD — bad_rate 24.7%
+
+**Model results (retrained 2026-02-14 11:50 UTC):**
+- Accuracy: 77.3% (was 45.5%)
+- **AUC: 0.935**
+- Bad rate at threshold 0.65: **3.8%** vs baseline 24.7% — 6.5x lift
+- Bad rate at threshold 0.60: **5.3%** vs baseline — 4.7x lift
+
+**Feature importances:** rs_iwm_spy 57%, days_in_regime 31% (unchanged structure)
