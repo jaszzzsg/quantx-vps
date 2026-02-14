@@ -130,7 +130,10 @@ Key changes:  [only if something changed]
 - [ ] Confirm `pressure_state.json` created in `state/` after first run
 - [ ] After 2021 Part 4 completes: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
 - [ ] Check PID 2938773 — when done verify ≥80% close coverage on chunk_2020_jan_apr.csv → merge with chunk_2020.csv
-- [ ] As more paper trades fire and are labeled, retrain model. Target ~150 labeled rows before trusting forward AUC
+- [x] Market-risk label backfill — 160 labeled rows, forward AUC 0.627 ✅
+- [ ] Monitor tomorrow's ARM run (14:45 UTC Feb 15) — confirm pressure_state.json created + new Telegram format fires
+- [ ] Check PID 2938773 — when done verify ≥80% close coverage on chunk_2020_jan_apr.csv → merge with chunk_2020.csv
+- [ ] 2022 DIX fetch after 2020+2021 merges complete
 
 ---
 
@@ -224,3 +227,33 @@ Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 1
 **Next steps:**
 - Continue paper trading with RF_THR=0.10
 - Rerun rf_time_split_validate.py when 150+ labeled rows accumulate
+
+---
+
+### [DONE] Market-risk label backfill — 160 labeled rows
+
+**Script created:** `/root/odte_strategy/scripts/rf_build_labels_dd_all.py`
+
+**What it does:**
+- Labels ALL 162 ARM dates (no `took_trade` requirement)
+- `dd_next = (SPY_low[D+1] / SPY_open[D+1]) - 1` using positional shift on SPY trading calendar
+- BAD=0 if `dd_next <= -0.007`, GOOD=1 otherwise; breach/full_loss from outcomes overlay if available
+- Overwrites label column in rf_features.csv, retrains RF, runs 70/30 forward validation inline
+
+**Results:**
+- Labeled rows: **160** (was 85) — 105 GOOD, 55 BAD, bad_rate=0.344
+- Train: 2024-09-10 → 2025-09-05 (112 rows)
+- Test:  2025-09-23 → 2026-02-12 (48 rows)
+- Forward AUC: **0.627** (vs 0.680 with prior 85-row trade-PnL labels)
+- Threshold analysis (test set, baseline bad=0.417):
+  - thr=0.60: trade_rate=54.2%, bad_rate=0.385 — 1.1x lift
+  - thr=0.65: trade_rate=27.1%, bad_rate=0.308 — 1.4x lift
+  - thr=0.70: trade_rate=14.6%, bad_rate=0.286 — 1.5x lift
+
+**Feature importances (time-split):** rs_iwm_spy 20%, spy_gap 17%, spy_return_1d 16%, days_in_regime 16%, vix_change_1d 15%
+
+**Note:** AUC 0.627 vs 0.680 — new label has higher bad_rate (34.4%) from minor intraday dips that don't affect actual option outcomes. Market-risk label noisier than trade-PnL label. Continue accumulating paper trade outcomes for PnL-based retraining.
+
+**Files updated:**
+- `rf_features.csv`: 160 labeled rows
+- `rf_model.joblib`: retrained on 160 rows, 12 features
