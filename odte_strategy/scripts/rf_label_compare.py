@@ -3,25 +3,29 @@
 RF Label Variant Comparison
 ============================
 
-Tests 4 label variants for market-risk labeling, all using the same
-SPY next-day intraday drawdown formula:
+Strategy context: bull put ~20 SPX points OTM, 12–16 delta, entered ~1:30pm.
+A -0.7% SPY intraday move (DD_THRESH=-0.007) is too sensitive for this structure.
+This script tests harsher thresholds calibrated to actual structure risk.
+
+SPY next-day intraday drawdown formula (no lookahead):
     dd_next = (SPY_low[D+1] / SPY_open[D+1]) - 1
 
 Variants:
-  v1  DD_THRESH = -0.007   (current baseline)
-  v2  DD_THRESH = -0.010   (harsher — fewer BADs, more focused)
-  v3  DD_THRESH = -0.012   (harshest — only significant down moves)
-  v4  Worst-quartile       (adaptive: BAD if dd_next <= Q25 of train set)
-                            Q25 computed on training rows only — no lookahead
+  v1  DD_THRESH = -0.010   (moderate: ~1% SPY intraday move)
+  v2  DD_THRESH = -0.012   (harsher: ~1.2%)
+  v3  DD_THRESH = -0.015   (harshest: ~1.5% — only tail moves threaten 12–16 delta)
+  v4  Worst-quartile Q25   (adaptive — Q25 of train dd_next, no lookahead)
+
+Activation condition (to switch .env.paper RF_THR from 0.10 → 0.65):
+    bad_rate@0.65 <= 0.20  AND  lift@0.65 >= 2.0x  AND  forward AUC >= 0.70
+    (must hold for 2 consecutive retrains before activating)
 
 For each variant:
   - Labels all ARM dates (no took_trade requirement)
   - Runs 70/30 chronological forward validation
   - Reports: labeled count, bad_rate, forward AUC, threshold lift at 0.60/0.65/0.70
 
-Optionally incorporates breach/full_loss overlay from bull_put_daily_outcomes.csv.
-
-After comparison, the best variant is written to:
+After comparison, the best variant is always written to production:
   data/rf_features.csv  (label column updated)
   rf_model.joblib       (retrained on full labeled set)
   rf_model_meta.json
@@ -55,6 +59,11 @@ RF_PARAMS    = dict(n_estimators=500, max_depth=6, random_state=42,
 # Minimum trade_rate at thr=0.65 to be considered a viable label
 # (if the model blocks too many days it becomes useless for paper data collection)
 MIN_TRADE_RATE_65 = 0.15   # must keep ≥15% of days as TRADE at thr=0.65
+
+# Early activation conditions for switching RF_THR 0.10 → 0.65
+ACTIVATE_MAX_BAD_RATE_65 = 0.20   # bad_rate@thr=0.65 must be <= this
+ACTIVATE_MIN_LIFT_65     = 2.0    # lift@thr=0.65 must be >= this
+ACTIVATE_MIN_AUC         = 0.70   # forward AUC must be >= this
 
 PREFERRED_COLS = [
     "regime_num", "risk_off", "caution", "risk_on",
@@ -266,10 +275,10 @@ print("[6] Run all label variants")
 print("="*65)
 
 variants = [
-    ("v1_dd007", "DD_THRESH=-0.007 (current baseline)", -0.007, False),
-    ("v2_dd010", "DD_THRESH=-0.010 (harsher)",          -0.010, False),
-    ("v3_dd012", "DD_THRESH=-0.012 (harshest)",          -0.012, False),
-    ("v4_wq25",  "Worst-quartile Q25 (adaptive)",         None,  True),
+    ("v1_dd010", "DD_THRESH=-0.010 (~1% SPY intraday)",       -0.010, False),
+    ("v2_dd012", "DD_THRESH=-0.012 (~1.2% SPY intraday)",     -0.012, False),
+    ("v3_dd015", "DD_THRESH=-0.015 (~1.5%, tail-only)",       -0.015, False),
+    ("v4_wq25",  "Worst-quartile Q25 (adaptive, reference)",   None,  True),
 ]
 
 results = []
@@ -329,10 +338,10 @@ for r in results:
           f"{str(r['forward_auc']):<10} {lift65:<12} {trade65:<13} {lift70:<12} {trade70}")
 
 # ---------------------------------------------------------------------------
-# [8] Pick best variant
+# [8] Pick best variant + check activation condition
 # ---------------------------------------------------------------------------
 print("\n" + "="*65)
-print("[8] PICK BEST VARIANT")
+print("[8] PICK BEST VARIANT + ACTIVATION CONDITION CHECK")
 print("="*65)
 
 # Score each variant:
@@ -352,13 +361,35 @@ for r in results:
 scored.sort(key=lambda x: -x[0])
 best_score, best_lift65, best_trade65, best_auc, best = scored[0]
 
-print(f"\n  Best variant: {best['variant']}  ({best['description']})")
-print(f"  lift@0.65={best_lift65}x  trade_rate@0.65={best_trade65:.1%}  "
-      f"fwd_AUC={best_auc}  bad_rate={best['bad_rate']:.3f}")
-
 if best_score <= 0:
     print("  WARNING: all variants failed MIN_TRADE_RATE_65 constraint — selecting by AUC only")
     best = max(results, key=lambda r: r["forward_auc"] or 0)
+    best_auc   = best["forward_auc"] or 0.0
+    t65_best   = best["thresholds"].get("0.65", {})
+    best_lift65  = t65_best.get("lift") or 0.0
+    best_trade65 = t65_best.get("trade_rate") or 0.0
+
+print(f"\n  Best variant : {best['variant']}  ({best['description']})")
+print(f"  lift@0.65    : {best_lift65}x   trade_rate@0.65={best_trade65:.1%}")
+print(f"  fwd_AUC      : {best_auc}        bad_rate={best['bad_rate']:.3f}")
+
+# Check activation condition
+t65_best    = best["thresholds"].get("0.65", {})
+bad_rate_65 = t65_best.get("bad_rate") or 1.0
+lift_65     = t65_best.get("lift") or 0.0
+auc_best    = best["forward_auc"] or 0.0
+
+cond_bad    = bad_rate_65 <= ACTIVATE_MAX_BAD_RATE_65
+cond_lift   = lift_65     >= ACTIVATE_MIN_LIFT_65
+cond_auc    = auc_best    >= ACTIVATE_MIN_AUC
+all_met     = cond_bad and cond_lift and cond_auc
+
+print(f"\n  ── Activation condition check ──")
+print(f"  bad_rate@0.65 <= {ACTIVATE_MAX_BAD_RATE_65} : {bad_rate_65:.3f}  → {'✅ MET' if cond_bad  else '❌ NOT MET'}")
+print(f"  lift@0.65     >= {ACTIVATE_MIN_LIFT_65}x     : {lift_65:.2f}x → {'✅ MET' if cond_lift else '❌ NOT MET'}")
+print(f"  forward AUC   >= {ACTIVATE_MIN_AUC}     : {auc_best:.4f} → {'✅ MET' if cond_auc  else '❌ NOT MET'}")
+print(f"\n  {'✅ ALL CONDITIONS MET — eligible to activate RF_THR=0.65 after 2 consecutive retrains' if all_met else '❌ CONDITIONS NOT MET — keep .env.paper RF_THR=0.10'}")
+best["activation_conditions_met"] = all_met
 
 # ---------------------------------------------------------------------------
 # [9] Write best variant to production
@@ -396,14 +427,15 @@ joblib.dump({"model": clf_final, "features": best["usable_feats"]}, MODEL_PATH)
 print(f"    rf_model.joblib updated  (timestamped: {ts_path})")
 
 meta = {
-    "trained_at":    datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
-    "rows_total":    len(df_full),
-    "features":      best["usable_feats"],
-    "n_features":    len(best["usable_feats"]),
-    "label_dist":    df_full["label"].value_counts().to_dict(),
-    "label_variant": best["variant"],
-    "label_desc":    best["description"],
-    "forward_auc":   best["forward_auc"],
+    "trained_at":              datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
+    "rows_total":              len(df_full),
+    "features":                best["usable_feats"],
+    "n_features":              len(best["usable_feats"]),
+    "label_dist":              df_full["label"].value_counts().to_dict(),
+    "label_variant":           best["variant"],
+    "label_desc":              best["description"],
+    "forward_auc":             best["forward_auc"],
+    "activation_conditions_met": best.get("activation_conditions_met", False),
 }
 with open(META_PATH, "w") as f:
     json.dump(meta, f, indent=2)
@@ -429,16 +461,21 @@ print(f"    Comparison saved → {COMPARE_OUT}")
 # ---------------------------------------------------------------------------
 # Summary
 # ---------------------------------------------------------------------------
+act = best.get("activation_conditions_met", False)
 print(f"""
 ===========================================================
 FINAL SUMMARY
   Best variant  : {best['variant']}  ({best['description']})
-  Labeled rows  : {best['n_labeled']}  (bad={best['n_bad']}, good={best['n_good']}, rate={best['bad_rate']:.3f})
+  Labeled rows  : {best['n_labeled']}  (bad={best['n_bad']}, good={best['n_good']}, bad_rate={best['bad_rate']:.3f})
   Forward AUC   : {best['forward_auc']}
-  lift @ 0.65   : {best['thresholds'].get('0.65', {}).get('lift','?')}x  trade_rate={best['thresholds'].get('0.65', {}).get('trade_rate',0):.1%}
-  lift @ 0.70   : {best['thresholds'].get('0.7',  {}).get('lift','?')}x  trade_rate={best['thresholds'].get('0.7',  {}).get('trade_rate',0):.1%}
+  lift @ 0.65   : {best['thresholds'].get('0.65', {}).get('lift','?')}x  trade_rate={best['thresholds'].get('0.65', {}).get('trade_rate',0):.1%}  bad_rate={best['thresholds'].get('0.65', {}).get('bad_rate','?')}
+  lift @ 0.70   : {best['thresholds'].get('0.7',  {}).get('lift','?')}x  trade_rate={best['thresholds'].get('0.7',  {}).get('trade_rate',0):.1%}  bad_rate={best['thresholds'].get('0.7',  {}).get('bad_rate','?')}
   rf_model.joblib: updated ({best['n_labeled']} rows, {best['forward_auc']} fwd AUC)
   rf_features.csv: updated (label_variant={best['variant']})
-  Comparison log: {COMPARE_OUT}
+  Comparison log : {COMPARE_OUT}
+
+  ACTIVATION (RF_THR=0.65):
+    {'✅ CONDITIONS MET — eligible after 2 consecutive retrains confirm this result' if act else '❌ NOT MET — keep .env.paper RF_THR=0.10, continue data collection'}
+    Criteria: bad_rate@0.65 <= {ACTIVATE_MAX_BAD_RATE_65}, lift@0.65 >= {ACTIVATE_MIN_LIFT_65}x, AUC >= {ACTIVATE_MIN_AUC}
 ===========================================================
 """)

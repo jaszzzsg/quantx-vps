@@ -308,3 +308,30 @@ Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 1
 **Files updated:**
 - `rf_features.csv`: 160 labeled rows
 - `rf_model.joblib`: retrained on 160 rows, 12 features
+
+---
+
+### [DONE] Label threshold comparison: structure-calibrated (-0.010 / -0.012 / -0.015 / worst-Q25)
+
+**Context:** strategy is ~20 SPX points OTM, 12–16 delta, entered ~1:30pm. DD=-0.007 too sensitive for this structure.
+
+**Results (160 labeled rows, 70/30 forward split):**
+
+| Variant | bad/good | bad_rate | fwd AUC | lift@0.65 | trade%@0.65 | lift@0.70 | trade%@0.70 |
+|---|---|---|---|---|---|---|---|
+| DD=-0.010 | 36/124 | 0.225 | 0.515 | 0.95x | 75.0% | 1.17x | 50.0% |
+| DD=-0.012 | 29/131 | 0.181 | 0.525 | 0.95x | 87.5% | 1.0x | 77.1% |
+| DD=-0.015 | 21/139 | 0.131 | 0.504 | 0.96x | 95.8% | 0.94x | 93.8% |
+| **worst-Q25** | **48/112** | **0.300** | **0.746** | **1.48x** | **52.1%** | **2.48x** | **29.2%** |
+
+**Conclusion: fixed thresholds uniformly fail** — the model can't learn a meaningful boundary with 21–36 BAD rows. As threshold gets harsher (fewer BADs), AUC drops toward 0.50 (random) and lift drops below 1.0x. The worst-Q25 adaptive approach dominates on every metric.
+
+**Activation condition check (RF_THR 0.10 → 0.65):**
+- bad_rate@0.65 <= 0.20: ❌ 0.240 (worst-Q25)
+- lift@0.65 >= 2.0x: ❌ 1.48x
+- forward AUC >= 0.70: ✅ 0.746
+- **Decision: keep RF_THR=0.10** — 1 of 3 conditions met. Need more labeled data.
+
+**Activation conditions saved in:** `rf_label_comparison.json` and `rf_model_meta.json`
+
+**Production stays on worst-Q25 (v4_wq25)** — best available label. RF_THR=0.65 activation target: next retrain checkpoint (200 rows) with 2 consecutive checks.
