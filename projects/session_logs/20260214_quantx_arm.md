@@ -252,6 +252,35 @@ Feature importance (12-feat): rs_iwm_spy 21%, spy_return_1d 19%, vix_change_1d 1
 
 ---
 
+### [DONE] RF Label Variant Comparison — worst-quartile (v4_wq25) selected
+
+**Script created:** `/root/odte_strategy/scripts/rf_label_compare.py`
+
+**4 variants tested** (160 labeled rows each, 70/30 forward split):
+
+| Variant | bad/good | bad_rate | fwd AUC | lift@0.65 | trade%@0.65 | lift@0.70 | trade%@0.70 |
+|---|---|---|---|---|---|---|---|
+| v1 DD=-0.007 (prev) | 55/105 | 0.344 | 0.627 | 1.35x | 27.1% | 1.46x | 14.6% |
+| v2 DD=-0.010 | 36/124 | 0.225 | 0.515 | 0.95x | 75.0% | 1.17x | 50.0% |
+| v3 DD=-0.012 | 29/131 | 0.181 | 0.525 | 0.95x | 87.5% | 1.0x | 77.1% |
+| **v4 worst-Q25** | **48/112** | **0.300** | **0.746** | **1.48x** | **52.1%** | **2.48x** | **29.2%** |
+
+**Winner: v4_wq25** — adaptive worst-quartile outperforms all fixed thresholds
+- Q25 of train dd_next = -0.0076 (close to -0.007 but computed from data, adapts over time)
+- Forward AUC: **0.746** (best by far — +0.12 vs v1)
+- lift@0.70 = **2.48x** with 29.2% trade rate — strong gating signal
+
+**Why -0.010 / -0.012 underperform:** Too few BADs (36/29) → model can't learn a meaningful boundary. The signal-to-noise ratio drops because most SPY down days exceed -0.7% but not -1.0%.
+
+**Production update:**
+- `rf_features.csv`: updated to v4_wq25 labels (160 rows)
+- `rf_model.joblib`: retrained (AUC=0.746)
+- `rf_model_20260214_123959.joblib`: timestamped snapshot
+- `rf_label_comparison.json`: full results log
+- `.env.paper` RF_THR=0.10: unchanged — continuing paper data collection
+
+---
+
 ### [DONE] Market-risk label backfill — 160 labeled rows
 
 **Script created:** `/root/odte_strategy/scripts/rf_build_labels_dd_all.py`
