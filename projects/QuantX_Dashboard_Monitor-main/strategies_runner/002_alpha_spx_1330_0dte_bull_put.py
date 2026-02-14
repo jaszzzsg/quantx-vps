@@ -119,17 +119,18 @@ def _valid_px(v) -> bool:
 def get_spx_price_and_contract(ib):
     spx = Index("SPX", "CBOE", "USD")
     ib.qualifyContracts(spx)
-    # snapshot=True: one-shot pull from TWS cache — faster and cleaner for single-price checks
-    t = ib.reqMktData(spx, "", snapshot=True, regulatorySnapshot=False)
-    ib.sleep(3)
-    px = next((v for v in (t.last, t.close, t.marketPrice()) if _valid_px(v)), None)
-    ib.cancelMktData(spx)
-    if px is None:
-        raise RuntimeError(
-            f"SPX price unavailable (snapshot) — last={t.last} close={t.close} "
-            f"bid={t.bid} ask={t.ask} — check market data subscription"
-        )
-    return float(px), spx
+    # Retry up to 3 times — snapshot=True can return NaN on a slow/flaky gateway
+    for attempt in range(1, 4):
+        t = ib.reqMktData(spx, "", snapshot=True, regulatorySnapshot=False)
+        ib.sleep(3)
+        px = next((v for v in (t.last, t.close, t.marketPrice()) if _valid_px(v)), None)
+        ib.cancelMktData(spx)
+        if px is not None:
+            return float(px), spx
+    raise RuntimeError(
+        f"SPX price unavailable after 3 attempts (snapshot) — last={t.last} close={t.close} "
+        f"bid={t.bid} ask={t.ask} — check market data subscription"
+    )
 
 def get_today_expiry_spxw(ib, spx):
     chains = ib.reqSecDefOptParams(spx.symbol, "", spx.secType, spx.conId)

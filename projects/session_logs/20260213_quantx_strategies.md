@@ -76,7 +76,10 @@
 
 ---
 
+### [DONE] SPX snapshot retry logic — both strategies
+**Problem (2026-02-13 18:30 UTC):** Bear Call skipped with `SPX price unavailable (snapshot)` — `reqMktData(snapshot=True)` returned all NaN. Likely transient gateway issue (worked Feb 12, failed Feb 13).
+**Fix:** `get_spx_price_and_contract()` now retries up to 3 times (3s sleep each) before raising. Applied identically to 001 and 002.
+
 ## Next Steps
-- [ ] **18:30 UTC today (Feb 13)**: first live test of fill-wait + fill monitor — confirm `TRADE_FILL` in log + Telegram `🎯 FILLED`
 - [ ] **2021 Part 4**: check progress / completion (20211115→20211231, ~35 days)
 - [ ] **After Part 4 completes**: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
