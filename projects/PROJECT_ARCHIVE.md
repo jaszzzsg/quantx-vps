@@ -29,6 +29,42 @@
 
 ---
 
+## Priority 3: Intraday Crash Risk Gate for 1:30pm ET 0DTE Entry (TODO — Next Phase)
+
+**Context:**
+- Recent pattern: market opens green, then 1:50–2:30pm ET sharp selloff hits 0DTE puts.
+- Daily RF (next-day market-risk model) cannot capture same-day afternoon crash risk.
+- Need a separate intraday gate evaluated at ~1:20–1:30pm ET before placing the trade.
+
+**Architecture:**
+- Keep daily RF as next-day regime filter (unchanged)
+- Intraday Gate = second-layer protection, 1:30pm entry only
+- Gate: `IF intraday_risk_prob > X → SKIP trade  ELSE → ALLOW trade`
+
+**Intraday Features to test (evaluated at ~1:20pm ET):**
+- SPY return from open to now (open-to-1:30pm)
+- SPY intraday range so far: (high - low) / open
+- VIX change from open to now
+- Volume spike vs 5-day average intraday profile
+- Break of morning low (structure break flag)
+- Distance from VWAP (optional later)
+
+**Label Definition:**
+- From 1:30pm ET to close: `min(low_1:30pm_to_close / price_at_1:30pm) - 1`
+- BAD if drop exceeds threshold (e.g. -0.7% or -1.0%, configurable `INTRA_DD_THRESH`)
+
+**Deliverables:**
+1. Backtest script using 5-min or 15-min intraday SPY data
+2. Breach probability vs distance-from-open grid
+3. Forward validation (same 70/30 time-split approach as daily RF)
+4. Simple gating rule with threshold analysis
+
+**Data source:** yfinance `interval="5m"` or `"15m"` for historical intraday bars
+
+**Status:** TODO — design complete, not started
+
+---
+
 ## Priority 4: 0DTE Distance-from-Open Backtest by Regime (TODO — Later)
 
 **Context:**

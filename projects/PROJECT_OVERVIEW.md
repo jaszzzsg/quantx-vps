@@ -64,6 +64,10 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 - ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15
 - 2021 DIX fetch Part 4: COMPLETE (PID 2875352 finished) — full 2021 year covered (Parts 1–4), merge pending
 
+## Next Phase TODO (see PROJECT_ARCHIVE.md for full specs)
+- **Priority 3:** Intraday Crash Risk Gate — 1:20pm ET features → afternoon drop label → second-layer gate for 1:30pm entry
+- **Priority 4:** 0DTE Distance-from-Open Backtest by Regime — optimal % from open, breach grid, CAGR optimization
+
 ## Known Issues
 - `rf_daily_predictions.csv` has junk row with date `19700101` (epoch artifact) — cosmetic only, upsert deduplicates
 - 2021 DIX fetch script uses `open("w")` — if it dies, must restart from day 1, never resume mid-file
