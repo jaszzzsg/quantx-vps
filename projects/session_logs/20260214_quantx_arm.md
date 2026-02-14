@@ -82,7 +82,52 @@ Key changes:  [only if something changed]
 
 ---
 
+---
+
+### [DONE] RF Model upgraded: 6 → 9 features
+
+**Backfill script:** `/root/projects/quantx_arm/scripts/backfill_arm_signals.py`
+
+**What was done:**
+- arm_state_history.csv had 157 rows (2024-09-10 → 2026-02-06) with empty spy_trend_score/vix_risk_flag/rs_iwm_spy
+- Backfill script fetched SPY+IWM from yfinance, VIX from IBKR (Client ID 992, 2Y history, 501 bars)
+- Computed EMA10/20/50 → spy_trend_score; VIX MA20 → vix_risk_flag; IWM/SPY ratio → rs_iwm_spy
+- Result: **100% fill** on all 3 columns (162/162 rows)
+- Rebuilt rf_features.csv (162 rows, 85 labeled, 12 cols including 3 new signals)
+- Retrained model → `/root/odte_strategy/data/rf_model.joblib` (9 features, 85 labeled rows)
+- Backup: `arm_state_history.csv.bak_20260214_112717`
+
+**Model results (test set, 22 rows):**
+- Accuracy: 45.5% (expected — 85 labeled rows is still small; class balance ~50/50)
+- Feature importances: rs_iwm_spy 55%, days_in_regime 30%, regime_change 5%
+
+**Note:** IWM/SPY ratio dominates because it captures breadth in context — when small caps lead, options selling trades more safely. Model accuracy will improve as more labeled data accumulates.
+
+**Score distribution at current thresholds:**
+- prob ≥ 0.60 → 38.8% of days TRADE
+- prob ≥ 0.65 → 31.8% of days TRADE
+
+---
+
+### [DONE] 2020 Jan–Apr DIX refetch started
+- PID 2938773, Client ID 83, range 20200101→20200416 (77 days)
+- Output: `data/dix/history/chunk_2020_jan_apr.csv`
+- Log: `/tmp/dix_2020_jan_apr.log`
+- Should complete quickly (~2 min at 2400 days/hr)
+
+---
+
+## Active Processes
+| Process | PID | Command |
+|---------|-----|---------|
+| 2020 Jan-Apr DIX refetch | 2938773 | 20200101→20200416, Client ID 83 |
+| Strategy cron | — | 18:30 UTC daily Mon–Fri |
+
+---
+
 ## Next Steps
 - [ ] Monitor tomorrow's ARM run (14:45 UTC Feb 15) — confirm new Telegram format fires correctly
 - [ ] Confirm `pressure_state.json` created in `state/` after first run
 - [ ] After 2021 Part 4 completes: verify coverage → merge Part 3 (trim to 20211114) + Part 4 → start 2022 fetch
+- [ ] Check PID 2938773 — when done verify ≥80% close coverage on chunk_2020_jan_apr.csv → merge with chunk_2020.csv
+- [ ] As more paper trades labeled in rf_features.csv, retrain model to improve from current ~45% accuracy

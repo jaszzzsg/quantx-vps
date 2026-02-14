@@ -130,9 +130,10 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 **Strategy gates:** R3 blocks Bull Put. R3+R5 block Bull Put. R4: RF filter only.
 
 ### RF System
-- 6 features: regime_num, risk_off, caution, risk_on, regime_change, days_in_regime
-- Will auto-upgrade to 9 features once spy_trend_score/vix_risk_flag/rs_iwm_spy fill >50%
-- Model: `/root/odte_strategy/data/rf_model.joblib`
+- **9 features (upgraded 2026-02-14):** regime_num, risk_off, caution, risk_on, regime_change, days_in_regime, spy_trend_score, vix_risk_flag, rs_iwm_spy
+- Backfill script: `/root/projects/quantx_arm/scripts/backfill_arm_signals.py`
+- Model: `/root/odte_strategy/data/rf_model.joblib` (retrained 2026-02-14, 85 labeled rows)
+- Top features: rs_iwm_spy (55%), days_in_regime (30%)
 
 ---
 

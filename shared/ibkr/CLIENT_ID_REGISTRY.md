@@ -28,7 +28,7 @@
 | **80** | **chunk_2020_part1** | **quantx_dix** | Manual launch | ✅ DONE | PID 2279141 finished — chunk_2020.csv complete (20200417→20201231, 97.77% coverage) |
 | **81** | *unused* | *unused* | *unused* | ⏳ AVAILABLE | Skipped — Parts 2-3 already complete |
 | **82** | **chunk_2021_part1** | **quantx_dix** | Manual launch | ✅ DONE (dead) | PID 2610294 died Feb 10 (gateway down) — covered 20210104→20210311, 49 days, 96.6% coverage |
-| **83** | **chunk_2021_part2** | **quantx_dix** | Manual launch | 🟢 ACTIVE | PID 2675397, fetching 20210312→20211231 (211 days), started Feb 11 |
+| **83** | **chunk_2020_jan_apr** | **quantx_dix** | Manual launch | 🟢 ACTIVE | PID 2938773, fetching 20200101→20200416 (77 days), started Feb 14 — refetch of overwritten data |
 | **991** | **arm_vix_fetch** | **quantx_arm** | `ib_vix.py:19` | **🟢 ACTIVE** | **Daily 14:45 UTC** |
 
 ### Port 4001 (LIVE Trading)
@@ -56,7 +56,7 @@
 | PID | Script | Client ID | Port | Status | Details |
 |-----|--------|-----------|------|--------|---------|
 | Daily cron | `compute_diy_dix_one_day_ibkr.py` | 22 | 4002 | 🟢 Automated | 1am UTC daily |
-| 2675397 | `compute_diy_dix_6y_optimized.py` | 83 | 4002 | 🟢 Running | 2021 Part 2: 20210312→20211231 (211 days), started Feb 11 |
+| 2938773 | `compute_diy_dix_6y_optimized.py` | 83 | 4002 | 🟢 Running | 2020 Jan-Apr: 20200101→20200416 (77 days), started Feb 14 |
 | Daily cron | `arm_regime_engine.py` | 991 | 4002 | 🟢 Automated | 14:45 UTC daily |
 
 ---
