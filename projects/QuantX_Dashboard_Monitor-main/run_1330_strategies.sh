@@ -10,9 +10,9 @@ set -a
 source /root/odte_strategy/.env.paper
 set +a
 
-# tg_notify.py uses TG_BOT_TOKEN / TG_CHAT_ID — map from TELEGRAM_* if needed
-export TG_BOT_TOKEN="${TG_BOT_TOKEN:-${TELEGRAM_BOT_TOKEN}}"
-export TG_CHAT_ID="${TG_CHAT_ID:-${TELEGRAM_CHAT_ID}}"
+# tg_notify.py uses TG_BOT_TOKEN / TG_CHAT_ID — use strategy bot (separate from DIX/ARM reports bot)
+export TG_BOT_TOKEN="${STRATEGY_TG_BOT_TOKEN}"
+export TG_CHAT_ID="${TELEGRAM_CHAT_ID}"
 
 LOG_DIR="strategies_runner/logs"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
