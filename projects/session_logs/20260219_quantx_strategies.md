@@ -66,7 +66,17 @@ Both use `/bin/bash -c '...'` to ensure `source` works.
 
 ---
 
+### 6. Feb 17 Bear Call fill status confirmed
+**Result: NOT filled** — verified by user in IBKR paper account DUP148773 execution history.
+TRADE_ENTER was logged (6865/6870, limit $1.00, SPX=6839.76) but market never reached the credit level.
+Fill monitor was broken at the time so no TRADE_EXPIRE was logged.
+PROJECT_OVERVIEW.md Known Issues updated accordingly.
+
+### 7. IBKR paper account connection test
+Tested connection to paper gateway (127.0.0.1:4002, client ID 11, account DUP148773).
+**Result: Connected successfully** — `Connected: True`, account `DUP148773` confirmed. No 2FA re-auth needed. Gateway is live and ready for Feb 20 cron fire.
+
 ## Next Steps
-- [ ] Verify Feb 17 Bear Call fill in IBKR paper account DUP148773 (execution history)
-- [ ] Monitor Feb 20 (Thursday) cron fire at 18:30 UTC — confirm TRADE_ENTER logged, no Error 300s, fill monitor fires at 18:45 UTC
+- [x] Verify Feb 17 Bear Call fill in IBKR paper account DUP148773 → confirmed NOT filled
+- [ ] Monitor Feb 20 (Thursday) cron fire at 18:30 UTC — confirm TRADE_ENTER logged, no Error 300s, fill monitor fires at 18:45 UTC, strategy Telegram from strategy bot
 - [ ] After confirmed fill: update PROJECT_ARCHIVE.md with leg-based pricing + single-shot design as canonical pattern for all future option spread strategies

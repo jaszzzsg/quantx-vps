@@ -74,7 +74,7 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 - 2021 DIX fetch script uses `open("w")` — if it dies, must restart from day 1, never resume mid-file
 - **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy ✅ confirmed rule (Feb 17 TRADE_ENTER placed successfully)
 - **Do NOT call `cancelMktData` after `snapshot=True`** — IBKR auto-cancels on delivery; cancel calls generate Error 300 "Can't find EId" flood ✅ fixed 2026-02-19
-- **Feb 17 Bear Call fill status unknown** — TRADE_ENTER logged (6865/6870, credit $1.00, SPX=6839.76) but fill monitor was broken at the time. Verify in IBKR paper account DUP148773 execution history.
+- **Feb 17 Bear Call confirmed NOT filled** — TRADE_ENTER logged (6865/6870, credit $1.00, SPX=6839.76) but order did not fill (verified in IBKR paper account DUP148773). Fill monitor was broken at the time so no TRADE_EXPIRE was logged — confirmed manually.
 
 ---
 
