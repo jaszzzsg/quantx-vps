@@ -60,7 +60,6 @@ MIN_CREDIT   = 1.00
 ET = ZoneInfo("America/New_York")
 ENTRY_START_HHMM = (13, 30)  # 1:30pm ET
 ENTRY_END_HHMM   = (15, 10)  # 3:10pm ET
-RETRY_SECONDS    = 60       # 1–2 min; set 60 if you want faster
 
 def trade_date_et() -> str:
     return datetime.now(ET).strftime("%Y-%m-%d")
@@ -133,11 +132,12 @@ def get_spx_price_and_contract(ib: IB):
     spx = Index("SPX", "CBOE", "USD")
     ib.qualifyContracts(spx)
     # Retry up to 3 times — snapshot=True can return NaN on a slow/flaky gateway
+    # NOTE: do NOT call cancelMktData after snapshot=True — IBKR auto-cancels on delivery;
+    # calling cancel generates Error 300 "Can't find EId" flood.
     for attempt in range(1, 4):
         t = ib.reqMktData(spx, "", snapshot=True, regulatorySnapshot=False)
         ib.sleep(3)
         px = next((v for v in (t.last, t.close, t.marketPrice()) if _valid_px(v)), None)
-        ib.cancelMktData(spx)
         if px is not None:
             return float(px), spx
     raise RuntimeError(
@@ -183,8 +183,7 @@ def get_mid_credit_from_legs(ib: IB, sell_leg: Option, buy_leg: Option):
     t_sell = ib.reqMktData(sell_leg, "", snapshot=True, regulatorySnapshot=False)
     t_buy  = ib.reqMktData(buy_leg,  "", snapshot=True, regulatorySnapshot=False)
     ib.sleep(4)
-    ib.cancelMktData(sell_leg)
-    ib.cancelMktData(buy_leg)
+    # No cancelMktData — snapshot=True auto-cancels on IBKR side; cancel calls cause Error 300
     if not all(_valid_px(v) for v in (t_sell.bid, t_sell.ask, t_buy.bid, t_buy.ask)):
         return None
     sell_mid = (t_sell.bid + t_sell.ask) / 2
@@ -239,7 +238,7 @@ def main():
         log_event("SKIP_RF", regime=regime, rf_prob=rf_prob, details={"trade_date": td, "reason": reason})
         return
 
-    # Execute with retry loop inside window
+    # Execute: connect, read once, place once
     try:
         ib = connect_ib()
     except Exception as e:
@@ -257,58 +256,47 @@ def main():
             log_event("SKIP_ALREADY_OPEN", regime=regime, rf_prob=rf_prob, details={"expiry": expiry})
             return
 
-        while True:
-            tnow = now_et()
-            if not in_entry_window(tnow):
-                reason = "Window expired (15:10 ET)"
-                notify_skip("BEAR_CALL", "SPXW", reason=reason, extra=f"date={td} regime={regime} rf={rf_prob}")
-                log_event("SKIP_WINDOW_EXPIRED", regime=regime, rf_prob=rf_prob, details={"date": td})
-                return
+        # Single-shot: read at 1:30pm, place once, exit.
+        # Fill monitor checks every 15 min and sends Telegram on fill or 6pm if unfilled.
+        spread, short_k, long_k, ref, sell_call, buy_call = build_bear_call_spread(ib, expiry, spx_px)
+        mid = get_mid_credit_from_legs(ib, sell_call, buy_call)
 
-            # refresh SPX px for dynamic strikes each retry
-            spx_px, _ = get_spx_price_and_contract(ib)
-            spread, short_k, long_k, ref, sell_call, buy_call = build_bear_call_spread(ib, expiry, spx_px)
-            mid = get_mid_credit_from_legs(ib, sell_call, buy_call)
-
-            if mid is None:
-                # no quote -> retry
-                log_event("WAIT_NO_QUOTE", regime=regime, rf_prob=rf_prob, details={"mid": None, "now_et": tnow.strftime("%H:%M")})
-                time.sleep(RETRY_SECONDS)
-                continue
-
-            if mid < MIN_CREDIT:
-                # credit too low -> retry
-                log_event("WAIT_CREDIT", regime=regime, rf_prob=rf_prob, details={"mid": mid, "min_credit": MIN_CREDIT, "now_et": tnow.strftime("%H:%M")})
-                time.sleep(RETRY_SECONDS)
-                continue
-
-            status, filled = place_and_wait_fill(ib, spread, mid)
-
-            # set bear flag for the day (so bull put skips)
-            with open(BEAR_FLAG, "w") as f:
-                json.dump({"date": td, "alpha": APP_NAME}, f)
-
-            notify_enter(
-                "BEAR_CALL", "SPXW",
-                expiry=expiry,
-                short_strike=short_k,
-                long_strike=long_k,
-                credit=mid,
-                extra=f"status={status} filled={filled} spx={spx_px:.2f} ref={ref} rf={rf_prob:.3f} regime={regime}"
-            )
-            log_event("TRADE_ENTER", regime=regime, rf_prob=rf_prob, details={
-                "underlying": "SPX",
-                "expiry": expiry,
-                "short_call": short_k,
-                "long_call": long_k,
-                "credit": mid,
-                "status": status,
-                "filled": filled,
-                "spx_px": spx_px,
-                "ref": ref,
-                "now_et": tnow.strftime("%H:%M"),
-            })
+        if mid is None:
+            reason = "No quote from legs"
+            notify_skip("BEAR_CALL", "SPXW", reason=reason, extra=f"date={td} regime={regime} rf={rf_prob}")
+            log_event("SKIP_NO_QUOTE", regime=regime, rf_prob=rf_prob, details={"date": td, "now_et": now_et().strftime("%H:%M")})
             return
+
+        # Place DAY limit at MIN_CREDIT regardless of current mid.
+        # If mid < MIN_CREDIT now, order sits as a working limit — IBKR fills it if market
+        # moves up during the day. Fill monitor checks every 15 min; 6pm Telegram if unfilled.
+        status, filled = place_and_wait_fill(ib, spread, MIN_CREDIT)
+
+        # set bear flag for the day (so bull put skips)
+        with open(BEAR_FLAG, "w") as f:
+            json.dump({"date": td, "alpha": APP_NAME}, f)
+
+        notify_enter(
+            "BEAR_CALL", "SPXW",
+            expiry=expiry,
+            short_strike=short_k,
+            long_strike=long_k,
+            credit=MIN_CREDIT,
+            extra=f"status={status} filled={filled} ref_mid={mid:.2f} spx={spx_px:.2f} ref={ref} rf={rf_prob:.3f} regime={regime}"
+        )
+        log_event("TRADE_ENTER", regime=regime, rf_prob=rf_prob, details={
+            "underlying": "SPX",
+            "expiry": expiry,
+            "short_call": short_k,
+            "long_call": long_k,
+            "credit": MIN_CREDIT,   # limit price placed
+            "ref_mid": mid,         # market mid at time of order (for reference)
+            "status": status,
+            "filled": filled,
+            "spx_px": spx_px,
+            "ref": ref,
+            "now_et": now_et().strftime("%H:%M"),
+        })
 
     except Exception as e:
         notify_skip("BEAR_CALL", "SPXW", reason="Exception", extra=str(e))

@@ -2777,6 +2777,12 @@
     "exchange": "SMART",
     "primaryExchange": "NYSE"
   },
+  "GATX": {
+    "conId": 7690,
+    "currency": "USD",
+    "exchange": "SMART",
+    "primaryExchange": "NYSE"
+  },
   "GD": {
     "conId": 7496,
     "currency": "USD",

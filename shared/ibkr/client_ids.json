@@ -17,6 +17,12 @@
     207,
     208,
     209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
     991
   ],
   "registry": {
@@ -98,6 +104,54 @@
       "host": "127.0.0.1",
       "port": 4002,
       "timestamp": "2026-02-13T18:30:30.384897+00:00",
+      "status": "active"
+    },
+    "210": {
+      "purpose": "bear_call_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-16T18:30:10.620442+00:00",
+      "status": "active"
+    },
+    "211": {
+      "purpose": "bull_put_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-16T18:30:32.939905+00:00",
+      "status": "active"
+    },
+    "212": {
+      "purpose": "bear_call_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-17T18:30:09.987519+00:00",
+      "status": "active"
+    },
+    "213": {
+      "purpose": "bull_put_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-17T18:33:18.225683+00:00",
+      "status": "active"
+    },
+    "214": {
+      "purpose": "bear_call_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-18T18:30:11.014793+00:00",
+      "status": "active"
+    },
+    "215": {
+      "purpose": "bull_put_1330",
+      "project": "quantx_strategies",
+      "host": "127.0.0.1",
+      "port": 4002,
+      "timestamp": "2026-02-18T20:12:08.792943+00:00",
       "status": "active"
     }
   }

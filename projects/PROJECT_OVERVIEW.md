@@ -56,13 +56,14 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ## Current Status
 *(Update this section each session)*
 
-**As of 2026-02-14:**
+**As of 2026-02-19:**
 - Paper trading ACTIVE — cron at 18:30 UTC (1:30 PM ET) weekdays, account DUP148773
 - RF_THRESHOLD = 0.65 in code; `.env.paper` RF_THR=0.10 (data collection mode — activation conditions NOT met)
 - RF model retrained on **1,339 rows** (2020-01-02→2026-02-12) — v4_wq25 labels, forward AUC=0.640, lift@0.65=1.6x
-- Strategy fix deployed (2026-02-12): leg-based mid pricing replaces Bag streaming — first live test NOT YET CONFIRMED (Bear Call skipped Feb 13 due to SPX snapshot NaN — retry fix deployed Feb 14)
-- ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15
+- ARM Pressure Dashboard deployed (2026-02-14) — new Telegram format with down/up/stability/escalation scores; first live fire at 14:45 UTC Feb 15 (still monitoring)
 - 2021 DIX fetch Part 4: COMPLETE (PID 2875352 finished) — full 2021 year covered (Parts 1–4), merge pending
+- **Bear Call strategy redesigned (2026-02-19):** single-shot at 1:30pm, DAY limit placed at MIN_CREDIT ($1.00), fill monitor every 15 min, 6pm EOD Telegram if unfilled — see Strategy Design Notes below
+- **Fill monitor fixed (2026-02-19):** was silently broken since deployment (cron `source` fails in dash shell → script never ran). Now uses `/bin/bash -c` wrapper, fires every 15 min 18:45–21:00 UTC, with `--eod` mode at 23:00 UTC
 
 ## Next Phase TODO (see PROJECT_ARCHIVE.md for full specs)
 - **Priority 3:** Intraday Crash Risk Gate — 1:20pm ET features → afternoon drop label → second-layer gate for 1:30pm entry
@@ -71,7 +72,9 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 ## Known Issues
 - `rf_daily_predictions.csv` has junk row with date `19700101` (epoch artifact) — cosmetic only, upsert deduplicates
 - 2021 DIX fetch script uses `open("w")` — if it dies, must restart from day 1, never resume mid-file
-- **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy (fix deployed 2026-02-12, pending first confirmed trade)
+- **IBKR Bag/combo `reqMktData` does NOT return bid/ask for SPX spreads** — always use leg-based snapshot pricing for any new option spread strategy ✅ confirmed rule (Feb 17 TRADE_ENTER placed successfully)
+- **Do NOT call `cancelMktData` after `snapshot=True`** — IBKR auto-cancels on delivery; cancel calls generate Error 300 "Can't find EId" flood ✅ fixed 2026-02-19
+- **Feb 17 Bear Call fill status unknown** — TRADE_ENTER logged (6865/6870, credit $1.00, SPX=6839.76) but fill monitor was broken at the time. Verify in IBKR paper account DUP148773 execution history.
 
 ---
 
@@ -97,8 +100,9 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 | `odte_strategy/data/rf_daily_predictions.csv` | RF scores (YYYYMMDD dates) |
 | `odte_strategy/scripts/rf_score_daily.py` | Daily RF scoring |
 | `odte_strategy/.env.paper` | Strategy env vars (RF_THR, TG tokens) — NO inline `#` comments on value lines! |
-| `strategies_runner/001_alpha_spx_1330_0dte_bear_call.py` | Bear Call strategy |
+| `strategies_runner/001_alpha_spx_1330_0dte_bear_call.py` | Bear Call strategy (single-shot, DAY limit at MIN_CREDIT) |
 | `strategies_runner/002_alpha_spx_1330_0dte_bull_put.py` | Bull Put strategy |
+| `strategies_runner/fill_monitor.py` | Fill checker — every 15 min via cron; `--eod` flag for 6pm unfilled Telegram |
 | `run_1330_strategies.sh` | Cron wrapper for both strategies |
 
 ### IBKR Connections
@@ -120,6 +124,8 @@ ONLY when running as Haiku (claude-haiku-4-5-20251001): read PROJECT_OVERVIEW.md
 | `quantx-dix-history-update.timer` | Saturday 00:30 UTC | Merge daily → master |
 | `quantx-dix-weekly-report.timer` | Sunday 00:30 UTC | Weekly DIX Telegram |
 | Cron | 18:30 UTC Mon–Fri | `run_1330_strategies.sh` (paper trading) |
+| Cron | `*/15 18-21 UTC Mon-Fri` | `fill_monitor.py` — fill check every 15 min (1:45–5pm ET) |
+| Cron | `0 23 UTC Mon-Fri` | `fill_monitor.py --eod` — 6pm ET unfilled Telegram |
 
 ### ARM Regime V2 (deployed 2026-02-08)
 | Regime | Weather | Flag | Conditions |
@@ -175,4 +181,4 @@ Update the archive whenever any of these change — keep it current, not just hi
 For historical sessions, roadmap, data quality tables, fetch procedures, diagnostic commands:
 → `/root/projects/PROJECT_ARCHIVE.md`
 
-**Last Updated:** 2026-02-14
+**Last Updated:** 2026-02-19

@@ -17,6 +17,7 @@ import csv
 import json
 import time
 import glob
+import argparse
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
@@ -97,14 +98,14 @@ def load_trade_logs(trade_date: str) -> list[dict]:
     return entries
 
 
-def already_filled_in_log(log_path: str, expiry: str) -> bool:
-    """Return True if TRADE_FILL already logged for today's expiry."""
+def already_has_final_action(log_path: str, expiry: str) -> bool:
+    """Return True if TRADE_FILL or TRADE_EXPIRE already logged for today's expiry."""
     if not os.path.isfile(log_path):
         return False
     with open(log_path, "r", newline="") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row.get("action") != "TRADE_FILL":
+            if row.get("action") not in ("TRADE_FILL", "TRADE_EXPIRE"):
                 continue
             try:
                 d = json.loads(row.get("details", "{}"))
@@ -115,11 +116,11 @@ def already_filled_in_log(log_path: str, expiry: str) -> bool:
     return False
 
 
-def append_fill_row(log_path: str, alpha_id: str, regime: str, rf_prob: str, details: dict):
-    """Append a TRADE_FILL row to the strategy trade log."""
+def append_log_row(log_path: str, alpha_id: str, action: str, regime: str, rf_prob: str, details: dict):
+    """Append a row with the given action to the strategy trade log."""
     with open(log_path, "a", newline="") as f:
         w = csv.writer(f)
-        w.writerow([utc_now_str(), alpha_id, "TRADE_FILL", regime, rf_prob, json.dumps(details)])
+        w.writerow([utc_now_str(), alpha_id, action, regime, rf_prob, json.dumps(details)])
 
 
 def get_executions(ib: IB, expiry: str) -> list:
@@ -162,12 +163,58 @@ def match_fill(executions: list, underlying: str, short_strike, right: str) -> d
     return None
 
 
+def eod_notify(pending: list, expiry: str):
+    """EOD mode: for each unfilled TRADE_ENTER, log TRADE_EXPIRE and send Telegram."""
+    if not pending:
+        print(f"[FILL_MONITOR_EOD] {utc_now_str()} — no pending entries for today, nothing to report.")
+        return
+    for entry in pending:
+        log_path     = entry["log_path"]
+        strategy     = entry["strategy"]
+        if already_has_final_action(log_path, expiry):
+            print(f"[FILL_MONITOR_EOD] {strategy} already has final action for {expiry}, skipping.")
+            continue
+        right        = entry["right"]
+        short_strike = entry["short_strike"]
+        details      = entry["details"]
+        long_strike  = details.get("long_call") or details.get("long_put")
+        spread_type  = "BEAR_CALL" if right == "C" else "BULL_PUT"
+        credit       = details.get("credit", "?")
+
+        append_log_row(log_path, entry["alpha_id"], "TRADE_EXPIRE", entry["regime"], entry["rf_prob"], {
+            "expiry": expiry,
+            "short_strike": short_strike,
+            "right": right,
+            "status": "EXPIRED_UNFILLED",
+        })
+        msg = (
+            f"⏰ ORDER NOT FILLED — {spread_type}\n"
+            f"SPX {spread_type} | Expiry: {expiry}\n"
+            f"Spread: {short_strike}/{long_strike}\n"
+            f"Credit offered: {credit}\n"
+            f"Limit order expired unfilled\n"
+            f"{utc_now_str()} UTC"
+        )
+        tg_send(msg)
+        print(f"[FILL_MONITOR_EOD] Sent 'not filled' Telegram for {strategy}")
+
+
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--eod", action="store_true",
+                        help="EOD mode: notify for any unfilled orders (no IBKR connect needed)")
+    args = parser.parse_args()
+
     trade_date = trade_date_et()
     expiry = today_expiry()
 
     # Load all unfilled TRADE_ENTER rows for today
     pending = load_trade_logs(trade_date)
+
+    # EOD mode — no IBKR connection needed
+    if args.eod:
+        eod_notify(pending, expiry)
+        return
 
     if not pending:
         print(f"[FILL_MONITOR] {utc_now_str()} — no pending TRADE_ENTER for {trade_date}, exiting.")
@@ -197,9 +244,9 @@ def main():
             underlying   = entry["underlying"]
             details      = entry["details"]
 
-            # Skip if already recorded in log (safe re-run)
-            if already_filled_in_log(log_path, expiry):
-                print(f"[FILL_MONITOR] {strategy} already has TRADE_FILL for {expiry}, skipping.")
+            # Skip if already filled or expired (safe re-run)
+            if already_has_final_action(log_path, expiry):
+                print(f"[FILL_MONITOR] {strategy} already has final action for {expiry}, skipping.")
                 continue
 
             matched = match_fill(executions, underlying, short_strike, right)
@@ -224,7 +271,7 @@ def main():
                 "long_put":   details.get("long_put"),
                 "credit":     details.get("credit"),
             }
-            append_fill_row(log_path, alpha_id, entry["regime"], entry["rf_prob"], fill_details)
+            append_log_row(log_path, alpha_id, "TRADE_FILL", entry["regime"], entry["rf_prob"], fill_details)
             print(f"[FILL_MONITOR] ✅ TRADE_FILL logged for {strategy}")
 
             # Telegram
